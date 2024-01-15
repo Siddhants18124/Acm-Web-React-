@@ -1,8 +1,15 @@
-# React + Vite
+# ACM | BMU
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## How to contribute
+- Fork the repository
+- Clone the repository using `git clone`
+- Make your changes
+- Commit and push your changes using `git commit -m "<your-commit-message>"` and `git push`
+- Create a pull request
 
-Currently, two official plugins are available:
+## How to run the project
+- Clone the repository using `git clone`
+- `cd` into the repository
+- Run `npm install`
+- Run `npm run dev` to start the development server
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
