@@ -1,0 +1,121 @@
+* {
+  font-family: "Odibee Sans", sans-serif;
+  font-weight: lighter;
+}
+body {
+  background-color: #08051f;
+  color: white;
+  margin: 0;
+  height: 100vh;
+  scroll-behavior: initial;
+}
+::-webkit-scrollbar {
+  width: 0.7rem;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #080041;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #080041;
+}
+::-webkit-scrollbar-track {
+  background: black;
+}
+::-webkit-scrollbar-thumb {
+  background: #0c082e;
+}
+::-webkit-scrollbar-corner {
+  background: #000000;
+}
+
+.name {
+  font-size: 3.5rem;
+  margin: 11% 24%;
+}
+.name h1 {
+  margin: 0;
+}
+.vecone img {
+  position: absolute;
+  top: 3rem;
+  right: 20rem;
+  width: 19rem;
+}
+.ones {
+  position: absolute;
+  top: 13rem;
+  left: 20rem;
+}
+.twos {
+  position: absolute;
+  right: 20rem;
+  bottom: 10rem;
+}
+.social {
+  padding: 0 5rem;
+  position: absolute;
+  top: 31rem;
+}
+.social i {
+  padding: 0 0 0.7rem 0.2rem;
+  color: white;
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+.social i:hover {
+  opacity: 1;
+}
+.line {
+  width: 1px;
+  height: 4rem;
+  background-color: white;
+  margin: 0 0.7rem;
+  opacity: 0.8;
+}
+.scrol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  padding: 0 50%;
+  top: 90vh;
+}
+.scrol a {
+  color: white;
+  font-size: 1rem;
+}
+.bline {
+  width: 8rem;
+  height: 0.3rem;
+  background-color: white;
+}
+.communitytwo {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+.button {
+  text-decoration: none;
+  border-radius: 0.2rem;
+  border: 1px solid white;
+  background-color: #08051f;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 1.3rem;
+}
+.button:hover {
+  background-color: white;
+  color: #08051f;
+}
+@media (max-width: 952px) {
+  .vecone {
+    display: none;
+  }
+  .social {
+    display: none;
+  }
+  .communitytwo {
+    display: block;
+  }
+}
