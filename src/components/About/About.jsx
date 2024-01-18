@@ -11,11 +11,11 @@ function About() {
   return (
     <>
       <main>
-        <div class="about" id="aboutus">
-          <div class="info">
+        <div className="about" id="aboutus">
+          <div className="info">
             <h1 id="acm">ABOUT US</h1>
-            <div class="linee"></div>
-            <div class="aboutacm">
+            <div className="linee"></div>
+            <div className="aboutacm">
               <p>
                 The Association for Computing Machinery is a multi-faceted
                 technical chapter which focuses on bringing up the community of
@@ -26,42 +26,46 @@ function About() {
                 here at BMU ACM!
               </p>
             </div>
-            <div class="socials">
+            <div className="socials">
               <a
                 href="www.youtube.com/@bmuacmstudentchapter1625"
                 target="_blank"
-                class="yout"
+                className="yout"
               >
-                <i class="fa-brands fa-youtube"></i>
+                <i className="fa-brands fa-youtube"></i>
               </a>
-              <a href="https://twitter.com/acm_bmu" target="_blank" class="twi">
-                <i class="fa-brands fa-twitter"></i>
+              <a
+                href="https://twitter.com/acm_bmu"
+                target="_blank"
+                className="twi"
+              >
+                <i className="fa-brands fa-twitter"></i>
               </a>
               <a
                 href="https://www.instagram.com/acm_bmu/?igshid=MzRlODBiNWFlZA%3D%3D"
                 target="_blank"
-                class="ins"
+                className="ins"
               >
-                <i class="fa-brands fa-instagram"></i>
+                <i className="fa-brands fa-instagram"></i>
               </a>
               <a
                 href="https://www.linkedin.com/company/bmu-acm-student-chapter/"
                 target="_blank"
-                class="lin"
+                className="lin"
               >
-                <i class="fa-brands fa-linkedin"></i>
+                <i className="fa-brands fa-linkedin"></i>
               </a>
             </div>
           </div>
-          <div class="part">
-            <div class="s-one">
+          <div className="part">
+            <div className="s-one">
               <img srcSet={Topright} />
             </div>
-            <div class="s-two">
+            <div className="s-two">
               <img srcSet={Bottomleft} />
             </div>
-            <div class="gallery">
-              <div class="first">
+            <div className="gallery">
+              <div className="first">
                 <img srcSet={Pic1} id="picone" />
                 <img srcSet={Pic2} />
                 <img srcSet={Pic3} />

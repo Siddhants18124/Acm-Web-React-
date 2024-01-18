@@ -1,10 +1,23 @@
+body {
+  --header-height: 4rem;
+  padding-top: var(--header-height);
+}
 .header {
+  width: 100%;
+  height: var(--header-height);
+  position: fixed;
   top: 0;
   background-color: #08051f;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 1rem 5rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+.header--hidden {
+  transform: translateY(calc(-2 * var(--header-height)));
+  box-shadow: none;
 }
 .logo {
   display: inline-block;
@@ -26,7 +39,8 @@
   padding: 0 0.9rem;
   opacity: 0.8;
 }
-.pages a:hover {
+.pages a:hover,
+.pages a:active {
   text-decoration: underline;
   opacity: 1;
 }
@@ -145,7 +159,6 @@
 #check:checked ~ .sidebar_menu .btn_two i {
   opacity: 1;
 }
-
 @media (max-width: 952px) {
   .btn_one {
     display: block;

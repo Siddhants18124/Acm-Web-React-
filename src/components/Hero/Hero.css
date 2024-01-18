@@ -30,16 +30,16 @@ body {
 
 .name {
   font-size: 3.5rem;
-  margin: 11% 24%;
+  margin: 13% 24%;
 }
 .name h1 {
   margin: 0;
 }
 .vecone img {
   position: absolute;
-  top: 3rem;
+  top: 5rem;
   right: 20rem;
-  width: 19rem;
+  width: 17rem;
 }
 .ones {
   position: absolute;
@@ -76,9 +76,9 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: absolute;
-  padding: 0 50%;
-  top: 90vh;
+  /* position: absolute; */
+  /* padding: 0 50%; */
+  /* top: 90vh; */
 }
 .scrol a {
   color: white;
@@ -117,5 +117,8 @@ body {
   }
   .communitytwo {
     display: block;
+  }
+  .heading-big {
+    font-size: 1.5rem;
   }
 }
