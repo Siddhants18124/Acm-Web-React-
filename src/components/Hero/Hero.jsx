@@ -13,11 +13,11 @@ function Hero() {
         <div className="home">
           <div className="name">
             <div className="box">
-              <h1 className="heading-big">ACM.BMU</h1>
-              <h1 className="heading-big">STUDENTS&nbsp;CHAPTER</h1>
-              <div className="bline"></div>
+              <h1 className="headingBig">ACM.BMU</h1>
+              <h1 className="headingBig">STUDENTS&nbsp;CHAPTER</h1>
+              <div className="lineOne"></div>
 
-              <div className="communitytwo">
+              <div className="communityTwo">
                 <a
                   href="https://discord.com/invite/7XNFKPG5C4"
                   target="_blank"
@@ -27,16 +27,16 @@ function Hero() {
                 </a>
               </div>
             </div>
-            <div className="sph">
-              <img srcSet={Tops} className="ones" />
-              <img srcSet={Bottoms} className="twos" />
+            <div className="sphere">
+              <img srcSet={Tops} className="sphereTopOne" />
+              <img srcSet={Bottoms} className="sphereBottomOne" />
             </div>
           </div>
-          <div className="vecone">
+          <div className="vectorOne">
             <img srcSet={Vector} />
           </div>
 
-          <div className="social">
+          <div className="socialOne">
             <div className="youtube">
               <a
                 href="www.youtube.com/@bmuacmstudentchapter1625"
@@ -45,7 +45,7 @@ function Hero() {
                 <i className="fa-brands fa-youtube"></i>
               </a>
             </div>
-            <div className="twit">
+            <div className="twitter">
               <a href="https://twitter.com/acm_bmu" target="_blank">
                 <i className="fa-brands fa-twitter"></i>
               </a>
@@ -58,7 +58,7 @@ function Hero() {
                 <i className="fa-brands fa-instagram"></i>
               </a>
             </div>
-            <div className="link">
+            <div className="linkedin">
               <a
                 href="https://www.linkedin.com/company/bmu-acm-student-chapter/"
                 target="_blank"
@@ -66,7 +66,7 @@ function Hero() {
                 <i className="fa-brands fa-linkedin"></i>
               </a>
             </div>
-            <div className="line"></div>
+            <div className="lineTwo"></div>
           </div>
           <div className="scrol">
             <a href="#aboutus">

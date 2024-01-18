@@ -12,10 +12,10 @@ function About() {
     <>
       <main>
         <div className="about" id="aboutus">
-          <div className="info">
+          <div className="partOne">
             <h1 id="acm">ABOUT US</h1>
-            <div className="linee"></div>
-            <div className="aboutacm">
+            <div className="lineThree"></div>
+            <div className="aboutAcm">
               <p>
                 The Association for Computing Machinery is a multi-faceted
                 technical chapter which focuses on bringing up the community of
@@ -26,47 +26,47 @@ function About() {
                 here at BMU ACM!
               </p>
             </div>
-            <div className="socials">
+            <div className="socialTwo">
               <a
                 href="www.youtube.com/@bmuacmstudentchapter1625"
                 target="_blank"
-                className="yout"
+                className="youtubeTwo"
               >
                 <i className="fa-brands fa-youtube"></i>
               </a>
               <a
                 href="https://twitter.com/acm_bmu"
                 target="_blank"
-                className="twi"
+                className="twitterTwo"
               >
                 <i className="fa-brands fa-twitter"></i>
               </a>
               <a
                 href="https://www.instagram.com/acm_bmu/?igshid=MzRlODBiNWFlZA%3D%3D"
                 target="_blank"
-                className="ins"
+                className="instaTwo"
               >
                 <i className="fa-brands fa-instagram"></i>
               </a>
               <a
                 href="https://www.linkedin.com/company/bmu-acm-student-chapter/"
                 target="_blank"
-                className="lin"
+                className="linkedinTwo"
               >
                 <i className="fa-brands fa-linkedin"></i>
               </a>
             </div>
           </div>
-          <div className="part">
-            <div className="s-one">
+          <div className="partTwo">
+            <div className="sphereTopTwo">
               <img srcSet={Topright} />
             </div>
-            <div className="s-two">
+            <div className="sphereBottomTwo">
               <img srcSet={Bottomleft} />
             </div>
             <div className="gallery">
-              <div className="first">
-                <img srcSet={Pic1} id="picone" />
+              <div className="boxTwo">
+                <img srcSet={Pic1} id="picOne" />
                 <img srcSet={Pic2} />
                 <img srcSet={Pic3} />
                 <img srcSet={Pic4} />
