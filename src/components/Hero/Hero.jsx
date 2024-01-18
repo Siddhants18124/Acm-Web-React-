@@ -11,10 +11,10 @@ function Hero() {
     <>
       <main>
         <div className="home">
+          <div className="vectorOne">
+            <img srcSet={Vector} />
+          </div>
           <div className="name">
-            <div className="vectorOne">
-              <img srcSet={Vector} />
-            </div>
             <div className="sphereTopOne">
               <img srcSet={Tops} />
             </div>

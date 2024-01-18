@@ -146,6 +146,9 @@ body {
 .btn_two i:hover {
   font-size: 22px;
 }
+.menu li:hover {
+  text-decoration: underline;
+}
 .sidebar_menu .social_media i:hover {
   opacity: 1;
   transform: scale(1.2);

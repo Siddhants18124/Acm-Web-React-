@@ -16,7 +16,7 @@ function About() {
             <h1 id="acm">ABOUT US</h1>
             <div className="lineThree"></div>
             <div className="aboutAcm">
-              <p>
+              <p align="justify">
                 The Association for Computing Machinery is a multi-faceted
                 technical chapter which focuses on bringing up the community of
                 computer enthusiasts together to promote innovation. From the

@@ -37,11 +37,8 @@ body {
 }
 .vectorOne {
   position: absolute;
-  /* top: 5rem;
-  right: 20rem;
-  width: 17rem;*/
   display: flex;
-  margin: -13% 0 0 35%;
+  margin: -13% 0 0 60%;
 }
 .vectorOne img {
   width: 18rem;
@@ -98,7 +95,7 @@ body {
   display: none;
   justify-content: center;
   align-items: center;
-  position: absolute;
+  /* position: absolute; */
 }
 .button {
   text-decoration: none;
@@ -113,9 +110,12 @@ body {
   background-color: white;
   color: #08051f;
 }
-@media (max-width: 952px) {
+@media (max-width: 780px) {
+  .vectorOne img {
+    width: 16rem;
+  }
   .vectorOne {
-    display: none;
+    margin-top: -27%;
   }
   .socialOne {
     display: none;
@@ -124,6 +124,37 @@ body {
     display: block;
   }
   .headingBig {
-    font-size: 1.5rem;
+    font-size: 5rem;
+  }
+  .name {
+    margin: 25% 16%;
+  }
+  .sphereTopOne img,
+  .sphereBottomOne img {
+    width: 7rem;
+  }
+  .sphereBottomOne {
+    margin: 10% 0 0 60%;
+  }
+}
+@media (max-width: 420px) {
+  .vectorOne img {
+    width: 10rem;
+  }
+  .vectorOne {
+    margin-top: -32%;
+  }
+  .headingBig {
+    font-size: 3rem;
+  }
+  .name {
+    margin: 45% 11%;
+  }
+  .sphereTopOne img,
+  .sphereBottomOne img {
+    width: 4rem;
+  }
+  .sphereBottomOne {
+    margin: 14% 0 0 70%;
   }
 }
