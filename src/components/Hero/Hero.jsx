@@ -12,7 +12,16 @@ function Hero() {
       <main>
         <div className="home">
           <div className="name">
-            <div className="box">
+            <div className="vectorOne">
+              <img srcSet={Vector} />
+            </div>
+            <div className="sphereTopOne">
+              <img srcSet={Tops} />
+            </div>
+            <div className="sphereBottomOne">
+              <img srcSet={Bottoms} />
+            </div>
+            <div className="boxOne">
               <h1 className="headingBig">ACM.BMU</h1>
               <h1 className="headingBig">STUDENTS&nbsp;CHAPTER</h1>
               <div className="lineOne"></div>
@@ -27,13 +36,6 @@ function Hero() {
                 </a>
               </div>
             </div>
-            <div className="sphere">
-              <img srcSet={Tops} className="sphereTopOne" />
-              <img srcSet={Bottoms} className="sphereBottomOne" />
-            </div>
-          </div>
-          <div className="vectorOne">
-            <img srcSet={Vector} />
           </div>
 
           <div className="socialOne">

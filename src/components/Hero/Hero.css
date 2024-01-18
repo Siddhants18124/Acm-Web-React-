@@ -35,21 +35,26 @@ body {
 .name h1 {
   margin: 0;
 }
-.vectorOne img {
+.vectorOne {
   position: absolute;
-  top: 5rem;
+  /* top: 5rem;
   right: 20rem;
-  width: 17rem;
+  width: 17rem;*/
+  display: flex;
+  margin: -13% 0 0 35%;
+}
+.vectorOne img {
+  width: 18rem;
 }
 .sphereTopOne {
   position: absolute;
-  top: 13rem;
-  left: 20rem;
+  display: flex;
+  margin: -3% 0 0 -3%;
 }
 .sphereBottomOne {
   position: absolute;
-  right: 20rem;
-  bottom: 10rem;
+  display: flex;
+  margin: 9% 0 0 44%;
 }
 .socialOne {
   padding: 0 5rem;
