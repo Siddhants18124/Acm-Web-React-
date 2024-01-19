@@ -69,6 +69,7 @@
   margin: 0.2rem;
   border-radius: 2rem;
   border: 0.2rem solid white;
+  z-index: 10;
 }
 .sphereTopTwo {
   display: flex;
@@ -83,11 +84,12 @@
 }
 #picOne {
   transform: rotate(10deg);
-  width: 15.5rem;
-  height: 15.5rem;
+  width: 15rem;
+  height: 15rem;
+  z-index: 20;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 930px) {
   #aboutus {
     flex-wrap: wrap;
   }
@@ -106,8 +108,8 @@
     height: 14rem;
   }
   #picOne {
-    width: 14.5rem;
-    height: 14.5rem;
+    width: 14rem;
+    height: 14rem;
   }
   .sphereTopTwo img,
   .sphereBottomTwo img {
@@ -135,8 +137,8 @@
     margin: 20% 0;
   }
   #picOne {
-    width: 6.5rem;
-    height: 6.5rem;
+    width: 6rem;
+    height: 6rem;
   }
   .sphereTopTwo img,
   .sphereBottomTwo img {

@@ -38,10 +38,10 @@ body {
 .vectorOne {
   position: absolute;
   display: flex;
-  margin: -13% 0 0 60%;
+  margin: -12.4% 0 0 60%;
 }
 .vectorOne img {
-  width: 18rem;
+  width: 17.5rem;
 }
 .sphereTopOne {
   position: absolute;
@@ -110,7 +110,7 @@ body {
   background-color: white;
   color: #08051f;
 }
-@media (max-width: 780px) {
+@media (max-width: 930px) {
   .vectorOne img {
     width: 16rem;
   }

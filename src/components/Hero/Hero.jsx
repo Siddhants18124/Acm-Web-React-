@@ -5,8 +5,6 @@ import sphereBottomOne from "../../assets/images/sphereBottomOne.png";
 import Vector from "../../assets/images/vector.png";
 
 function Hero() {
-  let x = 6;
-  console.log(x);
   return (
     <>
       <main>
