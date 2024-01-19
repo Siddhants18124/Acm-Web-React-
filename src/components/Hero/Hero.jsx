@@ -1,7 +1,7 @@
 import React from "react";
 import "./Hero.css";
-import Tops from "../../assets/images/tops.png";
-import Bottoms from "../../assets/images/bottoms.png";
+import sphereTopOne from "../../assets/images/sphereTopOne.png";
+import sphereBottomOne from "../../assets/images/sphereBottomOne.png";
 import Vector from "../../assets/images/vector.png";
 
 function Hero() {
@@ -16,10 +16,10 @@ function Hero() {
           </div>
           <div className="name">
             <div className="sphereTopOne">
-              <img srcSet={Tops} />
+              <img srcSet={sphereTopOne} />
             </div>
             <div className="sphereBottomOne">
-              <img srcSet={Bottoms} />
+              <img srcSet={sphereBottomOne} />
             </div>
             <div className="boxOne">
               <h1 className="headingBig">ACM.BMU</h1>

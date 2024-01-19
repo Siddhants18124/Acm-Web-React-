@@ -52,10 +52,16 @@
 }
 .boxTwo {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  flex-wrap: wrap;
   align-items: center;
   margin: 2rem;
+}
+.one,
+.two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .boxTwo img {
   width: 15rem;
@@ -113,7 +119,7 @@
     font-size: 3rem;
   }
   .aboutAcm {
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   .boxTwo img {
     width: 6rem;
@@ -137,9 +143,9 @@
     width: 5rem;
   }
   .sphereTopTwo {
-    margin-left: 12rem;
+    margin-left: 10rem;
   }
   .sphereBottomTwo {
-    margin-top: 12rem;
+    margin-top: 10rem;
   }
 }

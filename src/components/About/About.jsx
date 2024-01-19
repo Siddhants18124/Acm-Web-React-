@@ -4,8 +4,8 @@ import Pic1 from "../../assets/images/pic1.jpg";
 import Pic2 from "../../assets/images/pic2.jpg";
 import Pic3 from "../../assets/images/pic3.jpg";
 import Pic4 from "../../assets/images/pic4.jpg";
-import Topright from "../../assets/images/topright.png";
-import Bottomleft from "../../assets/images/bottomleft.png";
+import sphereTopTwo from "../../assets/images/sphereTopTwo.png";
+import sphereBottomTwo from "../../assets/images/sphereBottomTwo.png";
 
 function About() {
   return (
@@ -59,17 +59,21 @@ function About() {
           </div>
           <div className="partTwo">
             <div className="sphereTopTwo">
-              <img srcSet={Topright} />
+              <img srcSet={sphereTopTwo} />
             </div>
             <div className="sphereBottomTwo">
-              <img srcSet={Bottomleft} />
+              <img srcSet={sphereBottomTwo} />
             </div>
             <div className="gallery">
               <div className="boxTwo">
-                <img srcSet={Pic1} id="picOne" />
-                <img srcSet={Pic2} />
-                <img srcSet={Pic3} />
-                <img srcSet={Pic4} />
+                <div className="one">
+                  <img srcSet={Pic1} id="picOne" />
+                  <img srcSet={Pic2} />
+                </div>
+                <div className="two">
+                  <img srcSet={Pic3} />
+                  <img srcSet={Pic4} />
+                </div>
               </div>
             </div>
           </div>
