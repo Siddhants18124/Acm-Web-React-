@@ -1,0 +1,36 @@
+.footer {
+  background: linear-gradient(
+    180deg,
+    rgba(48, 162, 215, 0.32) 0%,
+    rgba(8, 5, 31, 0.4) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+.firstPart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.firstPart img {
+  width: 13rem;
+  padding: 0 9rem;
+}
+.secondPart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.secondPart i {
+  font-size: 2rem;
+  padding: 1rem;
+}
+.thirdPart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
