@@ -67,12 +67,12 @@ function About() {
             <div className="gallery">
               <div className="boxTwo">
                 <div className="one">
-                  <img srcSet={Pic1} id="picOne" />
-                  <img srcSet={Pic2} />
+                  <img srcSet={Pic1} id="picOne" alt="ACMBMU" />
+                  <img srcSet={Pic2} alt="ACMBMU" />
                 </div>
                 <div className="two">
-                  <img srcSet={Pic3} />
-                  <img srcSet={Pic4} />
+                  <img srcSet={Pic3} alt="ACMBMU" />
+                  <img srcSet={Pic4} alt="ACMBMU" />
                 </div>
               </div>
             </div>

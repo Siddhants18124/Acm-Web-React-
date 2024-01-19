@@ -19,7 +19,7 @@ function Navbar() {
     <header>
       <nav className="header">
         <a href="index.html" className="logo">
-          <img srcSet={Logo} />
+          <img srcSet={Logo} alt="ACMBMU" />
         </a>
         <div className="pages">
           <a href="#home">HOME</a>
