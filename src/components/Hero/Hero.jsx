@@ -2,7 +2,7 @@ import React from "react";
 import "./Hero.css";
 import sphereTopOne from "../../assets/images/sphereTopOne.png";
 import sphereBottomOne from "../../assets/images/sphereBottomOne.png";
-import Vector from "../../assets/images/vector.png";
+import vectorOne from "../../assets/images/vectorOne.png";
 
 function Hero() {
   return (
@@ -10,7 +10,7 @@ function Hero() {
       <main>
         <div className="home">
           <div className="vectorOne">
-            <img srcSet={Vector} />
+            <img srcSet={vectorOne} />
           </div>
           <div className="name">
             <div className="sphereTopOne">
