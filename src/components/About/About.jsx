@@ -28,7 +28,7 @@ function About() {
             </div>
             <div className="socialTwo">
               <a
-                href="www.youtube.com/@bmuacmstudentchapter1625"
+                href="https://www.youtube.com/channel/UCGZRRxEodhrXLTVZgQl7iyA"
                 target="_blank"
                 className="youtubeTwo"
               >

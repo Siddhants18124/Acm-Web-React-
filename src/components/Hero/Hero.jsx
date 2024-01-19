@@ -39,7 +39,7 @@ function Hero() {
           <div className="socialOne">
             <div className="youtube">
               <a
-                href="www.youtube.com/@bmuacmstudentchapter1625"
+                href="https://www.youtube.com/channel/UCGZRRxEodhrXLTVZgQl7iyA"
                 target="_blank"
               >
                 <i className="fa-brands fa-youtube"></i>

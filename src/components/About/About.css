@@ -23,6 +23,7 @@
   font-size: 1.2rem;
   margin-right: 0.7rem;
   opacity: 0.8;
+  transition: all 0.4s linear;
 }
 .socialTwo i:hover {
   opacity: 1;

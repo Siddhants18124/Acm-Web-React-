@@ -89,7 +89,7 @@ function Navbar() {
               <a href="https://www.instagram.com/acm_bmu/?igshid=MzRlODBiNWFlZA%3D%3D">
                 <i className="fa-brands fa-instagram"></i>
               </a>
-              <a href="www.youtube.com/@bmuacmstudentchapter1625">
+              <a href="https://www.youtube.com/channel/UCGZRRxEodhrXLTVZgQl7iyA">
                 <i className="fa-brands fa-youtube"></i>
               </a>
             </ul>
