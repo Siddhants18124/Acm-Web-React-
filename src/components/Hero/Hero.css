@@ -1,0 +1,161 @@
+* {
+  font-family: "Odibee Sans", sans-serif;
+  font-weight: lighter;
+}
+body {
+  background-color: #08051f;
+  color: white;
+  margin: 0;
+  height: 100vh;
+  scroll-behavior: initial;
+}
+::-webkit-scrollbar {
+  width: 0.7rem;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #080041;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #080041;
+}
+::-webkit-scrollbar-track {
+  background: black;
+}
+::-webkit-scrollbar-thumb {
+  background: #0c082e;
+}
+::-webkit-scrollbar-corner {
+  background: #000000;
+}
+
+.name {
+  font-size: 3.5rem;
+  margin: 13% 24%;
+}
+.name h1 {
+  margin: 0;
+}
+.vectorOne {
+  position: absolute;
+  display: flex;
+  margin: -12.4% 0 0 60%;
+}
+.vectorOne img {
+  width: 17.5rem;
+}
+.sphereTopOne {
+  position: absolute;
+  display: flex;
+  margin: -3% 0 0 -3%;
+}
+.sphereBottomOne {
+  position: absolute;
+  display: flex;
+  margin: 9% 0 0 44%;
+}
+.socialOne {
+  padding: 0 5rem;
+  position: absolute;
+  top: 31rem;
+}
+.socialOne i {
+  padding: 0 0 0.7rem 0.2rem;
+  color: white;
+  font-size: 1.2rem;
+  opacity: 0.8;
+  transition: all 0.4s linear;
+}
+.socialOne i:hover {
+  opacity: 1;
+}
+.lineTwo {
+  width: 1px;
+  height: 4rem;
+  background-color: white;
+  margin: 0 0.7rem;
+  opacity: 0.8;
+}
+.scrol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* position: absolute; */
+  /* padding: 0 50%; */
+  /* top: 90vh; */
+}
+.scrol a {
+  color: white;
+  font-size: 1rem;
+}
+.lineOne {
+  width: 8rem;
+  height: 0.3rem;
+  background-color: white;
+}
+.communityTwo {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  /* position: absolute; */
+}
+.button {
+  text-decoration: none;
+  border-radius: 0.2rem;
+  border: 1px solid white;
+  background-color: #08051f;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 1.3rem;
+}
+.button:hover {
+  background-color: white;
+  color: #08051f;
+}
+@media (max-width: 930px) {
+  .vectorOne img {
+    width: 16rem;
+  }
+  .vectorOne {
+    margin-top: -27%;
+  }
+  .socialOne {
+    display: none;
+  }
+  .communityTwo {
+    display: block;
+  }
+  .headingBig {
+    font-size: 5rem;
+  }
+  .name {
+    margin: 25% 16%;
+  }
+  .sphereTopOne img,
+  .sphereBottomOne img {
+    width: 7rem;
+  }
+  .sphereBottomOne {
+    margin: 10% 0 0 60%;
+  }
+}
+@media (max-width: 420px) {
+  .vectorOne img {
+    width: 10rem;
+  }
+  .vectorOne {
+    margin-top: -32%;
+  }
+  .headingBig {
+    font-size: 3rem;
+  }
+  .name {
+    margin: 45% 11%;
+  }
+  .sphereTopOne img,
+  .sphereBottomOne img {
+    width: 4rem;
+  }
+  .sphereBottomOne {
+    margin: 14% 0 0 70%;
+  }
+}

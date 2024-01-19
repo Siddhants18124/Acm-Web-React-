@@ -1,0 +1,154 @@
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5rem;
+}
+.partOne {
+  padding: 5rem 5rem 5rem 0rem;
+  width: 50%;
+}
+#acm {
+  font-size: 6rem;
+}
+.partOne h1 {
+  margin: 0;
+}
+.socialTwo {
+  display: flex;
+  align-items: center;
+}
+.socialTwo i {
+  color: white;
+  font-size: 1.2rem;
+  margin-right: 0.7rem;
+  opacity: 0.8;
+  transition: all 0.4s linear;
+}
+.socialTwo i:hover {
+  opacity: 1;
+}
+.aboutAcm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lineThree {
+  height: 0.4rem;
+  width: 9rem;
+  background-color: white;
+  margin-bottom: 1rem;
+}
+.aboutAcm p {
+  font-family: "Work Sans", sans-serif;
+  margin-bottom: 2rem;
+  line-height: 2rem;
+}
+.partTwo {
+  width: 50%;
+}
+.gallery {
+  display: flex;
+  align-items: center;
+}
+.boxTwo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+.one,
+.two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boxTwo img {
+  width: 15rem;
+  height: 15rem;
+  margin: 0.2rem;
+  border-radius: 2rem;
+  border: 0.2rem solid white;
+  z-index: 10;
+}
+.sphereTopTwo {
+  display: flex;
+  flex-direction: row-reverse;
+  position: absolute;
+  margin-left: 30rem;
+}
+.sphereBottomTwo {
+  display: flex;
+  position: absolute;
+  margin-top: 26rem;
+}
+#picOne {
+  transform: rotate(10deg);
+  width: 15rem;
+  height: 15rem;
+  z-index: 20;
+}
+
+@media (max-width: 930px) {
+  #aboutus {
+    flex-wrap: wrap;
+  }
+  .partOne {
+    width: 100%;
+    padding: 0;
+    margin: 10% 0;
+  }
+  .partTwo {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .boxTwo img {
+    width: 14rem;
+    height: 14rem;
+  }
+  #picOne {
+    width: 14rem;
+    height: 14rem;
+  }
+  .sphereTopTwo img,
+  .sphereBottomTwo img {
+    width: 9rem;
+  }
+}
+@media (max-width: 420px) {
+  #acm {
+    font-size: 3rem;
+  }
+  .aboutAcm {
+    font-size: 0.8rem;
+  }
+  .boxTwo img {
+    width: 6rem;
+    height: 6rem;
+    margin: 0.1rem;
+    border-radius: 1rem;
+    border: 0.1rem solid white;
+  }
+  .boxTwo {
+    margin: 0;
+  }
+  .partTwo {
+    margin: 20% 0;
+  }
+  #picOne {
+    width: 6rem;
+    height: 6rem;
+  }
+  .sphereTopTwo img,
+  .sphereBottomTwo img {
+    width: 5rem;
+  }
+  .sphereTopTwo {
+    margin-left: 10rem;
+  }
+  .sphereBottomTwo {
+    margin-top: 10rem;
+  }
+}
