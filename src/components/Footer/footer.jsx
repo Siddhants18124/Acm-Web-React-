@@ -13,9 +13,21 @@ function Footer() {
             <img srcSet={BMULOGO} />
           </div>
           <div className="secondPart">
-            <i class="fa-brands fa-linkedin"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-github"></i>
+            <a
+              href="https://www.linkedin.com/company/bmu-acm-student-chapter/"
+              target="_blank"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/acm_bmu/?igshid=MzRlODBiNWFlZA%3D%3D"
+              target="_blank"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://github.com/ACM-BMU" target="_blank">
+              <i class="fa-brands fa-github"></i>
+            </a>
           </div>
           <div className="thirdPart">
             <h3>

@@ -52,12 +52,24 @@
   border-radius: 1rem;
   width: 20rem;
   margin: 1rem 0;
+  transition: all 0.4s ease-in-out;
 }
 .input::placeholder {
   color: white;
 }
 .message {
   height: 4rem;
+}
+.input:hover,
+.input:active,
+.input:focus {
+  background-color: white;
+  color: #08051f;
+}
+.input:hover::placeholder,
+.input:active::placeholder,
+.input:focus::placeholder {
+  color: #08051f;
 }
 .subbtn {
   margin: 1rem 35%;
@@ -69,7 +81,7 @@
   font-size: 2.5rem;
   margin: 0 0 1rem 0;
 }
-@media (max-width: 960px) {
+@media (max-width: 930px) {
   .ballOne,
   .ballTwo,
   .Aone {
@@ -78,5 +90,14 @@
   .Atwo {
     margin: 0;
     padding: 0;
+  }
+}
+@media (max-width: 420px) {
+  .input {
+    margin: 0.5rem 0;
+    width: 14rem;
+  }
+  .Atwo h1 {
+    font-size: 2rem;
   }
 }
