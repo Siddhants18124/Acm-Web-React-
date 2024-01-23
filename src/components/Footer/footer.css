@@ -1,0 +1,78 @@
+.footer {
+  background: linear-gradient(
+    180deg,
+    rgba(48, 162, 215, 0.32) 0%,
+    rgba(8, 5, 31, 0.4) 100%
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2rem;
+  z-index: 10;
+}
+.firstPart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+.firstPart img {
+  width: 12rem;
+  margin: 0 1rem;
+}
+.secondPart {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 0 1rem 0;
+  width: 12%;
+}
+.secondPart i {
+  font-size: 2rem;
+  color: white;
+  margin: 0 1rem;
+}
+.thirdPart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .firstPart img {
+    width: 9rem;
+  }
+}
+@media (max-width: 930px) {
+  .footer {
+    margin-top: 1rem;
+  }
+  .thirdPart h3 {
+    font-size: smaller;
+  }
+  .firstPart img {
+    width: 9rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 616px) {
+}
+@media only screen and (max-width: 480px) {
+}
+@media (max-width: 420px) {
+  .firstPart {
+    width: 70%;
+  }
+  .firstPart img {
+    width: 5rem;
+  }
+  .secondPart {
+    padding: 1rem 0 0.5rem 0;
+  }
+  .secondPart i {
+    font-size: 1rem;
+  }
+}
