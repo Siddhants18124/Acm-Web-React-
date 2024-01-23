@@ -17,7 +17,7 @@ function Navbar() {
   }
   return (
     <header>
-      <nav>
+      <nav className="header">
         <div className="logo">
           <a href="#">
             <img srcSet={Logo} />
@@ -27,7 +27,7 @@ function Navbar() {
 
         <label htmlFor="click" className="mainicon">
           <div className="menu">
-            <i class="fa-solid fa-bars"></i>
+            <i className="fa-solid fa-bars"></i>
           </div>
         </label>
         <ul>

@@ -1,14 +1,12 @@
-/* body {
-  --header-height: 4rem;
-  padding-top: var(--header-height);
-} 
+body {
+  --header-height: 3rem;
+}
 .header--hidden {
   transform: translateY(calc(-2 * var(--header-height)));
-  box-shadow: none;
 }
-*/
 
 header {
+  top: 0;
   padding: 1.2rem 0rem 0.7rem 0rem;
   background-color: #08051f;
   position: sticky;
