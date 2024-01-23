@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 import Logo from "../../assets/images/LOGO.png";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   {
@@ -19,9 +20,12 @@ function Navbar() {
     <header>
       <nav className="header">
         <div className="logo">
-          <a href="#">
+          <Link to="/">
             <img srcSet={Logo} />
-          </a>
+          </Link>
+          {/* <a href="#">
+            <img srcSet={Logo} />
+          </a> */}
         </div>
         <input type="checkbox" id="click" />
 
@@ -32,9 +36,12 @@ function Navbar() {
         </label>
         <ul>
           <li>
-            <a href="index.html" className="active">
+            <Link to="/" className="active">
               HOME
-            </a>
+            </Link>
+            {/* <a href="index.html" className="active">
+              HOME
+            </a> */}
           </li>
           <li>
             <a href="#aboutus">ABOUT US</a>
@@ -46,7 +53,9 @@ function Navbar() {
             <a href="#contactus">CONTACT US</a>
           </li>
           <li>
-            <a href="gallery.html">GALLERY</a>
+            <Link to="/gallery">
+              GALLERY
+            </Link>
           </li>
         </ul>
         <div className="community">
