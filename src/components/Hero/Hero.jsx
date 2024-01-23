@@ -9,9 +9,10 @@ function Hero() {
     <>
       <main>
         <div className="home">
-          <div className="vectorOne">
+          <div data-aos="fade-right" className="vectorOne">
             <img srcSet={vectorOne} />
           </div>
+
           <div className="name">
             <div className="sphereTopOne">
               <img srcSet={sphereTopOne} />
@@ -19,7 +20,7 @@ function Hero() {
             <div className="sphereBottomOne">
               <img srcSet={sphereBottomOne} />
             </div>
-            <div className="boxOne">
+            <div data-aos="fade-right" className="boxOne">
               <h1 className="headingBig">ACM.BMU</h1>
               <h1 className="headingBig">STUDENTS&nbsp;CHAPTER</h1>
               <div className="lineOne"></div>

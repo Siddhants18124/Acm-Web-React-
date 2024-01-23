@@ -7,7 +7,7 @@ import vectorThree from "../../assets/images/vectorThree.png";
 function Contact() {
   return (
     <>
-      <main>
+      <main data-aos="fade-up">
         <div className="contact" id="contactus">
           <div className="ballOne">
             <img srcSet={sphereTopOne} />

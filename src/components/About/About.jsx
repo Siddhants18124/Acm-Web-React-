@@ -10,7 +10,7 @@ import sphereBottomTwo from "../../assets/images/sphereBottomTwo.png";
 function About() {
   return (
     <>
-      <main>
+      <main data-aos="fade-up">
         <div className="about" id="aboutus">
           <div className="partOne">
             <h1 id="acm">ABOUT US</h1>
