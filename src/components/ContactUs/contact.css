@@ -81,6 +81,34 @@
   font-size: 2.5rem;
   margin: 0 0 1rem 0;
 }
+.lineFour {
+  background-color: white;
+  width: 5rem;
+  height: 0.2rem;
+  align-self: flex-start;
+  margin-left: 1.6rem;
+  position: absolute;
+  margin-bottom: 16.5rem;
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  .Aoneone h1 {
+    font-size: 4rem;
+  }
+  .ballOne {
+    margin-bottom: 40%;
+  }
+  .ballTwo {
+    margin-top: 25%;
+  }
+  .Aonetwo img {
+    width: 19rem;
+  }
+  .Atwo {
+    padding: 0;
+  }
+}
 @media (max-width: 930px) {
   .ballOne,
   .ballTwo,
@@ -90,6 +118,36 @@
   .Atwo {
     margin: 0;
     padding: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .Aoneone h1 {
+    font-size: 3.4rem;
+  }
+  .Aonetwo img {
+    width: 18rem;
+  }
+}
+@media only screen and (max-width: 616px) {
+  .ballOne,
+  .ballTwo,
+  .Aone {
+    display: none;
+  }
+  .Atwo {
+    margin: 0;
+    padding-bottom: 6rem;
+  }
+  .lineFour {
+    display: flex;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .lineFour {
+    margin-left: 0;
+  }
+  .subbtn {
+    margin: 1rem 30%;
   }
 }
 @media (max-width: 420px) {

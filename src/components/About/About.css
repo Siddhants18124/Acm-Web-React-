@@ -90,6 +90,33 @@
   z-index: 20;
 }
 
+@media only screen and (max-width: 1024px) {
+  #aboutus {
+    flex-wrap: wrap;
+  }
+  .partOne {
+    width: 100%;
+    padding: 0;
+    margin: 10% 0;
+  }
+  .partTwo {
+    width: 100%;
+    padding: 0 15%;
+    margin: 0;
+  }
+  .boxTwo img {
+    width: 15rem;
+    height: 15rem;
+  }
+  #picOne {
+    width: 15rem;
+    height: 15rem;
+  }
+  .sphereTopTwo img,
+  .sphereBottomTwo img {
+    width: 9rem;
+  }
+}
 @media (max-width: 930px) {
   #aboutus {
     flex-wrap: wrap;
@@ -115,6 +142,29 @@
   .sphereTopTwo img,
   .sphereBottomTwo img {
     width: 9rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 616px) {
+  .partTwo {
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .boxTwo img {
+    width: 10rem;
+    height: 10rem;
+  }
+  #picOne {
+    width: 10rem;
+    height: 10rem;
+  }
+  .sphereTopTwo {
+    margin-left: 20rem;
+  }
+  .sphereBottomTwo {
+    margin-top: 20rem;
   }
 }
 @media (max-width: 420px) {

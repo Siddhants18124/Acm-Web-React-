@@ -26,7 +26,9 @@ nav {
   max-width: 90%;
   margin: auto;
 }
-
+.logo {
+  z-index: 222222222222222;
+}
 .logo img {
   width: 3rem;
 }
@@ -34,7 +36,6 @@ nav {
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
   padding: 0;
   background-color: transparent;
   overflow: hidden;

@@ -96,20 +96,35 @@ body {
   display: none;
   justify-content: center;
   align-items: center;
-  /* position: absolute; */
+  position: absolute;
 }
-.button {
-  text-decoration: none;
-  border-radius: 0.2rem;
-  border: 1px solid white;
-  background-color: #08051f;
-  color: white;
-  padding: 0.5rem 1rem;
-  font-size: 1.3rem;
-}
-.button:hover {
-  background-color: white;
-  color: #08051f;
+
+@media only screen and (max-width: 1024px) {
+  .vectorOne img {
+    width: 16rem;
+  }
+  .vectorOne {
+    margin-top: -18%;
+  }
+  .socialOne {
+    display: none;
+  }
+  .communityTwo {
+    display: block;
+  }
+  .headingBig {
+    font-size: 6rem;
+  }
+  .name {
+    margin: 17% 16%;
+  }
+  .sphereTopOne img,
+  .sphereBottomOne img {
+    width: 7rem;
+  }
+  .sphereBottomOne {
+    margin: 10% 0 0 60%;
+  }
 }
 @media (max-width: 930px) {
   .vectorOne img {
@@ -136,6 +151,46 @@ body {
   }
   .sphereBottomOne {
     margin: 10% 0 0 60%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .name {
+    margin: 23% 16%;
+  }
+  .vectorOne {
+    margin-top: -20%;
+  }
+}
+@media only screen and (max-width: 616px) {
+  .headingBig {
+    font-size: 4.5rem;
+  }
+  .name {
+    margin: 30% 16%;
+  }
+  .vectorOne {
+    margin-top: -28%;
+  }
+  .communityTwo {
+    padding-left: 24%;
+    padding-top: 2%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .headingBig {
+    font-size: 3.5rem;
+  }
+  .name {
+    margin: 42% 16%;
+  }
+  .vectorOne {
+    margin-top: -32%;
+  }
+  .vectorOne img {
+    width: 13rem;
+  }
+  .communityTwo {
+    padding-left: 32%;
   }
 }
 @media (max-width: 420px) {

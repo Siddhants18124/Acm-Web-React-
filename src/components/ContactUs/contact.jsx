@@ -7,7 +7,7 @@ function Contact() {
   return (
     <>
       <main>
-        <div className="contact">
+        <div className="contact" id="contactus">
           <div className="ballOne">
             <img srcSet={sphereTopOne} />
           </div>
@@ -25,6 +25,7 @@ function Contact() {
           </div>
           <div className="Atwo">
             <h1>CONNECT&nbsp;WITH&nbsp;US!</h1>
+            <div className="lineFour"></div>
             <form action="#">
               <input type="text" placeholder="NAME" className="input" />
               <br />

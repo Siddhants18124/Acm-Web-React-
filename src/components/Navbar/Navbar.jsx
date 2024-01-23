@@ -32,21 +32,21 @@ function Navbar() {
         </label>
         <ul>
           <li>
-            <a href="#" className="active">
+            <a href="index.html" className="active">
               HOME
             </a>
           </li>
           <li>
-            <a href="#">ABOUT US</a>
+            <a href="#aboutus">ABOUT US</a>
           </li>
           <li>
-            <a href="#">EVENTS</a>
+            <a href="#events">EVENTS</a>
           </li>
           <li>
-            <a href="#">CONTACT US</a>
+            <a href="#contactus">CONTACT US</a>
           </li>
           <li>
-            <a href="#">GALLERY</a>
+            <a href="gallery.html">GALLERY</a>
           </li>
         </ul>
         <div className="community">
