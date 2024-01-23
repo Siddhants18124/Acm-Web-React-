@@ -18,84 +18,47 @@ function Navbar() {
   return (
     <header>
       <nav className="header">
-        <a href="index.html" className="logo">
-          <img srcSet={Logo} alt="ACMBMU" />
-        </a>
-        <div className="pages">
-          <a href="#home">HOME</a>
-          <a href="#aboutus">ABOUT US</a>
-          <a href="#events">EVENTS</a>
-          <a href="#contactus">CONTACT US</a>
-          <a href="gallery.html">GALLERY</a>
+        <div className="logo">
+          <a href="#">
+            <img srcSet={Logo} />
+          </a>
         </div>
+        <input type="checkbox" id="click" />
+
+        <label htmlFor="click" className="mainicon">
+          <div className="menu">
+            <i className="fa-solid fa-bars"></i>
+          </div>
+        </label>
+        <ul>
+          <li>
+            <a href="index.html" className="active">
+              HOME
+            </a>
+          </li>
+          <li>
+            <a href="#aboutus">ABOUT US</a>
+          </li>
+          <li>
+            <a href="#events">EVENTS</a>
+          </li>
+          <li>
+            <a href="#contactus">CONTACT US</a>
+          </li>
+          <li>
+            <a href="gallery.html">GALLERY</a>
+          </li>
+        </ul>
         <div className="community">
           <a
+            className="button"
             href="https://discord.com/invite/7XNFKPG5C4"
             target="_blank"
-            className="button"
           >
             COMMUNITY
           </a>
         </div>
       </nav>
-
-      <div className="main_box">
-        <input type="checkbox" id="check" />
-        <div className="btn_one">
-          <label htmlFor="check">
-            <i className="fa-solid fa-bars"></i>
-          </label>
-        </div>
-
-        <div className="sidebar_menu">
-          <div className="logo">
-            <a href="index.html">ACM.BMU</a>
-          </div>
-
-          <div className="btn_two">
-            <label htmlFor="check">
-              <i className="fa-solid fa-xmark"></i>
-            </label>
-          </div>
-
-          <div className="menu">
-            <ul>
-              <li>
-                <a href="index.html">HOME</a>
-              </li>
-              <li>
-                <a href="#aboutus">ABOUT US</a>
-              </li>
-              <li>
-                <a href="#events">EVENTS</a>
-              </li>
-              <li>
-                <a href="#contactus">CONTACT US</a>
-              </li>
-              <li>
-                <a href="gallery.html">GALLERY</a>
-              </li>
-            </ul>
-          </div>
-
-          <div className="social_media">
-            <ul>
-              <a href="https://www.linkedin.com/company/bmu-acm-student-chapter/">
-                <i className="fa-brands fa-linkedin"></i>
-              </a>
-              <a href="https://twitter.com/acm_bmu">
-                <i className="fa-brands fa-twitter"></i>
-              </a>
-              <a href="https://www.instagram.com/acm_bmu/?igshid=MzRlODBiNWFlZA%3D%3D">
-                <i className="fa-brands fa-instagram"></i>
-              </a>
-              <a href="https://www.youtube.com/channel/UCGZRRxEodhrXLTVZgQl7iyA">
-                <i className="fa-brands fa-youtube"></i>
-              </a>
-            </ul>
-          </div>
-        </div>
-      </div>
     </header>
   );
 }

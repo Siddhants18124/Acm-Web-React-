@@ -1,0 +1,178 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ballOne {
+  display: flex;
+  position: absolute;
+  margin: 0 75% 35% 0;
+}
+.ballTwo {
+  display: flex;
+  position: absolute;
+  margin: 10% 0 0 70%;
+}
+.ballOne img,
+.ballTwo img {
+  width: 7rem;
+}
+.Aone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 60%;
+  margin-left: 5rem;
+}
+.Atwo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  margin-right: 5rem;
+  padding-bottom: 5rem;
+}
+.Aonetwo {
+  margin: 0 30% 0 70%;
+}
+.Aonetwo img {
+  width: 21rem;
+}
+.Aoneone h1 {
+  margin: 0;
+  font-size: 6rem;
+}
+.input {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 20rem;
+  margin: 1rem 0;
+  transition: all 0.4s ease-in-out;
+}
+.input::placeholder {
+  color: white;
+}
+.message {
+  height: 4rem;
+}
+.input:hover,
+.input:active,
+.input:focus {
+  background-color: white;
+  color: #08051f;
+}
+.input:hover::placeholder,
+.input:active::placeholder,
+.input:focus::placeholder {
+  color: #08051f;
+}
+.subbtn {
+  margin: 1rem 35%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-radius: 0.5rem;
+}
+.Atwo h1 {
+  font-size: 2.5rem;
+  margin: 0 0 1rem 0;
+}
+.lineFour {
+  background-color: white;
+  width: 5rem;
+  height: 0.2rem;
+  align-self: flex-start;
+  margin-left: 1.6rem;
+  position: absolute;
+  margin-bottom: 16.5rem;
+  display: none;
+}
+.vectorThree {
+  display: none;
+  position: absolute;
+  margin: 24% 0 0 60%;
+}
+.vectorThree img {
+  width: 13rem;
+}
+@media only screen and (max-width: 1024px) {
+  .Aoneone h1 {
+    font-size: 4rem;
+  }
+  .ballOne {
+    margin-bottom: 40%;
+  }
+  .ballTwo {
+    margin-top: 25%;
+  }
+  .Aonetwo img {
+    width: 19rem;
+  }
+  .Atwo {
+    padding: 0;
+  }
+}
+@media (max-width: 930px) {
+  .ballOne,
+  .ballTwo,
+  .Aone {
+    display: none;
+  }
+  .Atwo {
+    margin: 0;
+    padding: 0;
+  }
+  .vectorThree {
+    display: flex;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .Aoneone h1 {
+    font-size: 3.4rem;
+  }
+  .Aonetwo img {
+    width: 18rem;
+  }
+}
+@media only screen and (max-width: 616px) {
+  .Atwo {
+    margin: 0;
+    padding-bottom: 6rem;
+  }
+  .lineFour {
+    display: flex;
+  }
+  .vectorThree {
+    margin-top: 45%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .lineFour {
+    margin-left: 0;
+  }
+  .subbtn {
+    margin: 1rem 30%;
+  }
+  .vectorThree {
+    margin-top: 68%;
+  }
+  .vectorThree img {
+    width: 11rem;
+  }
+}
+@media (max-width: 420px) {
+  .input {
+    margin: 0.5rem 0;
+    width: 14rem;
+  }
+  .Atwo h1 {
+    font-size: 2rem;
+  }
+  .lineFour {
+    margin-bottom: 15rem;
+  }
+}
