@@ -98,7 +98,17 @@ body {
   align-items: center;
   position: absolute;
 }
-
+@media only screen and (max-width: 1286px) {
+  .headingBig {
+    font-size: 6rem;
+  }
+  .name {
+    margin-top: 17%;
+  }
+  .vectorOne {
+    margin-top: -17%;
+  }
+}
 @media only screen and (max-width: 1024px) {
   .vectorOne img {
     width: 16rem;
@@ -212,5 +222,8 @@ body {
   }
   .sphereBottomOne {
     margin: 14% 0 0 70%;
+  }
+  .communityTwo {
+    padding-left: 42%;
   }
 }

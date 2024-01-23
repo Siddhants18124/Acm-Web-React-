@@ -175,8 +175,8 @@
     font-size: 0.8rem;
   }
   .boxTwo img {
-    width: 6rem;
-    height: 6rem;
+    width: 8.5rem;
+    height: 8.5rem;
     margin: 0.1rem;
     border-radius: 1rem;
     border: 0.1rem solid white;
@@ -188,17 +188,17 @@
     margin: 20% 0;
   }
   #picOne {
-    width: 6rem;
-    height: 6rem;
+    width: 8.5rem;
+    height: 8.5rem;
   }
   .sphereTopTwo img,
   .sphereBottomTwo img {
-    width: 5rem;
+    width: 8rem;
   }
   .sphereTopTwo {
-    margin-left: 10rem;
+    margin-left: 12rem;
   }
   .sphereBottomTwo {
-    margin-top: 10rem;
+    margin-top: 12rem;
   }
 }

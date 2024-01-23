@@ -2,6 +2,7 @@ import React from "react";
 import "./contact.css";
 import vectorTwo from "../../assets/images/vectorTwo.png";
 import sphereTopOne from "../../assets/images/sphereTopOne.png";
+import vectorThree from "../../assets/images/vectorThree.png";
 
 function Contact() {
   return (
@@ -45,6 +46,9 @@ function Contact() {
                 SEND
               </button>
             </form>
+            <div className="vectorThree">
+              <img srcSet={vectorThree} />
+            </div>
           </div>
         </div>
       </main>
