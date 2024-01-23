@@ -1,9 +1,6 @@
 import React from "react";
 import "./CardsMT.css";
 import Pic from "../../assets/images/pic.jpeg";
-import Tweet from "../../assets/images/twitter.png";
-import Insta from "../../assets/images/insta.png";
-import Linkedin from "../../assets/images/linkedin.png";
 
 function Cards() {
   document.addEventListener("DOMContentLoaded", function () {

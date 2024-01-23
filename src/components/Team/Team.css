@@ -1,0 +1,103 @@
+.team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 1rem 17rem 1rem;
+}
+.containerOne {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+.containerTwo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
+}
+.containerOneOne {
+  display: flex;
+  flex-direction: column;
+  border-radius: 2rem;
+  border: 2px solid #fff;
+  background: linear-gradient(
+    158deg,
+    rgba(48, 162, 215, 0.5) 2.83%,
+    rgba(6, 68, 146, 0.5) 111.83%
+  );
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 12rem;
+  height: 21rem;
+  margin: 0 1rem;
+  padding: 2rem;
+}
+.containerTwoTwo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2rem;
+  border: 2px solid white;
+  background: linear-gradient(
+    154deg,
+    rgba(48, 162, 215, 0.5) 13.29%,
+    rgba(6, 68, 146, 0.5) 72.58%
+  );
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 13rem;
+  height: 13rem;
+  margin: 0 1.5rem;
+  padding: 1rem;
+}
+.partONE {
+  display: flex;
+  align-items: center;
+}
+.partTWO {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0;
+}
+.partTHREE {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.partTHREE i {
+  margin: 0.5rem;
+  padding-top: 50%;
+}
+.team img {
+  display: flex;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  width: 4rem;
+  margin-bottom: 1rem;
+}
+.partONEtwo {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+}
+.team p {
+  margin: 0;
+}
+.partFirst {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.partSecond {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+}
+.partSecond i {
+  margin: 0 0.3rem;
+}
