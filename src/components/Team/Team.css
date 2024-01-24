@@ -1,21 +1,59 @@
 .team {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   margin: 2rem 1rem 17rem 1rem;
 }
+.team i {
+  cursor: pointer;
+  opacity: 0.9;
+}
+.team i:hover {
+  opacity: 1;
+}
+.team button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 2rem;
+  opacity: 0.7;
+  transform: translate(-50%);
+  position: absolute;
+}
+.team button:hover {
+  opacity: 1;
+  cursor: pointer;
+}
 .containerOne {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 2rem 0;
+  overflow-x: auto;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  margin: 2rem 8.85%;
+  scrollbar-width: none;
 }
 .containerTwo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 1rem 0;
+  margin: 2rem 10rem;
+  overflow-x: auto;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  scrollbar-width: none;
+}
+.containerTwo::-webkit-scrollbar,
+.containerOne::-webkit-scrollbar {
+  display: none;
+}
+.btn-previous {
+  left: 10%;
+  margin-top: -11%;
+}
+.btn-next {
+  right: 9%;
+  margin-top: -11%;
+}
+.btn-previous-one {
+  margin-top: 11%;
+  left: 7%;
+}
+.btn-next-one {
+  margin-top: 11%;
+  right: 5%;
 }
 .containerOneOne {
   display: flex;
@@ -28,7 +66,7 @@
     rgba(6, 68, 146, 0.5) 111.83%
   );
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  width: 12rem;
+  width: 13rem;
   height: 21rem;
   margin: 0 1rem;
   padding: 2rem;
@@ -57,9 +95,11 @@
 }
 .partTWO {
   display: flex;
-  align-items: center;
   justify-content: center;
-  margin: 1rem 0;
+  height: 80%;
+}
+.partTWO p {
+  line-height: 1.2rem;
 }
 .partTHREE {
   display: flex;
@@ -69,7 +109,6 @@
 }
 .partTHREE i {
   margin: 0.5rem;
-  padding-top: 50%;
 }
 .team img {
   display: flex;
@@ -85,12 +124,16 @@
 }
 .team p {
   margin: 0;
+  font-family: "Work Sans", sans-serif;
+  font-size: 0.8rem;
+  margin-bottom: 0.4rem;
 }
 .partFirst {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 90%;
 }
 .partSecond {
   display: flex;
@@ -100,4 +143,11 @@
 }
 .partSecond i {
   margin: 0 0.3rem;
+}
+.heading h1 {
+  font-size: 3.5rem;
+  text-align: center;
+}
+#name {
+  font-weight: bold;
 }
