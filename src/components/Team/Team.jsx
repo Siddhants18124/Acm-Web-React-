@@ -1,6 +1,6 @@
 import React, { useRef } from "react";
 import "./Team.css";
-import Pic from "../../assets/images/pic.jpeg";
+import assets from "../../assets/assets";
 
 function Team() {
   const containerOneRef = useRef(null);
@@ -46,7 +46,7 @@ function Team() {
           <div className="containerOneOne">
             <div className="partONE">
               <div className="partONEone">
-                <img srcSet={Pic} />
+                <img srcSet={assets.Pic} />
               </div>
               <div className="partONEtwo">
                 <p id="name">Devanjali Relan</p>
@@ -68,7 +68,7 @@ function Team() {
           <div className="containerOneOne">
             <div className="partONE">
               <div className="partONEone">
-                <img srcSet={Pic} />
+                <img srcSet={assets.Pic} />
               </div>
               <div className="partONEtwo">
                 <p id="name">Nishtha Phutela</p>
@@ -90,7 +90,7 @@ function Team() {
           <div className="containerOneOne">
             <div className="partONE">
               <div className="partONEone">
-                <img srcSet={Pic} />
+                <img srcSet={assets.Pic} />
               </div>
               <div className="partONEtwo">
                 <p id="name">Shashank Goswami</p>
@@ -114,7 +114,7 @@ function Team() {
           <div className="containerOneOne">
             <div className="partONE">
               <div className="partONEone">
-                <img srcSet={Pic} />
+                <img srcSet={assets.Pic} />
               </div>
               <div className="partONEtwo">
                 <p id="name">Aditya Rastogi</p>
@@ -139,7 +139,7 @@ function Team() {
         <div className="containerTwo" ref={containerTwoRef}>
           <div className="containerTwoTwo">
             <div className="partFirst">
-              <img srcSet={Pic} />
+              <img srcSet={assets.Pic} />
               <p id="name">lorem ipsum</p>
               <p>EC</p>
               <p>B.Tech CSE</p>
@@ -152,7 +152,7 @@ function Team() {
           </div>
           <div className="containerTwoTwo">
             <div className="partFirst">
-              <img srcSet={Pic} />
+              <img srcSet={assets.Pic} />
               <p id="name">lorem ipsum</p>
               <p>EC</p>
               <p>B.Tech CSE</p>
@@ -165,7 +165,7 @@ function Team() {
           </div>
           <div className="containerTwoTwo">
             <div className="partFirst">
-              <img srcSet={Pic} />
+              <img srcSet={assets.Pic} />
               <p id="name">lorem ipsum</p>
               <p>EC</p>
               <p>B.Tech CSE</p>
@@ -178,7 +178,7 @@ function Team() {
           </div>
           <div className="containerTwoTwo">
             <div className="partFirst">
-              <img srcSet={Pic} />
+              <img srcSet={assets.Pic} />
               <p id="name">lorem ipsum</p>
               <p>EC</p>
               <p>B.Tech CSE</p>
@@ -191,7 +191,7 @@ function Team() {
           </div>
           <div className="containerTwoTwo">
             <div className="partFirst">
-              <img srcSet={Pic} />
+              <img srcSet={assets.Pic} />
               <p id="name">lorem ipsum</p>
               <p>EC</p>
               <p>B.Tech CSE</p>
@@ -204,7 +204,7 @@ function Team() {
           </div>
           <div className="containerTwoTwo">
             <div className="partFirst">
-              <img srcSet={Pic} />
+              <img srcSet={assets.Pic} />
               <p id="name">lorem ipsum</p>
               <p>EC</p>
               <p>B.Tech CSE</p>
@@ -217,7 +217,7 @@ function Team() {
           </div>
           <div className="containerTwoTwo">
             <div className="partFirst">
-              <img srcSet={Pic} />
+              <img srcSet={assets.Pic} />
               <p id="name">lorem ipsum</p>
               <p>EC</p>
               <p>B.Tech CSE</p>
@@ -230,7 +230,7 @@ function Team() {
           </div>
           <div className="containerTwoTwo">
             <div className="partFirst">
-              <img srcSet={Pic} />
+              <img srcSet={assets.Pic} />
               <p id="name">lorem ipsum</p>
               <p>EC</p>
               <p>B.Tech CSE</p>

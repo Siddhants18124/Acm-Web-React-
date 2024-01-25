@@ -1,8 +1,6 @@
 import React from "react";
 import "./contact.css";
-import vectorTwo from "../../assets/images/vectorTwo.png";
-import sphereTopOne from "../../assets/images/sphereTopOne.png";
-import vectorThree from "../../assets/images/vectorThree.png";
+import assets from "../../assets/assets";
 
 function Contact() {
   return (
@@ -10,10 +8,10 @@ function Contact() {
       <main data-aos="fade-up">
         <div className="contact" id="contactus">
           <div className="ballOne">
-            <img srcSet={sphereTopOne} />
+            <img srcSet={assets.sphereTopOne} />
           </div>
           <div className="ballTwo">
-            <img srcSet={sphereTopOne} />
+            <img srcSet={assets.sphereTopOne} />
           </div>
           <div className="Aone">
             <div className="Aoneone">
@@ -21,7 +19,7 @@ function Contact() {
               <h1>STUDENT&nbsp;CHAPTER</h1>
             </div>
             <div className="Aonetwo">
-              <img srcSet={vectorTwo} />
+              <img srcSet={assets.vectorTwo} />
             </div>
           </div>
           <div className="Atwo">
@@ -47,7 +45,7 @@ function Contact() {
               </button>
             </form>
             <div className="vectorThree">
-              <img srcSet={vectorThree} />
+              <img srcSet={assets.vectorThree} />
             </div>
           </div>
         </div>

@@ -1,7 +1,6 @@
 import React from "react";
 import "./footer.css";
-import BMULOGO from "../../assets/images/BMULOGO.png";
-import logoTwo from "../../assets/images/logoTwo.png";
+import assets from "../../assets/assets";
 
 function Footer() {
   return (
@@ -9,8 +8,8 @@ function Footer() {
       <footer>
         <div className="footer">
           <div className="firstPart">
-            <img srcSet={logoTwo} />
-            <img srcSet={BMULOGO} />
+            <img srcSet={assets.logoTwo} />
+            <img srcSet={assets.BMULOGO} />
           </div>
           <div className="secondPart">
             <a

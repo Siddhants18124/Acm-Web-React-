@@ -4,7 +4,6 @@ import Hero from "../components/Hero/Hero";
 import About from "../components/About/About";
 import Contact from "../components/ContactUs/contact";
 import Footer from "../components/Footer/footer";
-import Cards from "../components/CardsMT/CardsMT";
 import Team from "../components/Team/Team";
 import AOS from "aos";
 import "aos/dist/aos.css";
