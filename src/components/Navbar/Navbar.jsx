@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css";
-import Logo from "../../assets/images/LOGO.png";
+import assets from "../../assets/assets";
 import { Link } from "react-router-dom";
 
 function Navbar() {
@@ -21,7 +21,7 @@ function Navbar() {
       <nav className="header">
         <div className="logo">
           <Link to="/">
-            <img srcSet={Logo} />
+            <img srcSet={assets.Logo} />
           </Link>
           {/* <a href="#">
             <img srcSet={Logo} />
@@ -53,9 +53,7 @@ function Navbar() {
             <a href="#contactus">CONTACT US</a>
           </li>
           <li>
-            <Link to="/gallery">
-              GALLERY
-            </Link>
+            <Link to="/gallery">GALLERY</Link>
           </li>
         </ul>
         <div className="community">

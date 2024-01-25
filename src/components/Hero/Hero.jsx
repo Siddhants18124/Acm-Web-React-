@@ -1,8 +1,6 @@
 import React from "react";
 import "./Hero.css";
-import sphereTopOne from "../../assets/images/sphereTopOne.png";
-import sphereBottomOne from "../../assets/images/sphereBottomOne.png";
-import vectorOne from "../../assets/images/vectorOne.png";
+import assets from "../../assets/assets";
 
 function Hero() {
   return (
@@ -10,15 +8,15 @@ function Hero() {
       <main>
         <div className="home">
           <div data-aos="fade-right" className="vectorOne">
-            <img srcSet={vectorOne} />
+            <img srcSet={assets.vectorOne} />
           </div>
 
           <div className="name">
             <div className="sphereTopOne">
-              <img srcSet={sphereTopOne} />
+              <img srcSet={assets.sphereTopOne} />
             </div>
             <div className="sphereBottomOne">
-              <img srcSet={sphereBottomOne} />
+              <img srcSet={assets.sphereBottomOne} />
             </div>
             <div data-aos="fade-right" className="boxOne">
               <h1 className="headingBig">ACM.BMU</h1>

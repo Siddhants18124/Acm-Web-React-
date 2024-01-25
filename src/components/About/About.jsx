@@ -1,11 +1,6 @@
 import React from "react";
 import "./About.css";
-import Pic1 from "../../assets/images/pic1.jpg";
-import Pic2 from "../../assets/images/pic2.jpg";
-import Pic3 from "../../assets/images/pic3.jpg";
-import Pic4 from "../../assets/images/pic4.jpg";
-import sphereTopTwo from "../../assets/images/sphereTopTwo.png";
-import sphereBottomTwo from "../../assets/images/sphereBottomTwo.png";
+import assets from "../../assets/assets";
 
 function About() {
   return (
@@ -59,20 +54,20 @@ function About() {
           </div>
           <div className="partTwo">
             <div className="sphereTopTwo">
-              <img srcSet={sphereTopTwo} />
+              <img srcSet={assets.sphereTopTwo} />
             </div>
             <div className="sphereBottomTwo">
-              <img srcSet={sphereBottomTwo} />
+              <img srcSet={assets.sphereBottomTwo} />
             </div>
             <div className="gallery">
               <div className="boxTwo">
                 <div className="one">
-                  <img srcSet={Pic1} id="picOne" alt="ACMBMU" />
-                  <img srcSet={Pic2} alt="ACMBMU" />
+                  <img srcSet={assets.Pic1} id="picOne" alt="ACMBMU" />
+                  <img srcSet={assets.Pic2} alt="ACMBMU" />
                 </div>
                 <div className="two">
-                  <img srcSet={Pic3} alt="ACMBMU" />
-                  <img srcSet={Pic4} alt="ACMBMU" />
+                  <img srcSet={assets.Pic3} alt="ACMBMU" />
+                  <img srcSet={assets.Pic4} alt="ACMBMU" />
                 </div>
               </div>
             </div>

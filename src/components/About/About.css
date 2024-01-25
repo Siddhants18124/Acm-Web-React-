@@ -89,8 +89,7 @@
   height: 15rem;
   z-index: 20;
 }
-
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1260px) {
   #aboutus {
     flex-wrap: wrap;
   }
@@ -104,6 +103,8 @@
     padding: 0 15%;
     margin: 0;
   }
+}
+@media only screen and (max-width: 1024px) {
   .boxTwo img {
     width: 15rem;
     height: 15rem;
@@ -149,6 +150,13 @@
 @media only screen and (max-width: 616px) {
   .partTwo {
     padding: 0;
+  }
+  .sphereTopTwo img,
+  .sphereBottomTwo img {
+    width: 7rem;
+  }
+  .sphereTopTwo {
+    margin-left: 25rem;
   }
 }
 @media only screen and (max-width: 480px) {
