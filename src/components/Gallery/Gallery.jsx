@@ -16,7 +16,9 @@ function Gallery() {
               lobortis. Lorem ipsum dolor sit amet.
             </p>
 
-            <p id="galleryPara2">DEEP DIVE INTO THE TECH GALLERY OF BMU</p>
+            <p id="galleryPara2">
+              DEEP&nbsp;DIVE&nbsp;INTO THE TECH GALLERY&nbsp;OF&nbsp;BMU&nbsp;!
+            </p>
           </div>
           <img srcSet={assets.Gallery1} class="galleryImg1" />
         </div>

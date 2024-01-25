@@ -8,7 +8,7 @@ function Team() {
   const scrollContainerOne = (direction) => {
     const container = containerOneRef.current;
     if (container) {
-      const scrollAmount = 300;
+      const scrollAmount = 250;
       container.scrollBy({
         left: direction === "next" ? scrollAmount : -scrollAmount,
         behavior: "smooth",
@@ -20,7 +20,7 @@ function Team() {
   const scrollContainerTwo = (direction) => {
     const container = containerTwoRef.current;
     if (container) {
-      const scrollAmount = 300;
+      const scrollAmount = 250;
       container.scrollBy({
         left: direction === "next" ? scrollAmount : -scrollAmount,
         behavior: "smooth",
@@ -62,7 +62,9 @@ function Team() {
               </p>
             </div>
             <div className="partTHREE">
-              <i className="fa-brands fa-linkedin"></i>
+              <a href="#">
+                <i className="fa-brands fa-linkedin"></i>
+              </a>
             </div>
           </div>
           <div className="containerOneOne">
@@ -84,7 +86,9 @@ function Team() {
               </p>
             </div>
             <div className="partTHREE">
-              <i className="fa-brands fa-linkedin"></i>
+              <a href="#">
+                <i className="fa-brands fa-linkedin"></i>
+              </a>
             </div>
           </div>
           <div className="containerOneOne">
@@ -106,9 +110,15 @@ function Team() {
               </p>
             </div>
             <div className="partTHREE">
-              <i className="fa-brands fa-instagram"></i>
-              <i className="fa-brands fa-linkedin"></i>
-              <i className="fa-brands fa-github"></i>
+              <a href="#">
+                <i className="fa-brands fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i className="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="#">
+                <i className="fa-brands fa-github"></i>
+              </a>
             </div>
           </div>
           <div className="containerOneOne">
@@ -130,9 +140,15 @@ function Team() {
               </p>
             </div>
             <div className="partTHREE">
-              <i className="fa-brands fa-instagram"></i>
-              <i className="fa-brands fa-linkedin"></i>
-              <i className="fa-brands fa-github"></i>
+              <a href="#">
+                <i className="fa-brands fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i className="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="#">
+                <i className="fa-brands fa-github"></i>
+              </a>
             </div>
           </div>
         </div>
@@ -140,105 +156,267 @@ function Team() {
           <div className="containerTwoTwo">
             <div className="partFirst">
               <img srcSet={assets.Pic} />
-              <p id="name">lorem ipsum</p>
-              <p>EC</p>
+              <p id="name">Siddhant Sharma</p>
+              <p>Treasurer</p>
               <p>B.Tech CSE</p>
             </div>
             <div className="partSecond">
-              <i className="fa-brands fa-instagram"></i>
-              <i className="fa-brands fa-linkedin"></i>
-              <i className="fa-brands fa-github"></i>
+              <a href="#">
+                <i className="fa-brands fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i className="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="#">
+                <i className="fa-brands fa-github"></i>
+              </a>
             </div>
           </div>
           <div className="containerTwoTwo">
             <div className="partFirst">
               <img srcSet={assets.Pic} />
-              <p id="name">lorem ipsum</p>
-              <p>EC</p>
+              <p id="name">Syed Mohd Abid</p>
+              <p>Advisor</p>
               <p>B.Tech CSE</p>
             </div>
             <div className="partSecond">
-              <i className="fa-brands fa-instagram"></i>
-              <i className="fa-brands fa-linkedin"></i>
-              <i className="fa-brands fa-github"></i>
+              <a href="#">
+                <i className="fa-brands fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i className="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="#">
+                <i className="fa-brands fa-github"></i>
+              </a>
             </div>
           </div>
           <div className="containerTwoTwo">
             <div className="partFirst">
               <img srcSet={assets.Pic} />
-              <p id="name">lorem ipsum</p>
-              <p>EC</p>
+              <p id="name">Akshay Kumar Jain</p>
+              <p>Advisor</p>
               <p>B.Tech CSE</p>
             </div>
             <div className="partSecond">
-              <i className="fa-brands fa-instagram"></i>
-              <i className="fa-brands fa-linkedin"></i>
-              <i className="fa-brands fa-github"></i>
+              <a href="#">
+                <i className="fa-brands fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i className="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="#">
+                <i className="fa-brands fa-github"></i>
+              </a>
             </div>
           </div>
           <div className="containerTwoTwo">
             <div className="partFirst">
               <img srcSet={assets.Pic} />
-              <p id="name">lorem ipsum</p>
-              <p>EC</p>
+              <p id="name">Prakhar Srivastava</p>
+              <p>Operations</p>
               <p>B.Tech CSE</p>
             </div>
             <div className="partSecond">
-              <i className="fa-brands fa-instagram"></i>
-              <i className="fa-brands fa-linkedin"></i>
-              <i className="fa-brands fa-github"></i>
+              <a href="#">
+                <i className="fa-brands fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i className="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="#">
+                <i className="fa-brands fa-github"></i>
+              </a>
             </div>
           </div>
           <div className="containerTwoTwo">
             <div className="partFirst">
               <img srcSet={assets.Pic} />
-              <p id="name">lorem ipsum</p>
-              <p>EC</p>
+              <p id="name">Divyansh Verma</p>
+              <p>Operations</p>
               <p>B.Tech CSE</p>
             </div>
             <div className="partSecond">
-              <i className="fa-brands fa-instagram"></i>
-              <i className="fa-brands fa-linkedin"></i>
-              <i className="fa-brands fa-github"></i>
+              <a href="#">
+                <i className="fa-brands fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i className="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="#">
+                <i className="fa-brands fa-github"></i>
+              </a>
             </div>
           </div>
           <div className="containerTwoTwo">
             <div className="partFirst">
               <img srcSet={assets.Pic} />
-              <p id="name">lorem ipsum</p>
-              <p>EC</p>
+              <p id="name">Guneet Chawla</p>
+              <p>Operations</p>
               <p>B.Tech CSE</p>
             </div>
             <div className="partSecond">
-              <i className="fa-brands fa-instagram"></i>
-              <i className="fa-brands fa-linkedin"></i>
-              <i className="fa-brands fa-github"></i>
+              <a href="#">
+                <i className="fa-brands fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i className="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="#">
+                <i className="fa-brands fa-github"></i>
+              </a>
             </div>
           </div>
           <div className="containerTwoTwo">
             <div className="partFirst">
               <img srcSet={assets.Pic} />
-              <p id="name">lorem ipsum</p>
-              <p>EC</p>
+              <p id="name">Garv Garg</p>
+              <p>Designer</p>
               <p>B.Tech CSE</p>
             </div>
             <div className="partSecond">
-              <i className="fa-brands fa-instagram"></i>
-              <i className="fa-brands fa-linkedin"></i>
-              <i className="fa-brands fa-github"></i>
+              <a href="#">
+                <i className="fa-brands fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i className="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="#">
+                <i className="fa-brands fa-github"></i>
+              </a>
             </div>
           </div>
           <div className="containerTwoTwo">
             <div className="partFirst">
               <img srcSet={assets.Pic} />
-              <p id="name">lorem ipsum</p>
-              <p>EC</p>
+              <p id="name">Dakshi Arora</p>
+              <p>Content</p>
               <p>B.Tech CSE</p>
             </div>
             <div className="partSecond">
-              <i className="fa-brands fa-instagram"></i>
-              <i className="fa-brands fa-linkedin"></i>
-              <i className="fa-brands fa-github"></i>
+              <a href="#">
+                <i className="fa-brands fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i className="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="#">
+                <i className="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </div>
+          <div className="containerTwoTwo">
+            <div className="partFirst">
+              <img srcSet={assets.Pic} />
+              <p id="name">Ananya Aggarwal</p>
+              <p>Content</p>
+              <p>B.Tech CSE</p>
+            </div>
+            <div className="partSecond">
+              <a href="#">
+                <i className="fa-brands fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i className="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="#">
+                <i className="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </div>
+          <div className="containerTwoTwo">
+            <div className="partFirst">
+              <img srcSet={assets.Pic} />
+              <p id="name">Daksh Goel</p>
+              <p>Workshop</p>
+              <p>B.Tech CSE</p>
+            </div>
+            <div className="partSecond">
+              <a href="#">
+                <i className="fa-brands fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i className="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="#">
+                <i className="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </div>
+          <div className="containerTwoTwo">
+            <div className="partFirst">
+              <img srcSet={assets.Pic} />
+              <p id="name">Vedansh Kumawat</p>
+              <p>Workshop</p>
+              <p>B.Tech CSE</p>
+            </div>
+            <div className="partSecond">
+              <a href="#">
+                <i className="fa-brands fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i className="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="#">
+                <i className="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </div>
+          <div className="containerTwoTwo">
+            <div className="partFirst">
+              <img srcSet={assets.Pic} />
+              <p id="name">Yashvardhan</p>
+              <p>Workshop</p>
+              <p>B.Tech CSE</p>
+            </div>
+            <div className="partSecond">
+              <a href="#">
+                <i className="fa-brands fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i className="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="#">
+                <i className="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </div>
+          <div className="containerTwoTwo">
+            <div className="partFirst">
+              <img srcSet={assets.Pic} />
+              <p id="name">Anmol Maheshwari</p>
+              <p>Marketing</p>
+              <p>B.Tech CSE</p>
+            </div>
+            <div className="partSecond">
+              <a href="#">
+                <i className="fa-brands fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i className="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="#">
+                <i className="fa-brands fa-github"></i>
+              </a>
+            </div>
+          </div>
+          <div className="containerTwoTwo">
+            <div className="partFirst">
+              <img srcSet={assets.Pic} />
+              <p id="name">Raghvendra Singh</p>
+              <p>Marketing</p>
+              <p>B.Tech CSE</p>
+            </div>
+            <div className="partSecond">
+              <a href="#">
+                <i className="fa-brands fa-instagram"></i>
+              </a>
+              <a href="#">
+                <i className="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="#">
+                <i className="fa-brands fa-github"></i>
+              </a>
             </div>
           </div>
         </div>
