@@ -8,12 +8,14 @@ import Pic3 from "../assets/images/pic3.jpg";
 import Pic4 from "../assets/images/pic4.jpg";
 import sphereTopTwo from "../assets/images/sphereTopTwo.png";
 import sphereBottomTwo from "../assets/images/sphereBottomTwo.png";
-import Pic from "../assets/images/pic.jpeg";
 import vectorTwo from "../assets/images/vectorTwo.png";
 import vectorThree from "../assets/images/vectorThree.png";
 import BMULOGO from "../assets/images/BMULOGO.png";
 import logoTwo from "../assets/images/logoTwo.png";
 import Gallery1 from "../assets/images/Gallery1.png";
+import Prakhar from "../assets/images/Team/Prakhar.png";
+import Dakshi from "../assets/images/Team/Dakshi.jpeg";
+import Pic from "../assets/images/Gallery/pic.jpeg";
 
 const assets = {
   Logo,
@@ -32,6 +34,8 @@ const assets = {
   BMULOGO,
   logoTwo,
   Gallery1,
+  Prakhar,
+  Dakshi,
 };
 
 export default assets;

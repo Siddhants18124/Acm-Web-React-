@@ -116,8 +116,9 @@
 .team img {
   display: flex;
   border-radius: 50%;
-  border: 1px solid #fff;
+  border: 0.1rem solid white;
   width: 4rem;
+  height: 4rem;
   margin-bottom: 1rem;
 }
 .partONEtwo {
@@ -170,10 +171,12 @@
   }
   .containerOneOne img {
     width: 3rem;
+    height: 3rem;
   }
   .containerTwoTwo img {
     margin-top: 1.5rem;
     width: 3rem;
+    height: 3rem;
   }
   .team p {
     font-size: 0.75rem;

@@ -23,9 +23,6 @@ function Navbar() {
           <Link to="/">
             <img srcSet={assets.Logo} />
           </Link>
-          {/* <a href="#">
-            <img srcSet={Logo} />
-          </a> */}
         </div>
         <input type="checkbox" id="click" />
 
@@ -39,9 +36,6 @@ function Navbar() {
             <Link to="/" className="active">
               HOME
             </Link>
-            {/* <a href="index.html" className="active">
-              HOME
-            </a> */}
           </li>
           <li>
             <a href="#aboutus">ABOUT US</a>

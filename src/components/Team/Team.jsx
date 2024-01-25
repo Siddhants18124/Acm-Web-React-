@@ -62,7 +62,7 @@ function Team() {
               </p>
             </div>
             <div className="partTHREE">
-              <a href="#">
+              <a href="linkedin.com/in/devanjali-relan-2160a258">
                 <i className="fa-brands fa-linkedin"></i>
               </a>
             </div>
@@ -86,7 +86,7 @@ function Team() {
               </p>
             </div>
             <div className="partTHREE">
-              <a href="#">
+              <a href="linkedin.com/in/nishtha-phutela-9a1a8a36">
                 <i className="fa-brands fa-linkedin"></i>
               </a>
             </div>
@@ -212,19 +212,19 @@ function Team() {
           </div>
           <div className="containerTwoTwo">
             <div className="partFirst">
-              <img srcSet={assets.Pic} />
+              <img srcSet={assets.Prakhar} />
               <p id="name">Prakhar Srivastava</p>
               <p>Operations</p>
               <p>B.Tech CSE</p>
             </div>
             <div className="partSecond">
-              <a href="#">
+              <a href="https://www.instagram.com/prakhar_5_?igsh=eW84OHllNW1zcndp&utm_source=qr">
                 <i className="fa-brands fa-instagram"></i>
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/prakhar5/">
                 <i className="fa-brands fa-linkedin"></i>
               </a>
-              <a href="#">
+              <a href="https://github.com/prakharr5">
                 <i className="fa-brands fa-github"></i>
               </a>
             </div>
@@ -288,7 +288,7 @@ function Team() {
           </div>
           <div className="containerTwoTwo">
             <div className="partFirst">
-              <img srcSet={assets.Pic} />
+              <img srcSet={assets.Dakshi} />
               <p id="name">Dakshi Arora</p>
               <p>Content</p>
               <p>B.Tech CSE</p>
@@ -385,7 +385,7 @@ function Team() {
             <div className="partFirst">
               <img srcSet={assets.Pic} />
               <p id="name">Anmol Maheshwari</p>
-              <p>Marketing</p>
+              <p>Marketing & PR</p>
               <p>B.Tech CSE</p>
             </div>
             <div className="partSecond">
@@ -404,7 +404,7 @@ function Team() {
             <div className="partFirst">
               <img srcSet={assets.Pic} />
               <p id="name">Raghvendra Singh</p>
-              <p>Marketing</p>
+              <p>Marketing & PR</p>
               <p>B.Tech CSE</p>
             </div>
             <div className="partSecond">
