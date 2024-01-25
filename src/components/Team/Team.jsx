@@ -8,7 +8,7 @@ function Team() {
   const scrollContainerOne = (direction) => {
     const container = containerOneRef.current;
     if (container) {
-      const scrollAmount = 250;
+      const scrollAmount = 240;
       container.scrollBy({
         left: direction === "next" ? scrollAmount : -scrollAmount,
         behavior: "smooth",
@@ -20,7 +20,7 @@ function Team() {
   const scrollContainerTwo = (direction) => {
     const container = containerTwoRef.current;
     if (container) {
-      const scrollAmount = 250;
+      const scrollAmount = 170;
       container.scrollBy({
         left: direction === "next" ? scrollAmount : -scrollAmount,
         behavior: "smooth",
@@ -46,7 +46,7 @@ function Team() {
           <div className="containerOneOne">
             <div className="partONE">
               <div className="partONEone">
-                <img srcSet={assets.Pic} />
+                <img srcSet={assets.DevanjaliMaam} />
               </div>
               <div className="partONEtwo">
                 <p id="name">Devanjali Relan</p>
@@ -62,7 +62,7 @@ function Team() {
               </p>
             </div>
             <div className="partTHREE">
-              <a href="linkedin.com/in/devanjali-relan-2160a258">
+              <a href="https://www.linkedin.com/in/devanjali-relan-2160a258/">
                 <i className="fa-brands fa-linkedin"></i>
               </a>
             </div>
@@ -70,7 +70,7 @@ function Team() {
           <div className="containerOneOne">
             <div className="partONE">
               <div className="partONEone">
-                <img srcSet={assets.Pic} />
+                <img srcSet={assets.NishthaMaam} />
               </div>
               <div className="partONEtwo">
                 <p id="name">Nishtha Phutela</p>
@@ -86,7 +86,7 @@ function Team() {
               </p>
             </div>
             <div className="partTHREE">
-              <a href="linkedin.com/in/nishtha-phutela-9a1a8a36">
+              <a href="https://www.linkedin.com/in/nishtha-phutela-9a1a8a36/">
                 <i className="fa-brands fa-linkedin"></i>
               </a>
             </div>
@@ -94,7 +94,7 @@ function Team() {
           <div className="containerOneOne">
             <div className="partONE">
               <div className="partONEone">
-                <img srcSet={assets.Pic} />
+                <img srcSet={assets.Shashank} />
               </div>
               <div className="partONEtwo">
                 <p id="name">Shashank Goswami</p>
@@ -103,10 +103,9 @@ function Team() {
             </div>
             <div className="partTWO">
               <p align="justify">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Corrupti incidunt quia debitis ad adipisci fugit impedit eos
-                fuga, ex labore necessitatibus repellendus atque obcaecati
-                beatae autem! Rem autem eos quo!
+                ACM for me, is the stepping stone in overcoming your mental
+                barriers and reaching for triumph in technical as well as social
+                aspects of your journey to greatness .
               </p>
             </div>
             <div className="partTHREE">
@@ -124,7 +123,7 @@ function Team() {
           <div className="containerOneOne">
             <div className="partONE">
               <div className="partONEone">
-                <img srcSet={assets.Pic} />
+                <img srcSet={assets.Aditya} />
               </div>
               <div className="partONEtwo">
                 <p id="name">Aditya Rastogi</p>
@@ -133,10 +132,8 @@ function Team() {
             </div>
             <div className="partTWO">
               <p align="justify">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Corrupti incidunt quia debitis ad adipisci fugit impedit eos
-                fuga, ex labore necessitatibus repellendus atque obcaecati
-                beatae autem! Rem autem eos quo!
+                ACM has been igniting innovators itself, which knits its success
+                at every moment, there is .
               </p>
             </div>
             <div className="partTHREE">
@@ -155,7 +152,7 @@ function Team() {
         <div className="containerTwo" ref={containerTwoRef}>
           <div className="containerTwoTwo">
             <div className="partFirst">
-              <img srcSet={assets.Pic} />
+              <img srcSet={assets.Siddhant} />
               <p id="name">Siddhant Sharma</p>
               <p>Treasurer</p>
               <p>B.Tech CSE</p>
@@ -174,7 +171,7 @@ function Team() {
           </div>
           <div className="containerTwoTwo">
             <div className="partFirst">
-              <img srcSet={assets.Pic} />
+              <img srcSet={assets.Abid} />
               <p id="name">Syed Mohd Abid</p>
               <p>Advisor</p>
               <p>B.Tech CSE</p>
@@ -193,7 +190,7 @@ function Team() {
           </div>
           <div className="containerTwoTwo">
             <div className="partFirst">
-              <img srcSet={assets.Pic} />
+              <img srcSet={assets.AKJ} />
               <p id="name">Akshay Kumar Jain</p>
               <p>Advisor</p>
               <p>B.Tech CSE</p>
@@ -231,7 +228,7 @@ function Team() {
           </div>
           <div className="containerTwoTwo">
             <div className="partFirst">
-              <img srcSet={assets.Pic} />
+              <img srcSet={assets.Divyansh} />
               <p id="name">Divyansh Verma</p>
               <p>Operations</p>
               <p>B.Tech CSE</p>
@@ -250,7 +247,7 @@ function Team() {
           </div>
           <div className="containerTwoTwo">
             <div className="partFirst">
-              <img srcSet={assets.Pic} />
+              <img srcSet={assets.Guneet} />
               <p id="name">Guneet Chawla</p>
               <p>Operations</p>
               <p>B.Tech CSE</p>
@@ -269,7 +266,7 @@ function Team() {
           </div>
           <div className="containerTwoTwo">
             <div className="partFirst">
-              <img srcSet={assets.Pic} />
+              <img srcSet={assets.garv} />
               <p id="name">Garv Garg</p>
               <p>Designer</p>
               <p>B.Tech CSE</p>
@@ -307,7 +304,7 @@ function Team() {
           </div>
           <div className="containerTwoTwo">
             <div className="partFirst">
-              <img srcSet={assets.Pic} />
+              <img srcSet={assets.Ananya} />
               <p id="name">Ananya Aggarwal</p>
               <p>Content</p>
               <p>B.Tech CSE</p>
@@ -326,7 +323,7 @@ function Team() {
           </div>
           <div className="containerTwoTwo">
             <div className="partFirst">
-              <img srcSet={assets.Pic} />
+              <img srcSet={assets.Daksh} />
               <p id="name">Daksh Goel</p>
               <p>Workshop</p>
               <p>B.Tech CSE</p>
@@ -345,7 +342,7 @@ function Team() {
           </div>
           <div className="containerTwoTwo">
             <div className="partFirst">
-              <img srcSet={assets.Pic} />
+              <img srcSet={assets.Vedansh} />
               <p id="name">Vedansh Kumawat</p>
               <p>Workshop</p>
               <p>B.Tech CSE</p>
@@ -364,7 +361,7 @@ function Team() {
           </div>
           <div className="containerTwoTwo">
             <div className="partFirst">
-              <img srcSet={assets.Pic} />
+              <img srcSet={assets.Yashvardhan} />
               <p id="name">Yashvardhan</p>
               <p>Workshop</p>
               <p>B.Tech CSE</p>
@@ -383,7 +380,7 @@ function Team() {
           </div>
           <div className="containerTwoTwo">
             <div className="partFirst">
-              <img srcSet={assets.Pic} />
+              <img srcSet={assets.Anmol} />
               <p id="name">Anmol Maheshwari</p>
               <p>Marketing & PR</p>
               <p>B.Tech CSE</p>
@@ -402,7 +399,7 @@ function Team() {
           </div>
           <div className="containerTwoTwo">
             <div className="partFirst">
-              <img srcSet={assets.Pic} />
+              <img srcSet={assets.Raghv} />
               <p id="name">Raghvendra Singh</p>
               <p>Marketing & PR</p>
               <p>B.Tech CSE</p>
