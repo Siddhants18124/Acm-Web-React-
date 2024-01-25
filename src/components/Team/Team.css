@@ -24,7 +24,7 @@
 .containerOne {
   overflow-x: auto;
   display: grid;
-  grid-template-columns: repeat(10, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   margin: 2rem 8.85%;
   scrollbar-width: none;
 }
@@ -32,7 +32,7 @@
   margin: 2rem 10rem;
   overflow-x: auto;
   display: grid;
-  grid-template-columns: repeat(20, 1fr);
+  grid-template-columns: repeat(15, 1fr);
   scrollbar-width: none;
 }
 .containerTwo::-webkit-scrollbar,
