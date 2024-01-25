@@ -9,11 +9,10 @@ function Gallery() {
         <div class="prt1">
           <div class="paras">
             <p id="galleryPara1">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
-              vulputate libero et velit interdum, ac aliquet odio mattis. Class
-              aptent taciti sociosqu ad litora torquent per conubia nostra, per
-              inceptos himenaeos. Curabitur tempus urna at turpis condimentum
-              lobortis. Lorem ipsum dolor sit amet.
+              Get ready to witness the vibrant community of our technological
+              journey, where every pixel tells a story of innovation,
+              collaboration, and the boundless possibilities that unfold within
+              the realm of ACM at BMU.
             </p>
 
             <p id="galleryPara2">
@@ -22,33 +21,120 @@ function Gallery() {
           </div>
           <img srcSet={assets.Gallery1} class="galleryImg1" />
         </div>
-
-        <div class="grid">
-          <div class="image-grid">
-            <img srcSet={assets.Pic2} alt="Image 2" />
-            <img srcSet={assets.Pic1} alt="Image 1" />
-            <img srcSet={assets.Pic3} alt="Image 3" />
-            <img srcSet={assets.Pic4} alt="Image 4" />
-            <img srcSet={assets.Pic1} alt="Image 5" />
-            <img srcSet={assets.Pic2} alt="Image 6" />
-            <img srcSet={assets.Pic3} alt="Image 7" />
-            <img srcSet={assets.Pic4} alt="Image 8" />
-            <img srcSet={assets.Pic1} alt="Image 9" />
-            <img srcSet={assets.Pic2} alt="Image 10" />
-            <img srcSet={assets.Pic3} alt="Image 11" />
-            <img srcSet={assets.Pic4} alt="Image 12" />
-            <img srcSet={assets.Pic1} alt="Image 13" />
-            <img srcSet={assets.Pic2} alt="Image 14" />
-            <img srcSet={assets.Pic3} alt="Image 15" />
-            <img srcSet={assets.Pic4} alt="Image 16" />
-            <img srcSet={assets.Pic1} alt="Image 17" />
-            <img srcSet={assets.Pic2} alt="Image 18" />
-            <img srcSet={assets.Pic3} alt="Image 19" />
-            <img srcSet={assets.Pic4} alt="Image 20" />
-            <img srcSet={assets.Pic1} alt="Image 21" />
-            <img srcSet={assets.Pic2} alt="Image 22" />
-            <img srcSet={assets.Pic3} alt="Image 23" />
-            <img srcSet={assets.Pic4} alt="Image 24" />
+        <div className="grid">
+          <div className="image-grid">
+            <div className="image-container">
+              <img srcSet={assets.Pic1} />
+              <div className="tooltip">Image 1</div>
+            </div>
+            <div className="image-container">
+              <img srcSet={assets.Pic2} />
+              <div className="tooltip">Image 2</div>
+            </div>
+            <div className="image-container">
+              <img srcSet={assets.Pic1} />
+              <div className="tooltip">Image 1</div>
+            </div>
+            <div className="image-container">
+              <img srcSet={assets.Pic2} />
+              <div className="tooltip">Image 2</div>
+            </div>
+            <div className="image-container">
+              <img srcSet={assets.Pic1} />
+              <div className="tooltip">Image 1</div>
+            </div>
+            <div className="image-container">
+              <img srcSet={assets.Pic2} />
+              <div className="tooltip">Image 2</div>
+            </div>
+            <div className="image-container">
+              <img srcSet={assets.Pic1} />
+              <div className="tooltip">Image 1</div>
+            </div>
+            <div className="image-container">
+              <img srcSet={assets.Pic2} />
+              <div className="tooltip">Image 2</div>
+            </div>
+            <div className="image-container">
+              <img srcSet={assets.Pic1} />
+              <div className="tooltip">Image 1</div>
+            </div>
+            <div className="image-container">
+              <img srcSet={assets.Pic2} />
+              <div className="tooltip">Image 2</div>
+            </div>
+            <div className="image-container">
+              <img srcSet={assets.Pic1} />
+              <div className="tooltip">Image 1</div>
+            </div>
+            <div className="image-container">
+              <img srcSet={assets.Pic2} />
+              <div className="tooltip">Image 2</div>
+            </div>
+            <div className="image-container">
+              <img srcSet={assets.Pic1} />
+              <div className="tooltip">Image 1</div>
+            </div>
+            <div className="image-container">
+              <img srcSet={assets.Pic2} />
+              <div className="tooltip">Image 2</div>
+            </div>
+            <div className="image-container">
+              <img srcSet={assets.Pic1} />
+              <div className="tooltip">Image 1</div>
+            </div>
+            <div className="image-container">
+              <img srcSet={assets.Pic2} />
+              <div className="tooltip">Image 2</div>
+            </div>
+            <div className="image-container">
+              <img srcSet={assets.Pic1} />
+              <div className="tooltip">Image 1</div>
+            </div>
+            <div className="image-container">
+              <img srcSet={assets.Pic2} />
+              <div className="tooltip">Image 2</div>
+            </div>
+            <div className="image-container">
+              <img srcSet={assets.Pic1} />
+              <div className="tooltip">Image 1</div>
+            </div>
+            <div className="image-container">
+              <img srcSet={assets.Pic2} />
+              <div className="tooltip">Image 2</div>
+            </div>
+            <div className="image-container">
+              <img srcSet={assets.Pic1} />
+              <div className="tooltip">Image 1</div>
+            </div>
+            <div className="image-container">
+              <img srcSet={assets.Pic2} />
+              <div className="tooltip">Image 2</div>
+            </div>
+            <div className="image-container">
+              <img srcSet={assets.Pic1} />
+              <div className="tooltip">Image 1</div>
+            </div>
+            <div className="image-container">
+              <img srcSet={assets.Pic2} />
+              <div className="tooltip">Image 2</div>
+            </div>
+            <div className="image-container">
+              <img srcSet={assets.Pic1} />
+              <div className="tooltip">Image 1</div>
+            </div>
+            <div className="image-container">
+              <img srcSet={assets.Pic2} />
+              <div className="tooltip">Image 2</div>
+            </div>
+            <div className="image-container">
+              <img srcSet={assets.Pic1} />
+              <div className="tooltip">Image 1</div>
+            </div>
+            <div className="image-container">
+              <img srcSet={assets.Pic2} alt="Image 2" title="Image 2" />
+              <div className="tooltip">Image 2</div>
+            </div>
           </div>
         </div>
       </main>
