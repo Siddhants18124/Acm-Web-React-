@@ -30,8 +30,9 @@ function Footer() {
           </div>
           <div className="thirdPart">
             <h3>
-              HANDCRAFTED BY ACM TEAM 2022-2023, POWERED BY ACM STUDENT CHAPTER,
-              BML MUNJAL UNIVERSITY ALL RIGHTS RESERVED
+              HANDCRAFTED&nbsp;BY&nbsp;ACM&nbsp;TEAM&nbsp;2022-2023,
+              POWERED&nbsp;BY&nbsp;ACM&nbsp;STUDENT&nbsp;CHAPTER,
+              BML&nbsp;MUNJAL&nbsp;UNIVERSITY ALL&nbsp;RIGHTS&nbsp;RESERVED
             </h3>
           </div>
         </div>

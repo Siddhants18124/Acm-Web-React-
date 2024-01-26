@@ -49,7 +49,7 @@ function Team() {
                 <img srcSet={assets.DevanjaliMaam} />
               </div>
               <div className="partONEtwo">
-                <p id="name">Devanjali Relan</p>
+                <p id="name">Devanjali&nbsp;Relan</p>
                 <p>Mentor</p>
               </div>
             </div>
@@ -73,7 +73,7 @@ function Team() {
                 <img srcSet={assets.NishthaMaam} />
               </div>
               <div className="partONEtwo">
-                <p id="name">Nishtha Phutela</p>
+                <p id="name">Nishtha&nbsp;Phutela</p>
                 <p>Mentor</p>
               </div>
             </div>
@@ -97,7 +97,7 @@ function Team() {
                 <img srcSet={assets.Shashank} />
               </div>
               <div className="partONEtwo">
-                <p id="name">Shashank Goswami</p>
+                <p id="name">Shashank&nbsp;Goswami</p>
                 <p>President</p>
               </div>
             </div>
@@ -126,7 +126,7 @@ function Team() {
                 <img srcSet={assets.Aditya} />
               </div>
               <div className="partONEtwo">
-                <p id="name">Aditya Rastogi</p>
+                <p id="name">Aditya&nbsp;Rastogi</p>
                 <p>Vice President</p>
               </div>
             </div>
@@ -153,7 +153,7 @@ function Team() {
           <div className="containerTwoTwo">
             <div className="partFirst">
               <img srcSet={assets.Siddhant} />
-              <p id="name">Siddhant Sharma</p>
+              <p id="name">Siddhant&nbsp;Sharma</p>
               <p>Treasurer</p>
               <p>B.Tech CSE</p>
             </div>
@@ -172,7 +172,7 @@ function Team() {
           <div className="containerTwoTwo">
             <div className="partFirst">
               <img srcSet={assets.Abid} />
-              <p id="name">Syed Mohd Abid</p>
+              <p id="name">Syed&nbsp;Mohd&nbsp;Abid</p>
               <p>Advisor</p>
               <p>B.Tech CSE</p>
             </div>
@@ -191,7 +191,7 @@ function Team() {
           <div className="containerTwoTwo">
             <div className="partFirst">
               <img srcSet={assets.AKJ} />
-              <p id="name">Akshay Kumar Jain</p>
+              <p id="name">Akshay&nbsp;Kumar&nbsp;Jain</p>
               <p>Advisor</p>
               <p>B.Tech CSE</p>
             </div>
@@ -210,7 +210,7 @@ function Team() {
           <div className="containerTwoTwo">
             <div className="partFirst">
               <img srcSet={assets.Prakhar} />
-              <p id="name">Prakhar Srivastava</p>
+              <p id="name">Prakhar&nbsp;Srivastava</p>
               <p>Operations</p>
               <p>B.Tech CSE</p>
             </div>
@@ -229,7 +229,7 @@ function Team() {
           <div className="containerTwoTwo">
             <div className="partFirst">
               <img srcSet={assets.Divyansh} />
-              <p id="name">Divyansh Verma</p>
+              <p id="name">Divyansh&nbsp;Verma</p>
               <p>Operations</p>
               <p>B.Tech CSE</p>
             </div>
@@ -248,7 +248,7 @@ function Team() {
           <div className="containerTwoTwo">
             <div className="partFirst">
               <img srcSet={assets.Guneet} />
-              <p id="name">Guneet Chawla</p>
+              <p id="name">Guneet&nbsp;Chawla</p>
               <p>Operations</p>
               <p>B.Tech CSE</p>
             </div>
@@ -267,7 +267,7 @@ function Team() {
           <div className="containerTwoTwo">
             <div className="partFirst">
               <img srcSet={assets.garv} />
-              <p id="name">Garv Garg</p>
+              <p id="name">Garv&nbsp;Garg</p>
               <p>Designer</p>
               <p>B.Tech CSE</p>
             </div>
@@ -286,7 +286,7 @@ function Team() {
           <div className="containerTwoTwo">
             <div className="partFirst">
               <img srcSet={assets.Dakshi} />
-              <p id="name">Dakshi Arora</p>
+              <p id="name">Dakshi&nbsp;Arora</p>
               <p>Content</p>
               <p>B.Tech CSE</p>
             </div>
@@ -305,7 +305,7 @@ function Team() {
           <div className="containerTwoTwo">
             <div className="partFirst">
               <img srcSet={assets.Ananya} />
-              <p id="name">Ananya Aggarwal</p>
+              <p id="name">Ananya&nbsp;Aggarwal</p>
               <p>Content</p>
               <p>B.Tech CSE</p>
             </div>
@@ -324,7 +324,7 @@ function Team() {
           <div className="containerTwoTwo">
             <div className="partFirst">
               <img srcSet={assets.Daksh} />
-              <p id="name">Daksh Goel</p>
+              <p id="name">Daksh&nbsp;Goel</p>
               <p>Workshop</p>
               <p>B.Tech CSE</p>
             </div>
@@ -343,7 +343,7 @@ function Team() {
           <div className="containerTwoTwo">
             <div className="partFirst">
               <img srcSet={assets.Vedansh} />
-              <p id="name">Vedansh Kumawat</p>
+              <p id="name">Vedansh&nbsp;Kumawat</p>
               <p>Workshop</p>
               <p>B.Tech CSE</p>
             </div>
@@ -381,9 +381,9 @@ function Team() {
           <div className="containerTwoTwo">
             <div className="partFirst">
               <img srcSet={assets.Anmol} />
-              <p id="name">Anmol Maheshwari</p>
-              <p>Marketing & PR</p>
-              <p>B.Tech CSE</p>
+              <p id="name">Anmol&nbsp;Maheshwari</p>
+              <p>Marketing&nbsp;&&nbsp;PR</p>
+              <p>B.Tech&nbsp;CSE</p>
             </div>
             <div className="partSecond">
               <a href="#">
@@ -400,9 +400,9 @@ function Team() {
           <div className="containerTwoTwo">
             <div className="partFirst">
               <img srcSet={assets.Raghv} />
-              <p id="name">Raghvendra Singh</p>
-              <p>Marketing & PR</p>
-              <p>B.Tech CSE</p>
+              <p id="name">Raghvendra&nbsp;Singh</p>
+              <p>Marketing&nbsp;&&nbsp;PR</p>
+              <p>B.Tech&nbsp;CSE</p>
             </div>
             <div className="partSecond">
               <a href="#">

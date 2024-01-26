@@ -38,13 +38,13 @@ function Navbar() {
             </Link>
           </li>
           <li>
-            <a href="#aboutus">ABOUT US</a>
+            <a href="#aboutus">ABOUT&nbsp;US</a>
           </li>
           <li>
             <a href="#events">EVENTS</a>
           </li>
           <li>
-            <a href="#contactus">CONTACT US</a>
+            <a href="#contactus">CONTACT&nbsp;US</a>
           </li>
           <li>
             <Link to="/gallery">GALLERY</Link>
