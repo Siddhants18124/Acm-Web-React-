@@ -24,6 +24,22 @@ function Gallery() {
         <div className="grid">
           <div className="image-grid">
             <div className="image-container">
+              <img srcSet={assets.pic18} />
+              <div className="tooltip">SIH 2023</div>
+            </div>
+            <div className="image-container">
+              <img srcSet={assets.pic19} />
+              <div className="tooltip">FLUTTER</div>
+            </div>
+            <div className="image-container">
+              <img srcSet={assets.pic28} />
+              <div className="tooltip">WORKSHOP</div>
+            </div>
+            <div className="image-container">
+              <img srcSet={assets.pic17} />
+              <div className="tooltip">WORKSHOP</div>
+            </div>
+            <div className="image-container">
               <img srcSet={assets.pic5} />
               <div className="tooltip">WEB 3</div>
             </div>
@@ -39,18 +55,7 @@ function Gallery() {
               <img srcSet={assets.pic27} />
               <div className="tooltip">OPEN SOURCE</div>
             </div>
-            <div className="image-container">
-              <img srcSet={assets.pic28} />
-              <div className="tooltip">WORKSHOP</div>
-            </div>
-            <div className="image-container">
-              <img srcSet={assets.pic18} />
-              <div className="tooltip">SIH 2023</div>
-            </div>
-            <div className="image-container">
-              <img srcSet={assets.pic19} />
-              <div className="tooltip">FLUTTER</div>
-            </div>
+
             <div className="image-container">
               <img srcSet={assets.pic20} />
               <div className="tooltip">WORKSHOP</div>
@@ -103,10 +108,7 @@ function Gallery() {
               <img srcSet={assets.pic16} />
               <div className="tooltip">WORKSHOP</div>
             </div>
-            <div className="image-container">
-              <img srcSet={assets.pic17} />
-              <div className="tooltip">WORKSHOP</div>
-            </div>
+
             <div className="image-container">
               <img srcSet={assets.Pic2} />
               <div className="tooltip">WORKSHOP</div>

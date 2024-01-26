@@ -8,7 +8,7 @@ function About() {
       <main data-aos="fade-up">
         <div className="about" id="aboutus">
           <div className="partOne">
-            <h1 id="acm">ABOUT US</h1>
+            <h1 id="acm">ABOUT&nbsp;US</h1>
             <div className="lineThree"></div>
             <div className="aboutAcm">
               <p align="justify">
