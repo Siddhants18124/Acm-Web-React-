@@ -34,7 +34,7 @@ function Contact() {
             <h1>CONNECT&nbsp;WITH&nbsp;US!</h1>
             <div className="lineFour"></div>
 
-            <form name="contact" method="POST" action="/success/">
+            <form name="contact" method="POST" action="/success">
               <input type="hidden" name="form-name" value="contact" />
               <p>
                 <input type="text" placeholder="NAME" name="name" className="input" value={name} onChange={(e)=>setName(e.target.value)} />
