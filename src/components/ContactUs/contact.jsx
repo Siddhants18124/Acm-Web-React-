@@ -25,13 +25,13 @@ function Contact() {
           <div className="Atwo">
             <h1>CONNECT&nbsp;WITH&nbsp;US!</h1>
             <div className="lineFour"></div>
-            <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+            {/* <form name="contact" netlify netlify-honeypot="bot-field" hidden>
               <input type="text" name="name" />
               <input type="email" name="email" />
               <textarea name="message"></textarea>
-            </form>
+            </form> */}
 
-            <form name="contact" method="POST" >
+            <form name="contact" action="post" data-netlify="true">
               <p>
                 <input type="text" placeholder="NAME" name="name" className="input" />
               </p>
@@ -54,6 +54,7 @@ function Contact() {
                 />
               </p>
               <br />
+                <div data-netlify-recaptcha="true" ></div>
               <p>
               <button type="submit" className="button subbtn">
                 SEND
