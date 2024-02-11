@@ -25,11 +25,12 @@ function Contact() {
           <div className="Atwo">
             <h1>CONNECT&nbsp;WITH&nbsp;US!</h1>
             <div className="lineFour"></div>
-            <form method="post" action="/success/" data-netlify="true">
-              <input type="text" placeholder="NAME" className="input" />
+            <form action="POST" data-netlify="true">
+              <input type="text" placeholder="NAME" name="name" className="input" />
               <br />
               <input
                 type="email"
+                name="email"
                 placeholder="EMAIL ADDRESS"
                 className="input"
               />
@@ -37,6 +38,7 @@ function Contact() {
               <input
                 type="text"
                 placeholder="MESSAGE"
+                name="message"
                 className="input message"
               />
               <br />
