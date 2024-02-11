@@ -1,14 +1,23 @@
 import React from "react";
 import "./contact.css";
 import assets from "../../assets/assets";
-import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 function Contact() {
 
-  const Suc = (event) => {
-    event.preventDefault();
-    window.location.href = '/success';
-  };
+    let navigate = useNavigate();
+    const submitHandler = (e) =>{
+      e.preventDefault();
+      let myForm = document.getElementById("contact-form");
+      let formData = new FormData(myForm);
+      fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams(formData).toString(),
+      })
+        .then(() => navigate('/success'))
+        .catch((error) => alert(error));
+    }
 
   return (
     <>
@@ -33,7 +42,7 @@ function Contact() {
             <h1>CONNECT&nbsp;WITH&nbsp;US!</h1>
             <div className="lineFour"></div>
 
-            <form name="contact" method="POST" action="/success">
+            <form className="contact-form" name="contact" method="POST" action="/success">
               <input type="hidden" name="form-name" value="contact" />
               <p>
                 <input type="text" placeholder="NAME" name="name" className="input" />
@@ -60,7 +69,7 @@ function Contact() {
               <br />
                 <div data-netlify-recaptcha="true" ></div>
               <p>
-              <button type="submit" className="button subbtn" onSubmit={Suc}>
+              <button type="submit" className="button subbtn" onSubmit={submitHandler}>
                 SEND
               </button>
               </p>
