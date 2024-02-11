@@ -5,11 +5,10 @@ import { useState } from "react";
 
 function Contact() {
 
-  const[name, setName] = useState('');
-  const[email, setEmail] = useState('');
-  const[message, setMessage] = useState('');
-
-  console.log(name, email, message);
+  const Suc = (event) => {
+    event.preventDefault();
+    window.location.href = '/success';
+  };
 
   return (
     <>
@@ -37,7 +36,7 @@ function Contact() {
             <form name="contact" method="POST" action="/success">
               <input type="hidden" name="form-name" value="contact" />
               <p>
-                <input type="text" placeholder="NAME" name="name" className="input" value={name} onChange={(e)=>setName(e.target.value)} />
+                <input type="text" placeholder="NAME" name="name" className="input" />
               </p>
               <br />
               <p>
@@ -46,7 +45,6 @@ function Contact() {
                   name="email"
                   placeholder="EMAIL ADDRESS"
                   className="input"
-                  value={email} onChange={(e)=>setEmail(e.target.value)}
                 />
               </p>
               <br />
@@ -56,13 +54,13 @@ function Contact() {
                   placeholder="MESSAGE"
                   name="message"
                   className="input message"
-                  value={message} onChange={(e)=>setMessage(e.target.value)}
+                  
                 />
               </p>
               <br />
                 <div data-netlify-recaptcha="true" ></div>
               <p>
-              <button type="submit" className="button subbtn">
+              <button type="submit" className="button subbtn" onSubmit={Suc}>
                 SEND
               </button>
               </p>
