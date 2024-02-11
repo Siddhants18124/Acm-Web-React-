@@ -25,32 +25,40 @@ function Contact() {
           <div className="Atwo">
             <h1>CONNECT&nbsp;WITH&nbsp;US!</h1>
             <div className="lineFour"></div>
-            <form name="Contact" method="POST" data-netlify="true" >
+            <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+              <input type="text" name="name" />
+              <input type="email" name="email" />
+              <textarea name="message"></textarea>
+            </form>
+
+            <form name="Contact" method="POST" >
               <p>
-              <input type="text" placeholder="NAME" name="name" className="input" />
+                <input type="text" placeholder="NAME" name="name" className="input" />
               </p>
               <br />
-             <p>
-             <input
-                type="email"
-                name="email"
-                placeholder="EMAIL ADDRESS"
-                className="input"
-              />
-             </p>
-              <br />
               <p>
-              <input
-                type="text"
-                placeholder="MESSAGE"
-                name="message"
-                className="input message"
-              />
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="EMAIL ADDRESS"
+                  className="input"
+                />
               </p>
               <br />
+              <p>
+                <input
+                  type="text"
+                  placeholder="MESSAGE"
+                  name="message"
+                  className="input message"
+                />
+              </p>
+              <br />
+              <p>
               <button type="submit" className="button subbtn">
                 SEND
               </button>
+              </p>
             </form>
             <div className="vectorThree">
               <img srcSet={assets.vectorThree} />
