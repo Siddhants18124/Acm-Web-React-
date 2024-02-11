@@ -19,8 +19,8 @@ function Homepage() {
       {/* <Hero /> */}
       {/* <About /> */}
       {/* <Team /> */}
-      <Events />
-      {/* <Contact /> */}
+      {/* <Events /> */}
+      <Contact />
       <Footer />
     </>
   );
