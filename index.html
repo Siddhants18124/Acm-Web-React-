@@ -1,26 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/src/assets/images/LOGO.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ACM BMU - Student Chapter</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Odibee+Sans&family=Poppins:ital,wght@1,200&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/src/assets/images/LOGO.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ACM BMU - Student Chapter</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Odibee+Sans&family=Poppins:ital,wght@1,200&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div id="root"></div>
+  <form name="contact" data-netlify="true" hidden>
+    <p>
+      <input type="text" placeholder="NAME" name="name" className="input" 
+      />
+    </p>
+    <br />
+    <p>
+      <input type="email" name="email" placeholder="EMAIL ADDRESS" className="input" 
+      />
+    </p>
+    <br />
+    <p>
+      <input type="text" placeholder="MESSAGE" name="message" className="input message" 
+      />
+    </p>
+  </form>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
 </html>

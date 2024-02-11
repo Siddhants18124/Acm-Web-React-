@@ -1,8 +1,16 @@
 import React from "react";
 import "./contact.css";
 import assets from "../../assets/assets";
+import { useState } from "react";
 
 function Contact() {
+
+  const[name, setName] = useState('');
+  const[email, setEmail] = useState('');
+  const[message, setMessage] = useState('');
+
+  console.log(name, email, message);
+
   return (
     <>
       <main data-aos="fade-up">
@@ -25,16 +33,11 @@ function Contact() {
           <div className="Atwo">
             <h1>CONNECT&nbsp;WITH&nbsp;US!</h1>
             <div className="lineFour"></div>
-            {/* <form name="contact" netlify netlify-honeypot="bot-field" hidden>
-              <input type="text" name="name" />
-              <input type="email" name="email" />
-              <textarea name="message"></textarea>
-            </form> */}
 
-            <form name="contact" method="POST" data-netlify="true">
+            <form name="contact" method="POST">
               <input type="hidden" name="form-name" value="contact" />
               <p>
-                <input type="text" placeholder="NAME" name="name" className="input" />
+                <input type="text" placeholder="NAME" name="name" className="input" value={name} onChange={(e)=>setName(e.target.value)} />
               </p>
               <br />
               <p>
@@ -43,6 +46,7 @@ function Contact() {
                   name="email"
                   placeholder="EMAIL ADDRESS"
                   className="input"
+                  value={email} onChange={(e)=>setEmail(e.target.value)}
                 />
               </p>
               <br />
@@ -52,6 +56,7 @@ function Contact() {
                   placeholder="MESSAGE"
                   name="message"
                   className="input message"
+                  value={message} onChange={(e)=>setMessage(e.target.value)}
                 />
               </p>
               <br />
