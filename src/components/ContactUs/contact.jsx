@@ -25,22 +25,28 @@ function Contact() {
           <div className="Atwo">
             <h1>CONNECT&nbsp;WITH&nbsp;US!</h1>
             <div className="lineFour"></div>
-            <form name="Contact" method="POST" netlify >
+            <form name="Contact" method="POST" data-netlify="true" >
+              <p>
               <input type="text" placeholder="NAME" name="name" className="input" />
+              </p>
               <br />
-              <input
+             <p>
+             <input
                 type="email"
                 name="email"
                 placeholder="EMAIL ADDRESS"
                 className="input"
               />
+             </p>
               <br />
+              <p>
               <input
                 type="text"
                 placeholder="MESSAGE"
                 name="message"
                 className="input message"
               />
+              </p>
               <br />
               <button type="submit" className="button subbtn">
                 SEND
