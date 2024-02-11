@@ -31,7 +31,7 @@ function Contact() {
               <textarea name="message"></textarea>
             </form> */}
 
-            <form name="contact" action="post" data-netlify="true">
+            <form name="contact" method="POST" data-netlify="true">
               <input type="hidden" name="form-name" value="contact" />
               <p>
                 <input type="text" placeholder="NAME" name="name" className="input" />
