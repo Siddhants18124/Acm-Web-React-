@@ -31,7 +31,7 @@ function Contact() {
               <textarea name="message"></textarea>
             </form>
 
-            <form name="Contact" method="POST" >
+            <form name="contact" method="POST" >
               <p>
                 <input type="text" placeholder="NAME" name="name" className="input" />
               </p>
