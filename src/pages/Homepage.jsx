@@ -16,10 +16,10 @@ function Homepage() {
   return (
     <>
       <Navbar />
-      {/* <Hero /> */}
-      {/* <About /> */}
-      {/* <Team /> */}
-      {/* <Events /> */}
+      <Hero />
+      <About />
+      <Team />
+      <Events />
       <Contact />
       <Footer />
     </>

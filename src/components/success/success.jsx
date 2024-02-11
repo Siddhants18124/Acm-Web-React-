@@ -1,9 +1,9 @@
 import React from 'react'
 
-function success() {
+function Success() {
   return (
     <div>Thank you for your submission</div>
   )
 }
 
-export default success
+export default Success;
