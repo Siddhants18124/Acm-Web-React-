@@ -25,7 +25,7 @@ function Contact() {
           <div className="Atwo">
             <h1>CONNECT&nbsp;WITH&nbsp;US!</h1>
             <div className="lineFour"></div>
-            <form action="POST" data-netlify="true">
+            <form name="Contact" method="POST" data-netlify="true" >
               <input type="text" placeholder="NAME" name="name" className="input" />
               <br />
               <input
