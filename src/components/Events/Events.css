@@ -11,6 +11,9 @@
 .events-container .container {
   display: flex;
 }
+.events-container .card-container {
+  margin-bottom: 75rem; /* Adjust this value to add spacing between card containers */
+}
 
 .events-container .cards {
   margin-left: 50px;
@@ -20,7 +23,7 @@
   width: 60rem;
   background: #000101;
   border-radius: 1rem;
-  margin-bottom: 5rem;
+  /* margin-bottom: 5rem; */
 }
 
 .events-container .card h1 {
