@@ -1,27 +1,31 @@
-.event-head{
-    font-size: 3.5rem;
-    text-align: center;
-    margin-bottom: 5%;
+.events-container {
+  font-weight: 300;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: auto;
+  justify-content: center;
 }
-.event-cont{
-    width:100%;
-    background-color: red;
+
+.events-container .container {
+  display: flex;
 }
-.event-cards-cont{
-    display: flex;
-    flex-direction: column;
+
+.events-container .cards {
+  margin-left: 50px;
 }
-.event-cards{
-    display: flex;
-    flex-direction: column;
+.events-container .card {
+  height: 30rem;
+  width: 60rem;
+  background: #000101;
+  border-radius: 1rem;
+  margin-bottom: 5rem;
 }
-.card{
-    height: 30vh;
-    width: 40vw;
-    margin-bottom: 14%;
-    background-color: white;
-    font-size: 1.5rem;
-    color: black;
-    margin-left: 30%;
-    text-align: center;
+
+.events-container .card h1 {
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+  font-size: 10rem;
+  color: white;
+  text-align: center;
 }

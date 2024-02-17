@@ -6,7 +6,6 @@ body {
   background-color: #08051f;
   color: white;
   margin: 0;
-  height: 100vh;
   scroll-behavior: initial;
 }
 ::-webkit-scrollbar {
@@ -27,7 +26,6 @@ body {
 ::-webkit-scrollbar-corner {
   background: #000000;
 }
-
 .name {
   font-size: 3.5rem;
   margin: 13% 24%;
@@ -79,7 +77,21 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  animation: bounce 1s infinite;
 }
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(0.6rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 .scrol a {
   color: white;
   font-size: 1rem;

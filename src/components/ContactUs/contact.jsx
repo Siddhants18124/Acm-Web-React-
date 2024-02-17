@@ -1,24 +1,8 @@
 import React from "react";
 import "./contact.css";
 import assets from "../../assets/assets";
-import { useNavigate } from "react-router-dom";
 
 function Contact() {
-
-    let navigate = useNavigate();
-    const submitHandler = (e) =>{
-      e.preventDefault();
-      let myForm = document.getElementById("contact-form");
-      let formData = new FormData(myForm);
-      fetch("/", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: new URLSearchParams(formData).toString(),
-      })
-        .then(() => navigate('/success'))
-        .catch((error) => alert(error));
-    }
-
   return (
     <>
       <main data-aos="fade-up">
@@ -69,7 +53,7 @@ function Contact() {
               <br />
                 <div data-netlify-recaptcha="true" ></div>
               <p>
-              <button type="submit" className="button subbtn" onSubmit={submitHandler}>
+              <button type="submit" className="button subbtn">
                 SEND
               </button>
               </p>

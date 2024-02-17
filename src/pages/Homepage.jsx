@@ -18,8 +18,8 @@ function Homepage() {
       <Navbar />
       <Hero />
       <About />
-      <Team />
       <Events />
+      <Team />
       <Contact />
       <Footer />
     </>
