@@ -3,6 +3,8 @@ import "./Events.css";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
+import assets from "../../assets/assets";
+
 gsap.registerPlugin(ScrollTrigger);
 
 function Events() {
@@ -61,29 +63,59 @@ function Events() {
         <div className="container" id="container">
           <div className="cards">
             <div className="card" style={{ border: "3px solid #061E9C " }}>
+              <div className="sphere">
+                <img srcSet={assets.sphereBottomOne} />
+              </div>
               <p>date</p>
               <h1>EVENTNAME</h1>
               <p>lorem ipsum</p>
+              <div className="sphere downward ">
+                <img srcSet={assets.sphereTopOne} />
+              </div>
             </div>
             <div className="card" style={{ border: "3px solid #ECB74C " }}>
+              <div className="sphere">
+                <img srcSet={assets.sphereBottomOne} />
+              </div>
               <p>date</p>
               <h1>EVENTNAME</h1>
               <p>lorem ipsum</p>
+              <div className="sphere downward ">
+                <img srcSet={assets.sphereTopOne} />
+              </div>
             </div>
             <div className="card" style={{ border: "3px solid #7DD8CD " }}>
+              <div className="sphere">
+                <img srcSet={assets.sphereBottomOne} />
+              </div>
               <p>date</p>
               <h1>EVENTNAME</h1>
               <p>lorem ipsum</p>
+              <div className="sphere downward ">
+                <img srcSet={assets.sphereTopOne} />
+              </div>
             </div>
             <div className="card" style={{ border: "3px solid #E0FF57 " }}>
+              <div className="sphere">
+                <img srcSet={assets.sphereBottomOne} />
+              </div>
               <p>date</p>
               <h1>EVENTNAME</h1>
               <p>lorem ipsum</p>
+              <div className="sphere downward ">
+                <img srcSet={assets.sphereTopOne} />
+              </div>
             </div>
             <div className="card" style={{ border: "3px solid #7DD8CD " }}>
+              <div className="sphere">
+                <img srcSet={assets.sphereBottomOne} />
+              </div>
               <p>date</p>
               <h1>EVENTNAME</h1>
               <p>lorem ipsum</p>
+              <div className="sphere downward ">
+                <img srcSet={assets.sphereTopOne} />
+              </div>
             </div>
           </div>
         </div>
