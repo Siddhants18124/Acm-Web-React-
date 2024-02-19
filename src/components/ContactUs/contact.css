@@ -32,7 +32,7 @@
   align-items: center;
   width: 40%;
   margin-right: 5rem;
-  padding-bottom: 5rem;
+  /* padding-bottom: 5rem; */
 }
 .Aonetwo {
   margin: 0 30% 0 70%;
@@ -51,7 +51,7 @@
   padding: 1rem;
   border-radius: 1rem;
   width: 20rem;
-  margin: 1rem 0;
+  margin: 0;
   transition: all 0.4s ease-in-out;
   font-family: "Work Sans", sans-serif;
 }
@@ -73,7 +73,7 @@
   color: #08051f;
 }
 .subbtn {
-  margin: 1rem 35%;
+  margin: 0 35%;
   padding-left: 2rem;
   padding-right: 2rem;
   border-radius: 0.5rem;
