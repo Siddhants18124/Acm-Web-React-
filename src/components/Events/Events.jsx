@@ -67,7 +67,7 @@ function Events() {
                 <img srcSet={assets.sphereBottomOne} />
               </div>
               <p>date</p>
-              <h1>EVENTNAME</h1>
+              <h1 className="event-name"><span>Hack</span>BMU</h1>
               <p>lorem ipsum</p>
               <div className="sphere downward ">
                 <img srcSet={assets.sphereTopOne} />

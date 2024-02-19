@@ -7,22 +7,28 @@
   height: auto;
   justify-content: center;
 }
+
 #events {
   text-align: center;
 }
+
 .event-title {
   font-size: 6.5rem;
 }
+
 .events-container .container {
   display: flex;
 }
+
 .events-container .card-container {
-  margin-bottom: 75rem; /* Adjust this value to add spacing between card containers */
+  margin-bottom: 75rem;
+  /* Adjust this value to add spacing between card containers */
 }
 
 .events-container .cards {
   margin-left: 50px;
 }
+
 .events-container .card {
   text-align: center;
   height: 30rem;
@@ -34,19 +40,37 @@
 
 .events-container .card h1 {
   /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
-  font-size: 5rem;
-  color: white;
+  /* font-size: 5rem; */
+  /* color: white; */
   text-align: center;
 }
+
 .events-container .card p {
   font-size: 2rem;
 }
+
 .sphere {
   position: absolute;
 }
+
 .downward {
   width: 100%;
   display: flex;
   flex-direction: row-reverse;
   justify-content: flex-start;
+}
+
+.event-name {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+  /* font-family: "Poppins"; */
+  font-size: 6rem;
+  font-style: normal;
+  line-height: normal;
+  color: transparent;
+  letter-spacing: max(0.5rem, 0.2rem);
+  text-transform: uppercase;
+}
+.event-name > span{
+  color: #30A2D7;
 }
