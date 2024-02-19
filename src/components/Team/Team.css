@@ -1,6 +1,5 @@
 .team {
   margin: 20rem 1rem 17rem 1rem;
-
 }
 .team i {
   cursor: pointer;
@@ -309,7 +308,7 @@
   }
   .btn-next {
     margin-top: -33%;
-    right: 10%;
+    right: 5%;
   }
   .btn-previous-one {
     margin-top: 45%;
@@ -317,7 +316,7 @@
   }
   .btn-next-one {
     margin-top: 45%;
-    right: 3%;
+    right: 0%;
   }
   .containerOneOne {
     height: 19rem;
