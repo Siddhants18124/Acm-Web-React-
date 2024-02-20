@@ -22,7 +22,6 @@
 
 .events-container .card-container {
   margin-bottom: 75rem;
-  /* Adjust this value to add spacing between card containers */
 }
 
 .events-container .cards {
@@ -40,7 +39,7 @@
 
 .events-container .card h1 {
   /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
-  /* font-size: 5rem; */
+  font-size: 5rem;
   /* color: white; */
   text-align: center;
 }
@@ -71,6 +70,31 @@
   letter-spacing: max(0.5rem, 0.2rem);
   text-transform: uppercase;
 }
-.event-name > span{
-  color: #30A2D7;
+.event-name > span {
+  color: #30a2d7;
+}
+.card a {
+  color: white;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 1286px) {
+}
+@media only screen and (max-width: 1024px) {
+}
+@media (max-width: 930px) {
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 616px) {
+}
+@media only screen and (max-width: 480px) {
+}
+@media (max-width: 420px) {
+}
+@media (max-width: 391px) {
+}
+@media (max-width: 350px) {
+}
+@media (max-width: 320px) {
 }
