@@ -67,7 +67,7 @@ function Events() {
                 <img srcSet={assets.sphereBottomOne} />
               </div>
               <p>INNOVATION & COLLABORATION</p>
-              <h1 className="event-name">
+              <h1 id="head" className="event-name">
                 <span>Hack</span>BMU
               </h1>
               <p>
@@ -82,7 +82,7 @@ function Events() {
                 <img srcSet={assets.sphereBottomOne} />
               </div>
               <p>APP BUILDING ART</p>
-              <h1 className="event-name">
+              <h1 id="head" className="event-name">
                 <span>FLUTTER</span>
               </h1>
               <p>WORKSHOP</p>
@@ -95,7 +95,7 @@ function Events() {
                 <img srcSet={assets.sphereBottomOne} />
               </div>
               <p>OPEN SOURCE INNOVATION</p>
-              <h1 className="event-name">
+              <h1 id="head" className="event-name">
                 <span>HACKTOBER</span>FEST
               </h1>
               <p>GITHUB WORKSHOP</p>
@@ -108,7 +108,7 @@ function Events() {
                 <img srcSet={assets.sphereBottomOne} />
               </div>
               <p>FUTURE OF WEB DEV</p>
-              <h1 className="event-name">
+              <h1 id="head" className="event-name">
                 <span>WEB</span>FORGE
               </h1>
               <p>HANDSON EXPERIENCE</p>
@@ -121,7 +121,7 @@ function Events() {
                 <img srcSet={assets.sphereBottomOne} />
               </div>
               <p>DEVELOPMENT</p>
-              <h1 className="event-name">
+              <h1 id="head" className="event-name">
                 <span>DEVOPS</span>
               </h1>
               <p>AGILE EXPERIENCE</p>

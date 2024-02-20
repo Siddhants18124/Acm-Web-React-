@@ -79,22 +79,107 @@
 }
 
 @media only screen and (max-width: 1286px) {
+  .events-container .card {
+    height: 25rem;
+    width: 50rem;
+  }
+  .card p {
+    font-size: 2rem;
+  }
+  .event-name {
+    font-size: 6rem;
+  }
 }
 @media only screen and (max-width: 1024px) {
+  .events-container .card {
+    height: 22rem;
+    width: 44rem;
+  }
+  .card p {
+    font-size: 1.5rem;
+  }
+  .event-name {
+    font-size: 5rem;
+  }
 }
 @media (max-width: 930px) {
+  .events-container .card {
+    height: 20rem;
+    width: 40rem;
+  }
+  .events-container .card p {
+    font-size: 1.7rem;
+  }
+  #head {
+    font-size: 4rem;
+  }
 }
 @media only screen and (max-width: 768px) {
+  .events-container .card p {
+    font-size: 1.5rem;
+  }
+  #head {
+    font-size: 3rem;
+  }
 }
 @media only screen and (max-width: 616px) {
+  .events-container .card {
+    height: 17rem;
+    width: 34rem;
+  }
 }
 @media only screen and (max-width: 480px) {
+  .events-container .card {
+    height: 12rem;
+    width: 24rem;
+  }
+  .events-container .card p {
+    font-size: 1rem;
+  }
+  #head {
+    font-size: 2rem;
+  }
 }
 @media (max-width: 420px) {
+  .events-container .card {
+    height: 10rem;
+    width: 20rem;
+  }
+  .events-container .card p {
+    font-size: 1rem;
+  }
+  #head {
+    font-size: 1.8rem;
+  }
 }
 @media (max-width: 391px) {
+  .events-container .card {
+    height: 9rem;
+    width: 18rem;
+  }
+  .events-container .card p {
+    font-size: 0.7rem;
+  }
+  #head {
+    font-size: 1.3rem;
+  }
 }
+
 @media (max-width: 350px) {
+  .events-container .card {
+    height: 8rem;
+    width: 16rem;
+  }
 }
 @media (max-width: 320px) {
+  .events-container .card {
+    height: 7rem;
+    width: 14rem;
+  }
+  .events-container .card p {
+    font-size: 0.5rem;
+  }
+  #head {
+    font-size: 1rem;
+  }
 }
