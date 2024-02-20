@@ -66,9 +66,13 @@ function Events() {
               <div className="sphere">
                 <img srcSet={assets.sphereBottomOne} />
               </div>
-              <p>date</p>
-              <h1 className="event-name"><span>Hack</span>BMU</h1>
-              <p>lorem ipsum</p>
+              <p>INNOVATION & COLLABORATION</p>
+              <h1 id="head" className="event-name">
+                <span>Hack</span>BMU
+              </h1>
+              <p>
+                <a href="hackbmu.in">HACKATHON</a>
+              </p>
               <div className="sphere downward ">
                 <img srcSet={assets.sphereTopOne} />
               </div>
@@ -77,9 +81,11 @@ function Events() {
               <div className="sphere">
                 <img srcSet={assets.sphereBottomOne} />
               </div>
-              <p>date</p>
-              <h1>EVENTNAME</h1>
-              <p>lorem ipsum</p>
+              <p>APP BUILDING ART</p>
+              <h1 id="head" className="event-name">
+                <span>FLUTTER</span>
+              </h1>
+              <p>WORKSHOP</p>
               <div className="sphere downward ">
                 <img srcSet={assets.sphereTopOne} />
               </div>
@@ -88,9 +94,11 @@ function Events() {
               <div className="sphere">
                 <img srcSet={assets.sphereBottomOne} />
               </div>
-              <p>date</p>
-              <h1>EVENTNAME</h1>
-              <p>lorem ipsum</p>
+              <p>OPEN SOURCE INNOVATION</p>
+              <h1 id="head" className="event-name">
+                <span>HACKTOBER</span>FEST
+              </h1>
+              <p>GITHUB WORKSHOP</p>
               <div className="sphere downward ">
                 <img srcSet={assets.sphereTopOne} />
               </div>
@@ -99,9 +107,11 @@ function Events() {
               <div className="sphere">
                 <img srcSet={assets.sphereBottomOne} />
               </div>
-              <p>date</p>
-              <h1>EVENTNAME</h1>
-              <p>lorem ipsum</p>
+              <p>FUTURE OF WEB DEV</p>
+              <h1 id="head" className="event-name">
+                <span>WEB</span>FORGE
+              </h1>
+              <p>HANDSON EXPERIENCE</p>
               <div className="sphere downward ">
                 <img srcSet={assets.sphereTopOne} />
               </div>
@@ -110,9 +120,11 @@ function Events() {
               <div className="sphere">
                 <img srcSet={assets.sphereBottomOne} />
               </div>
-              <p>date</p>
-              <h1>EVENTNAME</h1>
-              <p>lorem ipsum</p>
+              <p>DEVELOPMENT</p>
+              <h1 id="head" className="event-name">
+                <span>DEVOPS</span>
+              </h1>
+              <p>AGILE EXPERIENCE</p>
               <div className="sphere downward ">
                 <img srcSet={assets.sphereTopOne} />
               </div>
