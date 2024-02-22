@@ -108,6 +108,9 @@
   #head {
     font-size: 4rem;
   }
+  #space {
+    margin-top: 10%;
+  }
 }
 @media only screen and (max-width: 768px) {
   .events-container .card p {
@@ -115,6 +118,15 @@
   }
   #head {
     font-size: 3rem;
+  }
+  .sphere img {
+    width: 8rem;
+  }
+  .downward {
+    bottom: 0;
+  }
+  #space {
+    margin-top: 15%;
   }
 }
 @media only screen and (max-width: 616px) {
@@ -132,6 +144,12 @@
   #head {
     font-size: 2rem;
   }
+  .sphere img {
+    width: 6rem;
+  }
+  #space {
+    margin-top: 40%;
+  }
 }
 @media (max-width: 420px) {
   .events-container .card {
@@ -142,6 +160,9 @@
   }
   #head {
     font-size: 1.8rem;
+  }
+  .sphere img {
+    width: 5rem;
   }
 }
 @media (max-width: 391px) {
@@ -160,6 +181,9 @@
   .events-container .card {
     width: 16rem;
   }
+  #space {
+    margin-top: 50%;
+  }
 }
 @media (max-width: 320px) {
   .events-container .card {
@@ -170,5 +194,11 @@
   }
   #head {
     font-size: 1rem;
+  }
+  .sphere img {
+    width: 4rem;
+  }
+  #space {
+    margin-top: 70%;
   }
 }

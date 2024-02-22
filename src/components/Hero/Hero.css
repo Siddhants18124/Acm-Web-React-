@@ -26,6 +26,9 @@ body {
 ::-webkit-scrollbar-corner {
   background: #000000;
 }
+.home {
+  height: 70vh;
+}
 .name {
   font-size: 3.5rem;
   margin: 13% 24%;
@@ -78,6 +81,9 @@ body {
   flex-direction: column;
   align-items: center;
   animation: bounce 1s infinite;
+  position: absolute;
+  top: 85vh;
+  margin: 0 50%;
 }
 
 @keyframes bounce {
@@ -178,6 +184,8 @@ body {
   }
   .vectorOne {
     margin-top: -20%;
+  }
+  .scrol {
   }
 }
 @media only screen and (max-width: 616px) {
