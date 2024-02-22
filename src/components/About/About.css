@@ -160,19 +160,8 @@
   }
 }
 @media only screen and (max-width: 480px) {
-  .boxTwo img {
-    width: 10rem;
-    height: 10rem;
-  }
-  #picOne {
-    width: 10rem;
-    height: 10rem;
-  }
-  .sphereTopTwo {
-    margin-left: 20rem;
-  }
-  .sphereBottomTwo {
-    margin-top: 20rem;
+  .partTwo {
+    display: none;
   }
 }
 @media (max-width: 420px) {
@@ -181,32 +170,5 @@
   }
   .aboutAcm {
     font-size: 0.8rem;
-  }
-  .boxTwo img {
-    width: 8.5rem;
-    height: 8.5rem;
-    margin: 0.1rem;
-    border-radius: 1rem;
-    border: 0.1rem solid white;
-  }
-  .boxTwo {
-    margin: 0;
-  }
-  .partTwo {
-    margin: 20% 0;
-  }
-  #picOne {
-    width: 8.5rem;
-    height: 8.5rem;
-  }
-  .sphereTopTwo img,
-  .sphereBottomTwo img {
-    width: 8rem;
-  }
-  .sphereTopTwo {
-    margin-left: 12rem;
-  }
-  .sphereBottomTwo {
-    margin-top: 12rem;
   }
 }
