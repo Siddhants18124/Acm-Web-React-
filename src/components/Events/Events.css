@@ -36,11 +36,20 @@
   border-radius: 1rem;
   /* margin-bottom: 5rem; */
 }
-
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
 .events-container .card h1 {
   font-size: 5rem;
   /* color: white; */
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .events-container .card p {
@@ -56,6 +65,7 @@
   display: flex;
   flex-direction: row-reverse;
   justify-content: flex-start;
+  bottom: 0;
 }
 
 .event-name {
@@ -108,9 +118,6 @@
   #head {
     font-size: 4rem;
   }
-  #space {
-    margin-top: 10%;
-  }
 }
 @media only screen and (max-width: 768px) {
   .events-container .card p {
@@ -121,12 +128,6 @@
   }
   .sphere img {
     width: 8rem;
-  }
-  .downward {
-    bottom: 0;
-  }
-  #space {
-    margin-top: 15%;
   }
 }
 @media only screen and (max-width: 616px) {
@@ -146,9 +147,6 @@
   }
   .sphere img {
     width: 6rem;
-  }
-  #space {
-    margin-top: 40%;
   }
 }
 @media (max-width: 420px) {
@@ -181,9 +179,6 @@
   .events-container .card {
     width: 16rem;
   }
-  #space {
-    margin-top: 50%;
-  }
 }
 @media (max-width: 320px) {
   .events-container .card {
@@ -197,8 +192,5 @@
   }
   .sphere img {
     width: 4rem;
-  }
-  #space {
-    margin-top: 70%;
   }
 }

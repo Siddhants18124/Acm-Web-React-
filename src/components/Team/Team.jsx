@@ -25,22 +25,7 @@ function Team() {
       });
     }
   };
-  const startAutomaticScroll = () => {
-    const intervalTime = 2000;
-    setInterval(() => {
-      scrollContainerOne("next");
-    }, intervalTime);
-    setInterval(() => {
-      scrollContainerTwo("next");
-    }, intervalTime);
-  };
-  useEffect(() => {
-    startAutomaticScroll();
-    return () => {
-      clearInterval(containerOneRef.current);
-      clearInterval(containerTwoRef.current);
-    };
-  }, []);
+
   return (
     <>
       <div className="team">
