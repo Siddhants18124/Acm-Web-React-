@@ -1,10 +1,10 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect } from "react";
 import "./Team.css";
 import assets from "../../assets/assets";
 
 function Team() {
   const containerOneRef = useRef(null);
-
+  const containerTwoRef = useRef(null);
   const scrollContainerOne = (direction) => {
     const container = containerOneRef.current;
     if (container) {
@@ -15,8 +15,6 @@ function Team() {
       });
     }
   };
-  const containerTwoRef = useRef(null);
-
   const scrollContainerTwo = (direction) => {
     const container = containerTwoRef.current;
     if (container) {
@@ -27,6 +25,7 @@ function Team() {
       });
     }
   };
+
   return (
     <>
       <div className="team">

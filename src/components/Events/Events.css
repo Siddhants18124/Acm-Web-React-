@@ -36,12 +36,20 @@
   border-radius: 1rem;
   /* margin-bottom: 5rem; */
 }
-
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
 .events-container .card h1 {
-  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
   font-size: 5rem;
   /* color: white; */
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .events-container .card p {
@@ -57,12 +65,12 @@
   display: flex;
   flex-direction: row-reverse;
   justify-content: flex-start;
+  bottom: 0;
 }
 
 .event-name {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #fff;
-  /* font-family: "Poppins"; */
   font-size: 6rem;
   font-style: normal;
   line-height: normal;
@@ -80,7 +88,6 @@
 
 @media only screen and (max-width: 1286px) {
   .events-container .card {
-    height: 25rem;
     width: 50rem;
   }
   .card p {
@@ -92,7 +99,6 @@
 }
 @media only screen and (max-width: 1024px) {
   .events-container .card {
-    height: 22rem;
     width: 44rem;
   }
   .card p {
@@ -104,7 +110,6 @@
 }
 @media (max-width: 930px) {
   .events-container .card {
-    height: 20rem;
     width: 40rem;
   }
   .events-container .card p {
@@ -121,16 +126,17 @@
   #head {
     font-size: 3rem;
   }
+  .sphere img {
+    width: 8rem;
+  }
 }
 @media only screen and (max-width: 616px) {
   .events-container .card {
-    height: 17rem;
     width: 34rem;
   }
 }
 @media only screen and (max-width: 480px) {
   .events-container .card {
-    height: 12rem;
     width: 24rem;
   }
   .events-container .card p {
@@ -139,10 +145,12 @@
   #head {
     font-size: 2rem;
   }
+  .sphere img {
+    width: 6rem;
+  }
 }
 @media (max-width: 420px) {
   .events-container .card {
-    height: 10rem;
     width: 20rem;
   }
   .events-container .card p {
@@ -151,10 +159,12 @@
   #head {
     font-size: 1.8rem;
   }
+  .sphere img {
+    width: 5rem;
+  }
 }
 @media (max-width: 391px) {
   .events-container .card {
-    height: 9rem;
     width: 18rem;
   }
   .events-container .card p {
@@ -167,13 +177,11 @@
 
 @media (max-width: 350px) {
   .events-container .card {
-    height: 8rem;
     width: 16rem;
   }
 }
 @media (max-width: 320px) {
   .events-container .card {
-    height: 7rem;
     width: 14rem;
   }
   .events-container .card p {
@@ -181,5 +189,8 @@
   }
   #head {
     font-size: 1rem;
+  }
+  .sphere img {
+    width: 4rem;
   }
 }

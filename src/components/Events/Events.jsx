@@ -66,13 +66,16 @@ function Events() {
               <div className="sphere">
                 <img srcSet={assets.sphereBottomOne} />
               </div>
-              <p>INNOVATION & COLLABORATION</p>
-              <h1 id="head" className="event-name">
-                <span>Hack</span>BMU
-              </h1>
-              <p>
-                <a href="hackbmu.in">HACKATHON</a>
-              </p>
+              <div className="card-content">
+                <p id="space">INNOVATION & COLLABORATION</p>
+                <h1 id="head" className="event-name">
+                  <span>Hack</span>BMU
+                </h1>
+                <p>
+                  <a href="hackbmu.in">HACKATHON</a>
+                </p>
+              </div>
+
               <div className="sphere downward ">
                 <img srcSet={assets.sphereTopOne} />
               </div>
@@ -81,11 +84,14 @@ function Events() {
               <div className="sphere">
                 <img srcSet={assets.sphereBottomOne} />
               </div>
-              <p>APP BUILDING ART</p>
-              <h1 id="head" className="event-name">
-                <span>FLUTTER</span>
-              </h1>
-              <p>WORKSHOP</p>
+              <div className="card-content">
+                <p id="space">APP BUILDING ART</p>
+                <h1 id="head" className="event-name">
+                  <span>FLUTTER</span>
+                </h1>
+                <p>WORKSHOP</p>
+              </div>
+
               <div className="sphere downward ">
                 <img srcSet={assets.sphereTopOne} />
               </div>
@@ -94,11 +100,14 @@ function Events() {
               <div className="sphere">
                 <img srcSet={assets.sphereBottomOne} />
               </div>
-              <p>OPEN SOURCE INNOVATION</p>
-              <h1 id="head" className="event-name">
-                <span>HACKTOBER</span>FEST
-              </h1>
-              <p>GITHUB WORKSHOP</p>
+              <div className="card-content">
+                <p id="space">OPEN SOURCE INNOVATION</p>
+                <h1 id="head" className="event-name">
+                  <span>HACKTOBER</span>FEST
+                </h1>
+                <p>GITHUB WORKSHOP</p>
+              </div>
+
               <div className="sphere downward ">
                 <img srcSet={assets.sphereTopOne} />
               </div>
@@ -107,11 +116,14 @@ function Events() {
               <div className="sphere">
                 <img srcSet={assets.sphereBottomOne} />
               </div>
-              <p>FUTURE OF WEB DEV</p>
-              <h1 id="head" className="event-name">
-                <span>WEB</span>FORGE
-              </h1>
-              <p>HANDSON EXPERIENCE</p>
+              <div className="card-content">
+                <p id="space">FUTURE OF WEB DEV</p>
+                <h1 id="head" className="event-name">
+                  <span>WEB</span>FORGE
+                </h1>
+                <p>HANDSON EXPERIENCE</p>
+              </div>
+
               <div className="sphere downward ">
                 <img srcSet={assets.sphereTopOne} />
               </div>
@@ -120,11 +132,14 @@ function Events() {
               <div className="sphere">
                 <img srcSet={assets.sphereBottomOne} />
               </div>
-              <p>DEVELOPMENT</p>
-              <h1 id="head" className="event-name">
-                <span>DEVOPS</span>
-              </h1>
-              <p>AGILE EXPERIENCE</p>
+              <div className="card-content">
+                <p id="space">DEVELOPMENT</p>
+                <h1 id="head" className="event-name">
+                  <span>DEVOPS</span>
+                </h1>
+                <p>AGILE EXPERIENCE</p>
+              </div>
+
               <div className="sphere downward ">
                 <img srcSet={assets.sphereTopOne} />
               </div>
