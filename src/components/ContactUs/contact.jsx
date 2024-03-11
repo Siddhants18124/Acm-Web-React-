@@ -28,20 +28,15 @@ function Contact() {
 
             <form className="contact-form" name="contact" method="POST" action="/success">
               <input type="hidden" name="form-name" value="contact" />
-              <p>
                 <input type="text" placeholder="NAME" name="name" className="input" />
-              </p>
               <br />
-              <p>
                 <input
                   type="email"
                   name="email"
                   placeholder="EMAIL ADDRESS"
                   className="input"
                 />
-              </p>
               <br />
-              <p>
                 <input
                   type="text"
                   placeholder="MESSAGE"
@@ -49,14 +44,11 @@ function Contact() {
                   className="input message"
                   
                 />
-              </p>
               <br />
                 <div data-netlify-recaptcha="true" ></div>
-              <p>
               <button type="submit" className="button subbtn">
                 SEND
               </button>
-              </p>
             </form>
             <div className="vectorThree">
               <img srcSet={assets.vectorThree} />
