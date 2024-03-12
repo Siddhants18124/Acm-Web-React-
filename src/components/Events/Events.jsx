@@ -103,7 +103,7 @@ function Events() {
               </div>
               <div className="card-content">
                 <p id="space">OPEN SOURCE INNOVATION</p>
-                <h1 id="head" className="event-name">
+                <h1 id="headtwo" className="event-name">
                   <span>HACKTOBER</span>FEST
                 </h1>
                 <p>GITHUB WORKSHOP</p>
