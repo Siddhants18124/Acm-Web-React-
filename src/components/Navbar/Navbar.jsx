@@ -37,13 +37,13 @@ function Navbar() {
             </NavLink>
           </li>
           <li>
-            <a href="#aboutus">ABOUT&nbsp;US</a>
+            <a href="#ABOUT">ABOUT&nbsp;US</a>
           </li>
           <li>
-            <a href="#events">EVENTS</a>
+            <a href="#EVENT">EVENTS</a>
           </li>
           <li>
-            <a href="#contactus">CONTACT&nbsp;US</a>
+            <a href="#CONTACT">CONTACT&nbsp;US</a>
           </li>
           <li>
             <NavLink to="/gallery" activeClassName="active">

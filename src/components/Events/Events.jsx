@@ -56,6 +56,7 @@ function Events() {
 
   return (
     <>
+      <div id="EVENT"></div>
       <div id="events">
         <h1 className="event-title">EVENTS</h1>
       </div>
