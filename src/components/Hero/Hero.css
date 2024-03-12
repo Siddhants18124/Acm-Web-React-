@@ -185,8 +185,6 @@ body {
   .vectorOne {
     margin-top: -20%;
   }
-  .scrol {
-  }
 }
 @media only screen and (max-width: 616px) {
   .headingBig {
@@ -224,6 +222,9 @@ body {
   }
 }
 @media (max-width: 420px) {
+  .scrol {
+    top: 80vh;
+  }
   .vectorOne img {
     width: 10rem;
   }
@@ -250,6 +251,9 @@ body {
 @media (max-width: 391px) {
   .communityTwo {
     padding-left: 40%;
+  }
+  .scrol {
+    top: 73vh;
   }
 }
 @media (max-width: 350px) {
