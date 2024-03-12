@@ -1,7 +1,6 @@
 import React from "react";
 import "./Navbar.css";
 import assets from "../../assets/assets";
-<<<<<<< HEAD
 import { NavLink, useNavigate } from "react-router-dom";
 
 function Navbar() {
@@ -48,10 +47,8 @@ function Navbar() {
     // Remove event listener when component unmounts
     return () => window.removeEventListener("scroll", handleScroll);
   }, [history.location.pathname]); // Trigger effect when the pathname changes
-=======
-import { NavLink } from "react-router-dom";
 
-function Navbar() {
+  // function Navbar() {
   const nav = document.querySelector(".header");
   let lastScrollY = window.scrollY;
   window.addEventListener("scroll", () => {
@@ -62,7 +59,6 @@ function Navbar() {
     }
     lastScrollY = window.scrollY;
   });
->>>>>>> 78f3974f7da53bbb2a8f035dd94bb3d10527a3b2
 
   return (
     <header>
@@ -86,7 +82,6 @@ function Navbar() {
             </NavLink>
           </li>
           <li>
-<<<<<<< HEAD
             <a
               href="#aboutus"
               className={activeLink === "aboutus" ? "active" : ""}
@@ -109,7 +104,7 @@ function Navbar() {
             >
               CONTACT&nbsp;US
             </a>
-=======
+
             <a href="#aboutus">ABOUT&nbsp;US</a>
           </li>
           <li>
@@ -117,7 +112,6 @@ function Navbar() {
           </li>
           <li>
             <a href="#contactus">CONTACT&nbsp;US</a>
->>>>>>> 78f3974f7da53bbb2a8f035dd94bb3d10527a3b2
           </li>
           <li>
             <NavLink to="/gallery" activeClassName="active">
