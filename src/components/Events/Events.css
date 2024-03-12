@@ -13,7 +13,7 @@
 }
 
 .event-title {
-  font-size: 6.5rem;
+  font-size: 6rem;
 }
 
 .events-container .container {
@@ -161,6 +161,9 @@
   }
   .sphere img {
     width: 5rem;
+  }
+  .event-title {
+    font-size: 3rem;
   }
 }
 @media (max-width: 391px) {
