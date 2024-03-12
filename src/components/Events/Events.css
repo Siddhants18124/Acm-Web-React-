@@ -121,10 +121,10 @@
 }
 @media only screen and (max-width: 768px) {
   .events-container .card p {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
   }
   #head {
-    font-size: 3rem;
+    font-size: 5rem;
   }
   .sphere img {
     width: 8rem;
@@ -134,19 +134,25 @@
   .events-container .card {
     width: 34rem;
   }
+  #headtwo {
+    font-size: 4rem;
+  }
 }
 @media only screen and (max-width: 480px) {
   .events-container .card {
     width: 24rem;
   }
   .events-container .card p {
-    font-size: 1rem;
+    font-size: 1.4rem;
   }
   #head {
-    font-size: 2rem;
+    font-size: 4rem;
   }
   .sphere img {
     width: 6rem;
+  }
+  #headtwo {
+    font-size: 2.3rem;
   }
 }
 @media (max-width: 420px) {
@@ -154,10 +160,13 @@
     width: 20rem;
   }
   .events-container .card p {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
   #head {
-    font-size: 1.8rem;
+    font-size: 3rem;
+  }
+  #headtwo {
+    font-size: 2rem;
   }
   .sphere img {
     width: 5rem;
@@ -171,10 +180,13 @@
     width: 18rem;
   }
   .events-container .card p {
-    font-size: 0.7rem;
+    font-size: 1rem;
   }
   #head {
-    font-size: 1.3rem;
+    font-size: 2.4rem;
+  }
+  #headtwo {
+    font-size: 1.5rem;
   }
 }
 
@@ -188,9 +200,12 @@
     width: 14rem;
   }
   .events-container .card p {
-    font-size: 0.5rem;
+    font-size: 0.9rem;
   }
   #head {
+    font-size: 2rem;
+  }
+  #headtwo {
     font-size: 1rem;
   }
   .sphere img {
