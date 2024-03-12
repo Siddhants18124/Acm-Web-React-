@@ -28,6 +28,7 @@ import Vedansh from "../assets/images/Team/Vedansh.jpg";
 import garv from "../assets/images/Team/garv.jpg";
 import Yashvardhan from "../assets/images/Team/Yashvardhan.jpg";
 import Guneet from "../assets/images/Team/Guneet.jpg";
+import divyansh from "../assets/images/Team/divyansh.jpg";
 import pic5 from "../assets/images/Gallery/pic5.jpg";
 import pic6 from "../assets/images/Gallery/pic6.jpeg";
 import pic7 from "../assets/images/Gallery/pic7.jpg";
@@ -108,6 +109,7 @@ const assets = {
   Yashvardhan,
   garv,
   Guneet,
+  divyansh,
 };
 
 export default assets;

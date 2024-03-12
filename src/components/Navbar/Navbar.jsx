@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import "./Navbar.css";
 import assets from "../../assets/assets";
-import { NavLink, useHistory } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 function Navbar() {
   const [activeLink, setActiveLink] = useState("home");
-  const history = useHistory();
+  const history = useNavigate();
 
   useEffect(() => {
     // Function to handle scrolling to the top when navigating to a new page
@@ -21,10 +21,7 @@ function Navbar() {
       const eventsSection = document.getElementById("events").offsetTop;
       const contactUsSection = document.getElementById("contactus").offsetTop;
 
-      if (
-        scrollPosition >= homeSection &&
-        scrollPosition < aboutUsSection
-      ) {
+      if (scrollPosition >= homeSection && scrollPosition < aboutUsSection) {
         setActiveLink("home");
       } else if (
         scrollPosition >= aboutUsSection &&
@@ -73,17 +70,26 @@ function Navbar() {
             </NavLink>
           </li>
           <li>
-            <a href="#aboutus" className={activeLink === "aboutus" ? "active" : ""}>
+            <a
+              href="#aboutus"
+              className={activeLink === "aboutus" ? "active" : ""}
+            >
               ABOUT&nbsp;US
             </a>
           </li>
           <li>
-            <a href="#events" className={activeLink === "events" ? "active" : ""}>
+            <a
+              href="#events"
+              className={activeLink === "events" ? "active" : ""}
+            >
               EVENTS
             </a>
           </li>
           <li>
-            <a href="#contactus" className={activeLink === "contactus" ? "active" : ""}>
+            <a
+              href="#contactus"
+              className={activeLink === "contactus" ? "active" : ""}
+            >
               CONTACT&nbsp;US
             </a>
           </li>
