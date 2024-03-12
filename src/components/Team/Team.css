@@ -188,6 +188,9 @@
     width: 10.5rem;
     height: 20.5rem;
   }
+  .team {
+    margin-top: 23rem;
+  }
 }
 @media (max-width: 930px) {
   .containerTwoTwo {
@@ -220,6 +223,9 @@
   }
 }
 @media only screen and (max-width: 768px) {
+  .team {
+    margin-top: 52rem;
+  }
   .containerTwoTwo {
     margin: 0 0.75rem;
   }
@@ -242,6 +248,9 @@
   }
 }
 @media only screen and (max-width: 616px) {
+  .team {
+    margin-top: 55rem;
+  }
   .btn-previous {
     margin-top: -17%;
   }
@@ -258,6 +267,9 @@
   }
 }
 @media only screen and (max-width: 480px) {
+  .team {
+    margin-top: 50rem;
+  }
   .btn-previous {
     margin-top: -25%;
   }

@@ -57,10 +57,11 @@ function Team() {
             </div>
             <div className="partTWO">
               <p align="justify">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Corrupti incidunt quia debitis ad adipisci fugit impedit eos
-                fuga, ex labore necessitatibus repellendus atque obcaecati
-                beatae autem! Rem autem eos quo!
+                Being an ACM BMU mentor is incredibly rewarding. I'm delighted
+                to guide students as ACM nurtures their innovative spirit,
+                shaping future leaders who'll drive positive technical and
+                societal change. Nurturing their well-rounded growth is
+                heartening.
               </p>
             </div>
             <div className="partTHREE">
@@ -81,10 +82,11 @@ function Team() {
             </div>
             <div className="partTWO">
               <p align="justify">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Corrupti incidunt quia debitis ad adipisci fugit impedit eos
-                fuga, ex labore necessitatibus repellendus atque obcaecati
-                beatae autem! Rem autem eos quo!
+                As a faculty mentor for ACM BMU, I'm delighted to guide this
+                dynamic platform empowering students beyond boundaries.
+                Witnessing their transformation, fostering technical prowess and
+                social consciousness, is truly a privilege. I'm happy to
+                cultivate their skills and purpose.
               </p>
             </div>
             <div className="partTHREE">
@@ -230,7 +232,7 @@ function Team() {
           </div>
           <div className="containerTwoTwo">
             <div className="partFirst">
-              <img srcSet={assets.Divyansh} />
+              <img srcSet={assets.divyansh} />
               <p id="name">Divyansh&nbsp;Verma</p>
               <p>Operations</p>
               <p>B.Tech CSE</p>
