@@ -238,13 +238,13 @@ function Team() {
               <p>B.Tech CSE</p>
             </div>
             <div className="partSecond">
-              <a href="#">
+              <a href="https://www.instagram.com/divyanshverma26?igsh=em03eDE5c3ExZDQ4&utm_source=qr">
                 <i className="fa-brands fa-instagram"></i>
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/divyansh-verma-b0579529a/">
                 <i className="fa-brands fa-linkedin"></i>
               </a>
-              <a href="#">
+              <a href="https://github.com/divyaansshh">
                 <i className="fa-brands fa-github"></i>
               </a>
             </div>
@@ -257,13 +257,13 @@ function Team() {
               <p>B.Tech CSE</p>
             </div>
             <div className="partSecond">
-              <a href="#">
+              <a href="https://www.instagram.com/chawla.guneeet?igsh=MWs5bTlwNjJtZTdzbg%3D%3D&utm_source=qr">
                 <i className="fa-brands fa-instagram"></i>
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/guneetchawla">
                 <i className="fa-brands fa-linkedin"></i>
               </a>
-              <a href="#">
+              <a href="https://github.com/Guneeet23">
                 <i className="fa-brands fa-github"></i>
               </a>
             </div>
@@ -295,13 +295,13 @@ function Team() {
               <p>B.Tech CSE</p>
             </div>
             <div className="partSecond">
-              <a href="#">
+              <a href="https://www.instagram.com/dakshi.arora/?igsh=MWs5bTlwNjJtZTdzbg%3D%3D&utm_source=qr">
                 <i className="fa-brands fa-instagram"></i>
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/dakshi-arora/">
                 <i className="fa-brands fa-linkedin"></i>
               </a>
-              <a href="#">
+              <a href="https://github.com/DakshiArora11">
                 <i className="fa-brands fa-github"></i>
               </a>
             </div>
@@ -314,13 +314,13 @@ function Team() {
               <p>B.Tech CSE</p>
             </div>
             <div className="partSecond">
-              <a href="#">
+              <a href="https://www.instagram.com/_ananya.021?igsh=MWd6a3M1bGY3dXRuMQ==">
                 <i className="fa-brands fa-instagram"></i>
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/ananya-aggarwal-769618268">
                 <i className="fa-brands fa-linkedin"></i>
               </a>
-              <a href="#">
+              <a href="https://github.com/ananya021">
                 <i className="fa-brands fa-github"></i>
               </a>
             </div>
@@ -352,13 +352,13 @@ function Team() {
               <p>B.Tech CSE</p>
             </div>
             <div className="partSecond">
-              <a href="#">
+              <a href="https://www.instagram.com/vedansh_kumawat/">
                 <i className="fa-brands fa-instagram"></i>
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/vedansh-kumawat-686366285/">
                 <i className="fa-brands fa-linkedin"></i>
               </a>
-              <a href="#">
+              <a href="https://github.com/Vedansh-kumawat">
                 <i className="fa-brands fa-github"></i>
               </a>
             </div>
@@ -390,13 +390,13 @@ function Team() {
               <p>B.Tech&nbsp;CSE</p>
             </div>
             <div className="partSecond">
-              <a href="#">
+              <a href="https://www.instagram.com/anmol.maheshwari_/">
                 <i className="fa-brands fa-instagram"></i>
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/anmol-maheshwari-46a257265/">
                 <i className="fa-brands fa-linkedin"></i>
               </a>
-              <a href="#">
+              <a href="https://github.com/AnmolMaheshwari12">
                 <i className="fa-brands fa-github"></i>
               </a>
             </div>
@@ -409,13 +409,13 @@ function Team() {
               <p>B.Tech&nbsp;CSE</p>
             </div>
             <div className="partSecond">
-              <a href="#">
+              <a href="https://www.instagram.com/ra_ghav004/">
                 <i className="fa-brands fa-instagram"></i>
               </a>
-              <a href="#">
+              <a href="https://www.linkedin.com/in/raghvendra-singh-chouhan-15004b251/">
                 <i className="fa-brands fa-linkedin"></i>
               </a>
-              <a href="#">
+              <a href="https://github.com/raghvendraschouhan">
                 <i className="fa-brands fa-github"></i>
               </a>
             </div>
