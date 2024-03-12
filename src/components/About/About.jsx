@@ -6,6 +6,7 @@ function About() {
   return (
     <>
       <main data-aos="fade-up">
+        <div id="ABOUT"></div>
         <div className="about" id="aboutus">
           <div className="partOne">
             <h1 id="acm">ABOUT&nbsp;US</h1>

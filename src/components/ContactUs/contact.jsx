@@ -6,6 +6,7 @@ function Contact() {
   return (
     <>
       <main data-aos="fade-up">
+        <div id="CONTACT"></div>
         <div className="contact" id="contactus">
           <div className="ballOne">
             <img srcSet={assets.sphereTopOne} />
@@ -26,26 +27,35 @@ function Contact() {
             <h1>CONNECT&nbsp;WITH&nbsp;US!</h1>
             <div className="lineFour"></div>
 
-            <form className="contact-form" name="contact" method="POST" action="/success">
+            <form
+              className="contact-form"
+              name="contact"
+              method="POST"
+              action="/success"
+            >
               <input type="hidden" name="form-name" value="contact" />
-                <input type="text" placeholder="NAME" name="name" className="input" />
+              <input
+                type="text"
+                placeholder="NAME"
+                name="name"
+                className="input"
+              />
               <br />
-                <input
-                  type="email"
-                  name="email"
-                  placeholder="EMAIL ADDRESS"
-                  className="input"
-                />
+              <input
+                type="email"
+                name="email"
+                placeholder="EMAIL ADDRESS"
+                className="input"
+              />
               <br />
-                <input
-                  type="text"
-                  placeholder="MESSAGE"
-                  name="message"
-                  className="input message"
-                  
-                />
+              <input
+                type="text"
+                placeholder="MESSAGE"
+                name="message"
+                className="input message"
+              />
               <br />
-                <div data-netlify-recaptcha="true" ></div>
+              <div data-netlify-recaptcha="true"></div>
               <button type="submit" className="button subbtn">
                 SEND
               </button>
