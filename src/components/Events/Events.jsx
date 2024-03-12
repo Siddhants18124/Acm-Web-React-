@@ -18,7 +18,7 @@ function Events() {
       const rotationAngle = index % 2 === 0 ? -5 : 5;
 
       gsap.to(card, {
-        boxShadow: `0px 0px 100px 60px ${colors[index]}`,
+        boxShadow: `0px 0px 50px 20px ${colors[index]}`,
         rotation: rotationAngle,
         opacity: 1,
         scrollTrigger: {
@@ -29,7 +29,7 @@ function Events() {
           onUpdate: (self) => {
             const boxShadowOpacity = 1 - self.progress * 1;
             gsap.set(card, {
-              boxShadow: `0px 0px 100px 60px rgba(${colors[index]}, ${boxShadowOpacity})`,
+              boxShadow: `0px 0px 50px 20px rgba(${colors[index]}, ${boxShadowOpacity})`,
             });
           },
           onLeave: () => {
@@ -48,7 +48,7 @@ function Events() {
         pinSpacing: false,
         endTrigger: "#container",
         end: "2000rem",
-        markers: true,
+        // markers: true,
         ease: "none",
       });
     });
