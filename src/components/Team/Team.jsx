@@ -33,13 +33,16 @@ function Team() {
           <h1>MEET&nbsp;OUR&nbsp;TEAM</h1>
         </div>
         <button
-          class="btn-previous-one"
+          className="btn-previous-one"
           onClick={() => scrollContainerOne("previous")}
         >
-          <i class="fa-solid fa-caret-left"></i>
+          <i className="fa-solid fa-caret-left"></i>
         </button>
-        <button class="btn-next-one" onClick={() => scrollContainerOne("next")}>
-          <i class="fa-solid fa-caret-right"></i>
+        <button
+          className="btn-next-one"
+          onClick={() => scrollContainerOne("next")}
+        >
+          <i className="fa-solid fa-caret-right"></i>
         </button>
         <div className="containerOne" ref={containerOneRef}>
           <div className="containerOneOne">
@@ -417,16 +420,16 @@ function Team() {
           </div>
         </div>
         <button
-          class="btn-previous slide-btn"
+          className="btn-previous slide-btn"
           onClick={() => scrollContainerTwo("previous")}
         >
-          <i class="fa-solid fa-caret-left"></i>
+          <i className="fa-solid fa-caret-left"></i>
         </button>
         <button
-          class="btn-next slide-btn"
+          className="btn-next slide-btn"
           onClick={() => scrollContainerTwo("next")}
         >
-          <i class="fa-solid fa-caret-right"></i>
+          <i className="fa-solid fa-caret-right"></i>
         </button>
       </div>
     </>
