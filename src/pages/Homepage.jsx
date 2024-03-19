@@ -11,23 +11,24 @@ import "aos/dist/aos.css";
 import Lenis from "@studio-freight/lenis";
 
 function Homepage() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   const lenis = new Lenis({
     duration: 2,
-  })
+  });
 
-  lenis.on('scroll', (e) => {
-    console.log(e)
-  })
-  
+  lenis.on("scroll", (e) => {
+    console.log(e);
+  });
+
   function raf(time) {
-    lenis.raf(time)
-    requestAnimationFrame(raf)
+    lenis.raf(time);
+    requestAnimationFrame(raf);
   }
-  
-  requestAnimationFrame(raf)
 
-
+  requestAnimationFrame(raf);
 
   useLayoutEffect(() => {
     AOS.init();
@@ -35,11 +36,11 @@ function Homepage() {
   return (
     <>
       <Navbar />
-      <Hero />
-      <About />
-      <Events />
+      <Hero id="hero" />
+      <About id="about" />
+      <Events id="events" />
       <Team />
-      <Contact />
+      <Contact id="contact" />
       <Footer />
     </>
   );

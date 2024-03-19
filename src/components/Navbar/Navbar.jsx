@@ -2,6 +2,8 @@ import React from "react";
 import "./Navbar.css";
 import assets from "../../assets/assets";
 import { NavLink } from "react-router-dom";
+// import { Link } from "react-scroll";
+import { animateScroll as scroll } from "react-scroll";
 
 function Navbar() {
   const nav = document.querySelector(".header");
@@ -14,7 +16,9 @@ function Navbar() {
     }
     lastScrollY = window.scrollY;
   });
-
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+  };
   return (
     <header>
       <nav className="header">
@@ -37,16 +41,32 @@ function Navbar() {
             </NavLink>
           </li>
           <li>
+            {/* <NavLink to="/about" activeClassName="active" onClick={scrollToTop}>
+              ABOUT&nbsp;US
+            </NavLink> */}
+            {/* <Link to="about">ABOUT&nbsp;US</Link> */}
             <a href="#ABOUT">ABOUT&nbsp;US</a>
           </li>
           <li>
+            {/* <NavLink to="/events" activeClassName="active">
+              EVENTS
+            </NavLink> */}
+            {/* <Link to="events">EVENTS</Link> */}
             <a href="#EVENT">EVENTS</a>
           </li>
           <li>
+            {/* <NavLink to="/contact" activeClassName="active">
+              CONTACT&nbsp;US
+            </NavLink> */}
+            {/* <Link to="contact">CONTACT&nbsp;US</Link> */}
             <a href="#CONTACT">CONTACT&nbsp;US</a>
           </li>
           <li>
-            <NavLink to="/gallery" activeClassName="active">
+            <NavLink
+              to="/gallery"
+              activeClassName="active"
+              onClick={scrollToTop}
+            >
               GALLERY
             </NavLink>
           </li>
