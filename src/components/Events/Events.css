@@ -25,7 +25,8 @@
 }
 
 .events-container .cards {
-  margin-left: 50px;
+  /* margin-left: 50px; */
+  margin: 0 auto;
 }
 
 .events-container .card {

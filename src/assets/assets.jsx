@@ -29,6 +29,8 @@ import garv from "../assets/images/Team/garv.jpg";
 import Yashvardhan from "../assets/images/Team/Yashvardhan.jpg";
 import Guneet from "../assets/images/Team/Guneet.jpg";
 import divyansh from "../assets/images/Team/divyansh.jpg";
+import NishthaMaam from "../assets/images/Team/NishthaMaam.png";
+import DevanjaliMaam from "../assets/images/Team/DevanjaliMaam.png";
 import pic5 from "../assets/images/Gallery/pic5.jpg";
 import pic6 from "../assets/images/Gallery/pic6.jpeg";
 import pic7 from "../assets/images/Gallery/pic7.jpg";
@@ -110,6 +112,8 @@ const assets = {
   garv,
   Guneet,
   divyansh,
+  NishthaMaam,
+  DevanjaliMaam,
 };
 
 export default assets;
