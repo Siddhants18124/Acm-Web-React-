@@ -1,4 +1,5 @@
 import "./App.css";
+import "./index.css"; // Path: src/index.css
 import Success from "./components/success/success";
 import Gallerypage from "./pages/Gallerypage";
 import Homepage from "./pages/Homepage";

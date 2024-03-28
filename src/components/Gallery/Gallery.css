@@ -1,7 +1,28 @@
 .image-container {
   position: relative;
 }
-
+.category-buttons{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+.category-buttons button.selected {
+  background-color: blue;
+  color: white; 
+}
+.category-buttons button{
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.category-buttons button:hover{
+  background-color: white;
+  color: #08051f;
+}
 .tooltip {
   position: absolute;
   bottom: 47%;
