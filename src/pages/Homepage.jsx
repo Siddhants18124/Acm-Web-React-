@@ -36,11 +36,11 @@ function Homepage() {
   return (
     <>
       <Navbar />
-      <Hero id="hero" />
-      <About id="about" />
-      <Events id="events" />
+      <Hero />
+      <About />
+      <Events />
       <Team />
-      <Contact id="contact" />
+      <Contact />
       <Footer />
     </>
   );

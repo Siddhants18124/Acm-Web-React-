@@ -41,25 +41,19 @@ function Navbar() {
             </NavLink>
           </li>
           <li>
-            {/* <NavLink to="/about" activeClassName="active" onClick={scrollToTop}>
+            <NavLink exact to="/about" activeClassName="active">
               ABOUT&nbsp;US
-            </NavLink> */}
-            {/* <Link to="about">ABOUT&nbsp;US</Link> */}
-            <a href="#ABOUT">ABOUT&nbsp;US</a>
+            </NavLink>
           </li>
           <li>
-            {/* <NavLink to="/events" activeClassName="active">
+            <NavLink exact to="/event" activeClassName="active">
               EVENTS
-            </NavLink> */}
-            {/* <Link to="events">EVENTS</Link> */}
-            <a href="#EVENT">EVENTS</a>
+            </NavLink>
           </li>
           <li>
-            {/* <NavLink to="/contact" activeClassName="active">
+            <NavLink exact to="/contact" activeClassName="active">
               CONTACT&nbsp;US
-            </NavLink> */}
-            {/* <Link to="contact">CONTACT&nbsp;US</Link> */}
-            <a href="#CONTACT">CONTACT&nbsp;US</a>
+            </NavLink>
           </li>
           <li>
             <NavLink

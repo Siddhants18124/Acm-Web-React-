@@ -3,6 +3,9 @@ import "./index.css"; // Path: src/index.css
 import Success from "./components/success/success";
 import Gallerypage from "./pages/Gallerypage";
 import Homepage from "./pages/Homepage";
+import Aboutpage from "./pages/Aboutpage";
+import Eventpage from "./pages/Eventpage";
+import Contactpage from "./pages/Contactpage";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { RingLoader } from "react-spinners";
@@ -39,6 +42,9 @@ function App() {
           <Route element={<Homepage />} path="/" />
           <Route element={<Gallerypage />} path="/gallery" />
           <Route element={<Success />} path="/success" />
+          <Route element={<Aboutpage />} path="/about" />
+          <Route element={<Eventpage />} path="/event" />
+          <Route element={<Contactpage />} path="/contact" />
         </Routes>
       )}
     </Router>
