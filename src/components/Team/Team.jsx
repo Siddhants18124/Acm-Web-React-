@@ -68,6 +68,9 @@ function Team() {
               <a href="https://www.linkedin.com/in/devanjali-relan-2160a258/">
                 <i className="fa-brands fa-linkedin"></i>
               </a>
+              <a href="mailto:devanjali.relan@bmu.edu.in">
+                <i className="fa-solid fa-envelope"></i>
+              </a>
             </div>
           </div>
           <div className="containerOneOne">
@@ -92,6 +95,9 @@ function Team() {
             <div className="partTHREE">
               <a href="https://www.linkedin.com/in/nishtha-phutela-9a1a8a36/">
                 <i className="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="mailto:nishtha.phutela@bmu.edu.in">
+                <i className="fa-solid fa-envelope"></i>
               </a>
             </div>
           </div>

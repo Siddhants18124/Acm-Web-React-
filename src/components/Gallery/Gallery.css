@@ -1,16 +1,16 @@
 .image-container {
   position: relative;
 }
-.category-buttons{
+.category-buttons {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 2rem;
+  margin: 2rem 3rem;
 }
 .category-buttons button.selected {
-  background-color: blue;
-  color: white; 
+  background-color: white;
+  color: #08051f;
 }
-.category-buttons button{
+.category-buttons button {
   background-color: transparent;
   color: white;
   border: 1px solid white;
@@ -18,8 +18,10 @@
   border-radius: 5px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+  width: 7rem;
+  font-size: 1rem;
 }
-.category-buttons button:hover{
+.category-buttons button:hover {
   background-color: white;
   color: #08051f;
 }
