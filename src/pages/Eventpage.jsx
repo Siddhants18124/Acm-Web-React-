@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import Navbar from "../components/Navbar/Navbar";
 import Events from "../components/Events/Events";
 import Footer from "../components/Footer/footer";
+import Space from "../components/Space/Space";
 
 function Eventpage() {
   useEffect(() => {
@@ -11,6 +12,7 @@ function Eventpage() {
     <>
       <Navbar />
       <Events />
+      <Space />
       <Footer />
     </>
   );
