@@ -1,0 +1,39 @@
+.space {
+  height: 20rem;
+}
+.spaceTwo {
+  height: 5rem;
+}
+.spaceThree {
+  height: 2rem;
+}
+
+@media only screen and (max-width: 1286px) {
+  .space {
+    height: 22rem;
+  }
+}
+@media only screen and (max-width: 1024px) {
+}
+@media (max-width: 930px) {
+}
+@media only screen and (max-width: 768px) {
+  .space {
+    height: 55rem;
+  }
+}
+@media only screen and (max-width: 616px) {
+}
+@media only screen and (max-width: 480px) {
+  .space {
+    height: 40rem;
+  }
+}
+@media (max-width: 420px) {
+}
+@media (max-width: 391px) {
+}
+@media (max-width: 350px) {
+}
+@media (max-width: 320px) {
+}

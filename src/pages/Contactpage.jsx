@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import Navbar from "../components/Navbar/Navbar";
 import Contact from "../components/ContactUs/contact";
 import Footer from "../components/Footer/footer";
+import Space from "../components/Space/SpaceTwo";
 
 function Contactpage() {
   useEffect(() => {
@@ -10,6 +11,7 @@ function Contactpage() {
   return (
     <>
       <Navbar />
+      <Space />
       <Contact />
       <Footer />
     </>
