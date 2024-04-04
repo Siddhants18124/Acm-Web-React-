@@ -20,6 +20,7 @@
   transition: all 0.3s ease-in-out;
   width: 7rem;
   font-size: 1rem;
+  flex-wrap : wrap ;
 }
 .category-buttons button:hover {
   background-color: white;
