@@ -2,7 +2,6 @@ import React from "react";
 import "./Navbar.css";
 import assets from "../../assets/assets";
 import { NavLink } from "react-router-dom";
-// import { Link } from "react-scroll";
 import { animateScroll as scroll } from "react-scroll";
 
 function Navbar() {
