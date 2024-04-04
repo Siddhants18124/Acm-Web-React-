@@ -4,6 +4,7 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 import assets from "../../assets/assets";
+import { Link } from "react-scroll";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -68,13 +69,13 @@ function Events() {
                 <img srcSet={assets.sphereBottomOne} />
               </div>
               <div className="card-content">
-                <p id="space">INNOVATION & COLLABORATION</p>
-                <h1 id="head" className="event-name">
-                  <span>Hack</span>BMU
-                </h1>
-                <p>
-                  <a href="hackbmu.in">HACKATHON</a>
-                </p>
+                <a href="https://hackbmu.netlify.app/">
+                  <p id="space">INNOVATION & COLLABORATION</p>
+                  <h1 id="head" className="event-name">
+                    <span>Hack</span>BMU
+                  </h1>
+                  <p>HACKATHON</p>
+                </a>
               </div>
 
               <div className="sphere downward ">
@@ -86,13 +87,14 @@ function Events() {
                 <img srcSet={assets.sphereBottomOne} />
               </div>
               <div className="card-content">
-                <p id="space">APP BUILDING ART</p>
-                <h1 id="head" className="event-name">
-                  <span>FLUTTER</span>
-                </h1>
-                <p>WORKSHOP</p>
+                <a href="/gallery">
+                  <p id="space">APP BUILDING ART</p>
+                  <h1 id="head" className="event-name">
+                    <span>FLUTTER</span>
+                  </h1>
+                  <p>WORKSHOP</p>
+                </a>
               </div>
-
               <div className="sphere downward ">
                 <img srcSet={assets.sphereTopOne} />
               </div>
@@ -102,11 +104,13 @@ function Events() {
                 <img srcSet={assets.sphereBottomOne} />
               </div>
               <div className="card-content">
-                <p id="space">OPEN SOURCE INNOVATION</p>
-                <h1 id="headtwo" className="event-name">
-                  <span>HACKTOBER</span>FEST
-                </h1>
-                <p>GITHUB WORKSHOP</p>
+                <a href="/gallery">
+                  <p id="space">OPEN SOURCE INNOVATION</p>
+                  <h1 id="headtwo" className="event-name">
+                    <span>HACKTOBER</span>FEST
+                  </h1>
+                  <p>GITHUB WORKSHOP</p>
+                </a>
               </div>
 
               <div className="sphere downward ">
@@ -118,11 +122,13 @@ function Events() {
                 <img srcSet={assets.sphereBottomOne} />
               </div>
               <div className="card-content">
-                <p id="space">FUTURE OF WEB DEV</p>
-                <h1 id="head" className="event-name">
-                  <span>WEB</span>FORGE
-                </h1>
-                <p>HANDSON EXPERIENCE</p>
+                <a href="/gallery">
+                  <p id="space">FUTURE OF WEB DEV</p>
+                  <h1 id="head" className="event-name">
+                    <span>WEB</span>FORGE
+                  </h1>
+                  <p>HANDSON EXPERIENCE</p>
+                </a>
               </div>
 
               <div className="sphere downward ">
@@ -134,11 +140,13 @@ function Events() {
                 <img srcSet={assets.sphereBottomOne} />
               </div>
               <div className="card-content">
-                <p id="space">DEVELOPMENT</p>
-                <h1 id="head" className="event-name">
-                  <span>DEVOPS</span>
-                </h1>
-                <p>AGILE EXPERIENCE</p>
+                <a href="/gallery">
+                  <p id="space">DEVELOPMENT</p>
+                  <h1 id="head" className="event-name">
+                    <span>DEVOPS</span>
+                  </h1>
+                  <p>AGILE EXPERIENCE</p>
+                </a>
               </div>
 
               <div className="sphere downward ">

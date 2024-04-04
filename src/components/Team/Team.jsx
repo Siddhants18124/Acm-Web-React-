@@ -65,6 +65,9 @@ function Team() {
               </p>
             </div>
             <div className="partTHREE">
+              <a href="#">
+                <i className="fa-brands fa-github"></i>
+              </a>
               <a href="https://www.linkedin.com/in/devanjali-relan-2160a258/">
                 <i className="fa-brands fa-linkedin"></i>
               </a>
@@ -93,6 +96,9 @@ function Team() {
               </p>
             </div>
             <div className="partTHREE">
+              <a href="#">
+                <i className="fa-brands fa-github"></i>
+              </a>
               <a href="https://www.linkedin.com/in/nishtha-phutela-9a1a8a36/">
                 <i className="fa-brands fa-linkedin"></i>
               </a>
