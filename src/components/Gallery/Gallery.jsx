@@ -6,30 +6,53 @@ function Gallery() {
   const [selectedCategory, setSelectedCategory] = useState("all");
 
   const imageInfo = [
-    { src: assets.pic5, tooltip: "SIH 2023", category: "category1" },
-    { src: assets.pic6, tooltip: "FLUTTER", category: "category2" },
-    { src: assets.pic7, tooltip: "WORKSHOP", category: "category3" },
-    { src: assets.pic8, tooltip: "WORKSHOP", category: "category3" },
-    { src: assets.pic9, tooltip: "SIH 2023", category: "category1" },
-    { src: assets.pic10, tooltip: "FLUTTER", category: "category2" },
-    { src: assets.pic11, tooltip: "WORKSHOP", category: "category3" },
-    { src: assets.pic12, tooltip: "WORKSHOP", category: "category3" },
-    { src: assets.pic13, tooltip: "SIH 2023", category: "category1" },
-    { src: assets.pic14, tooltip: "FLUTTER", category: "category2" },
-    { src: assets.pic15, tooltip: "WORKSHOP", category: "category3" },
-    { src: assets.pic16, tooltip: "WORKSHOP", category: "category3" },
-    { src: assets.pic17, tooltip: "SIH 2023", category: "category1" },
-    { src: assets.pic18, tooltip: "FLUTTER", category: "category2" },
-    { src: assets.pic19, tooltip: "WORKSHOP", category: "category3" },
-    { src: assets.pic20, tooltip: "WORKSHOP", category: "category3" },
-    { src: assets.pic21, tooltip: "SIH 2023", category: "category1" },
-    { src: assets.pic22, tooltip: "FLUTTER", category: "category2" },
-    { src: assets.pic23, tooltip: "WORKSHOP", category: "category4" },
-    { src: assets.pic24, tooltip: "WORKSHOP", category: "category3" },
-    { src: assets.pic25, tooltip: "SIH 2023", category: "category4" },
-    { src: assets.pic26, tooltip: "FLUTTER", category: "category5" },
-    { src: assets.pic27, tooltip: "WORKSHOP", category: "category5" },
-    { src: assets.pic28, tooltip: "WORKSHOP", category: "category4" },
+    { src: assets.hack1, tooltip: "HACKBMU", category: "category1" },
+    { src: assets.hack2, tooltip: "HACKBMU", category: "category1" },
+    { src: assets.hack3, tooltip: "HACKBMU", category: "category1" },
+    { src: assets.hack4, tooltip: "HACKBMU", category: "category1" },
+    { src: assets.hack5, tooltip: "HACKBMU", category: "category1" },
+    { src: assets.hack6, tooltip: "HACKBMU", category: "category1" },
+    { src: assets.hack7, tooltip: "HACKBMU", category: "category1" },
+    { src: assets.hack8, tooltip: "HACKBMU", category: "category1" },
+    { src: assets.hack9, tooltip: "HACKBMU", category: "category1" },
+    { src: assets.hack10, tooltip: "HACKBMU", category: "category1" },
+    { src: assets.hack11, tooltip: "HACKBMU", category: "category1" },
+    { src: assets.f1, tooltip: "FLUTTER", category: "category2" },
+    { src: assets.f2, tooltip: "FLUTTER", category: "category2" },
+    { src: assets.f3, tooltip: "FLUTTER", category: "category2" },
+    { src: assets.f4, tooltip: "FLUTTER", category: "category2" },
+    { src: assets.f5, tooltip: "FLUTTER", category: "category2" },
+    { src: assets.f6, tooltip: "FLUTTER", category: "category2" },
+    { src: assets.f7, tooltip: "FLUTTER", category: "category2" },
+    { src: assets.f8, tooltip: "FLUTTER", category: "category2" },
+    { src: assets.f9, tooltip: "FLUTTER", category: "category2" },
+    { src: assets.f10, tooltip: "FLUTTER", category: "category2" },
+    { src: assets.f11, tooltip: "FLUTTER", category: "category2" },
+    { src: assets.h1, tooltip: "HACKTOBERFEST", category: "category3" },
+    { src: assets.h2, tooltip: "HACKTOBERFEST", category: "category3" },
+    { src: assets.h3, tooltip: "HACKTOBERFEST", category: "category3" },
+    { src: assets.h4, tooltip: "HACKTOBERFEST", category: "category3" },
+    { src: assets.h5, tooltip: "HACKTOBERFEST", category: "category3" },
+    { src: assets.h6, tooltip: "HACKTOBERFEST", category: "category3" },
+    { src: assets.h7, tooltip: "HACKTOBERFEST", category: "category3" },
+    { src: assets.w1, tooltip: "WEBFORGE", category: "category4" },
+    { src: assets.w2, tooltip: "WEBFORGE", category: "category4" },
+    { src: assets.w3, tooltip: "WEBFORGE", category: "category4" },
+    { src: assets.w4, tooltip: "WEBFORGE", category: "category4" },
+    { src: assets.w5, tooltip: "WEBFORGE", category: "category4" },
+    { src: assets.w6, tooltip: "WEBFORGE", category: "category4" },
+    { src: assets.w7, tooltip: "WEBFORGE", category: "category4" },
+    { src: assets.w8, tooltip: "WEBFORGE", category: "category4" },
+    { src: assets.w9, tooltip: "WEBFORGE", category: "category4" },
+    { src: assets.w10, tooltip: "WEBFORGE", category: "category4" },
+    { src: assets.s1, tooltip: "SIH", category: "category5" },
+    { src: assets.s2, tooltip: "SIH", category: "category5" },
+    { src: assets.s3, tooltip: "SIH", category: "category5" },
+    { src: assets.s4, tooltip: "SIH", category: "category5" },
+    { src: assets.s5, tooltip: "SIH", category: "category5" },
+    { src: assets.s6, tooltip: "SIH", category: "category5" },
+    { src: assets.s7, tooltip: "SIH", category: "category5" },
+    { src: assets.s8, tooltip: "SIH", category: "category5" },
   ];
 
   const handleCategoryChange = (category) => {
@@ -62,37 +85,37 @@ function Gallery() {
             className={selectedCategory === "all" ? "selected" : ""}
             onClick={() => handleCategoryChange("all")}
           >
-            All
+            ALL
           </button>
           <button
             className={selectedCategory === "category1" ? "selected" : ""}
             onClick={() => handleCategoryChange("category1")}
           >
-            Category 1
+            HACKBMU
           </button>
           <button
             className={selectedCategory === "category2" ? "selected" : ""}
             onClick={() => handleCategoryChange("category2")}
           >
-            Category 2
+            FLUTTER
           </button>
           <button
             className={selectedCategory === "category3" ? "selected" : ""}
             onClick={() => handleCategoryChange("category3")}
           >
-            Category 3
+            HACKTOBERFEST
           </button>
           <button
             className={selectedCategory === "category4" ? "selected" : ""}
             onClick={() => handleCategoryChange("category4")}
           >
-            Category 4
+            WEBFORGE
           </button>
           <button
             className={selectedCategory === "category5" ? "selected" : ""}
             onClick={() => handleCategoryChange("category5")}
           >
-            Category 5
+            SIH
           </button>
         </div>
         <div className="grid">

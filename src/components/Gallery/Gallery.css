@@ -20,8 +20,8 @@
   border-radius: 5px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
-  width: 7rem;
   font-size: 1rem;
+  width: 8rem;
 }
 .category-buttons button:hover {
   background-color: white;
