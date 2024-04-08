@@ -31,11 +31,11 @@ function App() {
             justifyContent: "center",
             alignItems: "center",
             textAlign: "center",
-            width: "100%",
+            width: "100vw",
             height: "100vh",
           }}
         >
-          <RingLoader color={"#cacbcf"} loading={Loading} size={140} />
+          <RingLoader color={"#FFFFFF"} loading={Loading} size={140} />
         </div>
       ) : (
         <Routes>

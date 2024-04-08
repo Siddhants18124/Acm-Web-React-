@@ -4,7 +4,6 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useGSAP } from "@gsap/react";
 import assets from "../../assets/assets";
-import { Link } from "react-scroll";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -69,7 +68,7 @@ function Events() {
                 <img srcSet={assets.sphereBottomOne} />
               </div>
               <div className="card-content">
-                <a href="https://hackbmu.netlify.app/">
+                <a href="/gallery">
                   <p id="space">INNOVATION & COLLABORATION</p>
                   <h1 id="head" className="event-name">
                     <span>Hack</span>BMU

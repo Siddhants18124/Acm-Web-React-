@@ -31,30 +31,53 @@ import Guneet from "../assets/images/Team/Guneet.jpg";
 import divyansh from "../assets/images/Team/divyansh.jpg";
 import NishthaMaam from "../assets/images/Team/NishthaMaam.png";
 import DevanjaliMaam from "../assets/images/Team/DevanjaliMaam.png";
-import pic5 from "../assets/images/Gallery/pic5.jpg";
-import pic6 from "../assets/images/Gallery/pic6.jpeg";
-import pic7 from "../assets/images/Gallery/pic7.jpg";
-import pic8 from "../assets/images/Gallery/pic8.jpeg";
-import pic9 from "../assets/images/Gallery/pic9.jpg";
-import pic10 from "../assets/images/Gallery/pic10.jpeg";
-import pic11 from "../assets/images/Gallery/pic11.jpg";
-import pic12 from "../assets/images/Gallery/pic12.jpeg";
-import pic13 from "../assets/images/Gallery/pic13.jpg";
-import pic14 from "../assets/images/Gallery/pic14.jpeg";
-import pic15 from "../assets/images/Gallery/pic15.jpg";
-import pic16 from "../assets/images/Gallery/pic16.jpeg";
-import pic17 from "../assets/images/Gallery/pic17.jpg";
-import pic18 from "../assets/images/Gallery/pic18.jpeg";
-import pic19 from "../assets/images/Gallery/pic19.jpg";
-import pic20 from "../assets/images/Gallery/pic20.jpeg";
-import pic21 from "../assets/images/Gallery/pic21.jpg";
-import pic22 from "../assets/images/Gallery/pic22.jpg";
-import pic23 from "../assets/images/Gallery/pic23.jpeg";
-import pic24 from "../assets/images/Gallery/pic24.jpeg";
-import pic25 from "../assets/images/Gallery/pic25.jpg";
-import pic26 from "../assets/images/Gallery/pic26.jpg";
-import pic27 from "../assets/images/Gallery/pic27.jpg";
-import pic28 from "../assets/images/Gallery/pic28.jpg";
+import f1 from "../assets/images/Gallery/Flutter/f1.jpg";
+import f2 from "../assets/images/Gallery/Flutter/f2.jpg";
+import f3 from "../assets/images/Gallery/Flutter/f3.jpg";
+import f4 from "../assets/images/Gallery/Flutter/f4.jpg";
+import f5 from "../assets/images/Gallery/Flutter/f5.jpg";
+import f6 from "../assets/images/Gallery/Flutter/f6.jpg";
+import f7 from "../assets/images/Gallery/Flutter/f7.jpg";
+import f8 from "../assets/images/Gallery/Flutter/f8.jpg";
+import f9 from "../assets/images/Gallery/Flutter/f9.jpg";
+import f10 from "../assets/images/Gallery/Flutter/f10.jpg";
+import f11 from "../assets/images/Gallery/Flutter/f11.jpg";
+import w1 from "../assets/images/Gallery/Web/w1.jpg";
+import w2 from "../assets/images/Gallery/Web/w2.jpg";
+import w3 from "../assets/images/Gallery/Web/w3.jpg";
+import w4 from "../assets/images/Gallery/Web/w4.jpg";
+import w5 from "../assets/images/Gallery/Web/w5.jpg";
+import w6 from "../assets/images/Gallery/Web/w6.jpg";
+import w7 from "../assets/images/Gallery/Web/w7.jpg";
+import w8 from "../assets/images/Gallery/Web/w8.jpg";
+import w9 from "../assets/images/Gallery/Web/w9.jpg";
+import w10 from "../assets/images/Gallery/Web/w10.jpg";
+import hack1 from "../assets/images/Gallery/HackBMU/hh1.jpg";
+import hack2 from "../assets/images/Gallery/HackBMU/hh2.jpg";
+import hack3 from "../assets/images/Gallery/HackBMU/hh3.jpg";
+import hack4 from "../assets/images/Gallery/HackBMU/hh4.jpg";
+import hack5 from "../assets/images/Gallery/HackBMU/hh5.jpg";
+import hack6 from "../assets/images/Gallery/HackBMU/hh6.jpg";
+import hack7 from "../assets/images/Gallery/HackBMU/hh7.jpg";
+import hack8 from "../assets/images/Gallery/HackBMU/hh8.jpg";
+import hack9 from "../assets/images/Gallery/HackBMU/hh9.jpg";
+import hack10 from "../assets/images/Gallery/HackBMU/hh10.jpg";
+import hack11 from "../assets/images/Gallery/HackBMU/hh11.jpg";
+import h1 from "../assets/images/Gallery/Hacktober/h1.jpg";
+import h2 from "../assets/images/Gallery/Hacktober/h2.jpg";
+import h3 from "../assets/images/Gallery/Hacktober/h3.jpg";
+import h4 from "../assets/images/Gallery/Hacktober/h4.jpg";
+import h5 from "../assets/images/Gallery/Hacktober/h5.jpg";
+import h6 from "../assets/images/Gallery/Hacktober/h6.jpg";
+import h7 from "../assets/images/Gallery/Hacktober/h7.jpg";
+import s1 from "../assets/images/Gallery/SIH/s1.jpg";
+import s2 from "../assets/images/Gallery/SIH/s2.jpg";
+import s3 from "../assets/images/Gallery/SIH/s3.jpg";
+import s4 from "../assets/images/Gallery/SIH/s4.jpg";
+import s5 from "../assets/images/Gallery/SIH/s5.jpg";
+import s6 from "../assets/images/Gallery/SIH/s6.jpg";
+import s7 from "../assets/images/Gallery/SIH/s7.jpg";
+import s8 from "../assets/images/Gallery/SIH/s8.jpg";
 
 const assets = {
   Logo,
@@ -65,30 +88,6 @@ const assets = {
   Pic2,
   Pic3,
   Pic4,
-  pic5,
-  pic6,
-  pic7,
-  pic8,
-  pic9,
-  pic10,
-  pic11,
-  pic12,
-  pic13,
-  pic14,
-  pic15,
-  pic16,
-  pic17,
-  pic18,
-  pic19,
-  pic20,
-  pic21,
-  pic22,
-  pic23,
-  pic24,
-  pic25,
-  pic26,
-  pic27,
-  pic28,
   sphereTopTwo,
   sphereBottomTwo,
   vectorTwo,
@@ -114,6 +113,53 @@ const assets = {
   divyansh,
   NishthaMaam,
   DevanjaliMaam,
+  f1,
+  f2,
+  f3,
+  f4,
+  f5,
+  f6,
+  f7,
+  f8,
+  f9,
+  f10,
+  f11,
+  hack1,
+  hack2,
+  hack3,
+  hack4,
+  hack5,
+  hack6,
+  hack7,
+  hack8,
+  hack9,
+  hack10,
+  hack11,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  h7,
+  s1,
+  s2,
+  s3,
+  s4,
+  s5,
+  s6,
+  s7,
+  s8,
+  w1,
+  w2,
+  w3,
+  w4,
+  w5,
+  w6,
+  w7,
+  w8,
+  w9,
+  w10,
 };
 
 export default assets;
