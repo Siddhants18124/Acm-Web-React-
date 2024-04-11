@@ -80,7 +80,16 @@
   text-transform: uppercase;
 }
 .event-name > span {
-  color: #30a2d7;
+  color: #061e9c;
+}
+#spanTwo {
+  color: #ecb74c;
+}
+#spanThree {
+  color: #7dd8cd;
+}
+#spanFour {
+  color: #e0ff57;
 }
 .card a {
   color: white;

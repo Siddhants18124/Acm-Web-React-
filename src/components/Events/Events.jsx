@@ -89,7 +89,7 @@ function Events() {
                 <a href="/gallery">
                   <p id="space">APP BUILDING ART</p>
                   <h1 id="head" className="event-name">
-                    <span>FLUTTER</span>
+                    <span id="spanTwo"> FLUTTER</span>
                   </h1>
                   <p>WORKSHOP</p>
                 </a>
@@ -106,7 +106,7 @@ function Events() {
                 <a href="/gallery">
                   <p id="space">OPEN SOURCE INNOVATION</p>
                   <h1 id="headtwo" className="event-name">
-                    <span>HACKTOBER</span>FEST
+                    <span id="spanThree">HACKTOBER</span>FEST
                   </h1>
                   <p>GITHUB WORKSHOP</p>
                 </a>
@@ -124,7 +124,7 @@ function Events() {
                 <a href="/gallery">
                   <p id="space">FUTURE OF WEB DEV</p>
                   <h1 id="head" className="event-name">
-                    <span>WEB</span>FORGE
+                    <span id="spanFour">WEB</span>FORGE
                   </h1>
                   <p>HANDSON EXPERIENCE</p>
                 </a>
@@ -142,7 +142,7 @@ function Events() {
                 <a href="/gallery">
                   <p id="space">DEVELOPMENT</p>
                   <h1 id="head" className="event-name">
-                    <span>DEVOPS</span>
+                    <span id="spanThree">DEVOPS</span>
                   </h1>
                   <p>AGILE EXPERIENCE</p>
                 </a>
