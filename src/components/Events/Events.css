@@ -60,7 +60,10 @@
 .sphere {
   position: absolute;
 }
-
+.sphere img {
+  height: 8rem;
+  width: 8rem;
+}
 .downward {
   width: 100%;
   display: flex;
@@ -138,6 +141,7 @@
   }
   .sphere img {
     width: 8rem;
+    height: 8rem;
   }
 }
 @media only screen and (max-width: 616px) {
@@ -159,6 +163,7 @@
     font-size: 4rem;
   }
   .sphere img {
+    height: 6rem;
     width: 6rem;
   }
   #headtwo {
@@ -180,6 +185,7 @@
   }
   .sphere img {
     width: 5rem;
+    height: 5rem;
   }
   .event-title {
     font-size: 3rem;
@@ -220,5 +226,6 @@
   }
   .sphere img {
     width: 4rem;
+    height: 4rem;
   }
 }

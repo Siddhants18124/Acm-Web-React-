@@ -65,7 +65,7 @@ function Events() {
           <div className="cards">
             <div className="card" style={{ border: "3px solid #061E9C " }}>
               <div className="sphere">
-                <img srcSet={assets.sphereBottomOne} />
+                <img srcSet={assets.eOne} />
               </div>
               <div className="card-content">
                 <a href="/gallery">
@@ -78,12 +78,12 @@ function Events() {
               </div>
 
               <div className="sphere downward ">
-                <img srcSet={assets.sphereTopOne} />
+                <img srcSet={assets.eOne} />
               </div>
             </div>
             <div className="card" style={{ border: "3px solid #ECB74C " }}>
               <div className="sphere">
-                <img srcSet={assets.sphereBottomOne} />
+                <img srcSet={assets.eTwo} />
               </div>
               <div className="card-content">
                 <a href="/gallery">
@@ -95,12 +95,12 @@ function Events() {
                 </a>
               </div>
               <div className="sphere downward ">
-                <img srcSet={assets.sphereTopOne} />
+                <img srcSet={assets.eTwo} />
               </div>
             </div>
             <div className="card" style={{ border: "3px solid #7DD8CD " }}>
               <div className="sphere">
-                <img srcSet={assets.sphereBottomOne} />
+                <img srcSet={assets.eThree} />
               </div>
               <div className="card-content">
                 <a href="/gallery">
@@ -113,12 +113,12 @@ function Events() {
               </div>
 
               <div className="sphere downward ">
-                <img srcSet={assets.sphereTopOne} />
+                <img srcSet={assets.eThree} />
               </div>
             </div>
             <div className="card" style={{ border: "3px solid #E0FF57 " }}>
               <div className="sphere">
-                <img srcSet={assets.sphereBottomOne} />
+                <img srcSet={assets.eFour} />
               </div>
               <div className="card-content">
                 <a href="/gallery">
@@ -131,12 +131,12 @@ function Events() {
               </div>
 
               <div className="sphere downward ">
-                <img srcSet={assets.sphereTopOne} />
+                <img srcSet={assets.eFour} />
               </div>
             </div>
             <div className="card" style={{ border: "3px solid #7DD8CD " }}>
               <div className="sphere">
-                <img srcSet={assets.sphereBottomOne} />
+                <img srcSet={assets.eThree} />
               </div>
               <div className="card-content">
                 <a href="/gallery">
@@ -149,7 +149,7 @@ function Events() {
               </div>
 
               <div className="sphere downward ">
-                <img srcSet={assets.sphereTopOne} />
+                <img srcSet={assets.eThree} />
               </div>
             </div>
           </div>
