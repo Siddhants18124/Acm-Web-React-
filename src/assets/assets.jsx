@@ -78,8 +78,16 @@ import s5 from "../assets/images/Gallery/SIH/s5.jpg";
 import s6 from "../assets/images/Gallery/SIH/s6.jpg";
 import s7 from "../assets/images/Gallery/SIH/s7.jpg";
 import s8 from "../assets/images/Gallery/SIH/s8.jpg";
+import eOne from "../assets/images/eOne.png";
+import eTwo from "../assets/images/eTwo.png";
+import eThree from "../assets/images/eThree.png";
+import eFour from "../assets/images/eFour.png";
 
 const assets = {
+  eOne,
+  eTwo,
+  eThree,
+  eFour,
   Logo,
   sphereTopOne,
   sphereBottomOne,
