@@ -47,13 +47,8 @@ function Events() {
         pin: true,
         pinSpacing: false,
         endTrigger: "#container",
-<<<<<<< Updated upstream
         end: "2000rem",
         // markers: true,
-=======
-        end: "1900rem",
-        markers: true,
->>>>>>> Stashed changes
         ease: "none",
       });
     });
