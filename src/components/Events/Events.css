@@ -30,12 +30,9 @@
 }
 
 .events-container .card {
-<<<<<<< Updated upstream
   text-align: center;
   height: 30rem;
-=======
-  height: 20rem;
->>>>>>> Stashed changes
+  /* height: 20rem; */
   width: 60rem;
   background: #000101;
   border-radius: 1rem;

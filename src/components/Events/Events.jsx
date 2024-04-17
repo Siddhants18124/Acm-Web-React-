@@ -47,7 +47,7 @@ function Events() {
         pin: true,
         pinSpacing: false,
         endTrigger: "#container",
-        end: "2000rem",
+        end: "1900rem",
         // markers: true,
         ease: "none",
       });
