@@ -174,13 +174,13 @@ function Team() {
               <p>B.Tech CSE</p>
             </div>
             <div className="partSecond">
-              <a href="#">
+              <a href="https://www.instagram.com/siddhant_18124/">
                 <i className="fa-brands fa-instagram"></i>
               </a>
-              <a href="#">
+              <a href="www.linkedin.com/in/siddhant-sharma18124">
                 <i className="fa-brands fa-linkedin"></i>
               </a>
-              <a href="#">
+              <a href="https://github.com/Siddhants18124">
                 <i className="fa-brands fa-github"></i>
               </a>
             </div>
